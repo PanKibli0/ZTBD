@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="STATUS_WYPOZYCZENIA" directorySegmentName="seg_0" id="7954776E-391A-E056-448A-606102334770">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-10 15:09:40 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<schemaObject>A88C22BB-8E63-609D-C5AF-42E59FC59833</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>93DE5776-89BE-2191-22C6-65284D3CCD53</segment>
+<tableSpace>E8CDAAAD-6E8A-654D-1281-9D2311007692</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NAZWA" id="9AA608F9-D550-CEA6-C27E-FC0121FD486D">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-10 15:09:40 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="BC87F434-F8C9-665C-78A2-D2BBC67C30D8">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-10 15:09:40 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="STATUS_WYPOZYCZENIA_PK" id="1283ABEA-F029-13ED-7D22-B464BE4720D9">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-10 15:09:40 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<schemaObject>A88C22BB-8E63-609D-C5AF-42E59FC59833</schemaObject>
+<segment>247A77D9-EF6C-062F-E4D3-B4464A93E44D</segment>
+<tableSpace>E8CDAAAD-6E8A-654D-1281-9D2311007692</tableSpace>
+<indexSegment>247A77D9-EF6C-062F-E4D3-B4464A93E44D</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="STATUS_WYPOZYCZENIA_NAZWA_UN" id="21894E30-6C48-919E-F04E-A10696CBB170">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-10 15:09:40 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<schemaObject>A88C22BB-8E63-609D-C5AF-42E59FC59833</schemaObject>
+<segment>247A77D9-EF6C-062F-E4D3-B4464A93E44D</segment>
+<tableSpace>E8CDAAAD-6E8A-654D-1281-9D2311007692</tableSpace>
+<indexSegment>247A77D9-EF6C-062F-E4D3-B4464A93E44D</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev20c>

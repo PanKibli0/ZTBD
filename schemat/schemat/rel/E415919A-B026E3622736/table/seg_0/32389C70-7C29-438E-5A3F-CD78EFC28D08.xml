@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="32389C70-7C29-438E-5A3F-CD78EFC28D08" schemaObject="A88C22BB-8E63-609D-C5AF-42E59FC59833" name="MODEL">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>PRO_BD</sourceObjSchema>
+<sourceObjName>MODEL</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-10 15:09:40 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="08DC1562-92CA-A3C3-C4BB-1A7C1D7FD27D">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>MODEL</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-10 15:09:40 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAZWA" id="E0037E95-E3B4-8DC2-BAE9-70A9574F2B6A">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>MODEL</sourceObjSchema>
+<sourceObjName>NAZWA</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-10 15:09:40 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6D56F4C0-FCF2-3547-FD3A-13C748FADD62" schemaObject="A88C22BB-8E63-609D-C5AF-42E59FC59833" name="MODEL_PK">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>PRO_BD</sourceObjSchema>
+<sourceObjName>SYS_C0017996</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-10 15:09:40 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08DC1562-92CA-A3C3-C4BB-1A7C1D7FD27D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="143CE99E-D6A4-F721-D775-EB11E4D78CEA" schemaObject="A88C22BB-8E63-609D-C5AF-42E59FC59833" name="MODEL_NAZWA_UN">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>PRO_BD</sourceObjSchema>
+<sourceObjName>SYS_C0017997</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-10 15:09:40 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E0037E95-E3B4-8DC2-BAE9-70A9574F2B6A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

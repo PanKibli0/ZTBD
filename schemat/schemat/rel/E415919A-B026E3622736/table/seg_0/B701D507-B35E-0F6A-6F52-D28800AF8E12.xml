@@ -1,0 +1,229 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B701D507-B35E-0F6A-6F52-D28800AF8E12" schemaObject="A88C22BB-8E63-609D-C5AF-42E59FC59833" name="WYPOZYCZENIA">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>PRO_BD</sourceObjSchema>
+<sourceObjName>WYPOZYCZENIA</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-10 15:09:40 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="CDE5162F-FF2A-FBF5-7571-F36B136F79B8">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>WYPOZYCZENIA</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-10 15:09:40 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_KLIENT" id="9F60B2F0-342F-CD6A-F461-133F9D39FBA6">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>WYPOZYCZENIA</sourceObjSchema>
+<sourceObjName>ID_KLIENT</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-10 15:09:40 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4BF72758-1ED8-5852-B6A0-D16375A5D6D9" referredColumn="17D8A9BE-E9E9-2686-12C5-11BDAC205B1C"/>
+</associations>
+</Column>
+<Column name="ID_SKUTER" id="F5F33B07-F1B1-1269-2625-C31728C6CBB8">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>WYPOZYCZENIA</sourceObjSchema>
+<sourceObjName>ID_SKUTER</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-10 15:09:40 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D77D0DC1-772B-3A6D-6208-832FDF6CF967" referredColumn="AE923FAA-F804-4B85-EC59-10A977A5D1AC"/>
+</associations>
+</Column>
+<Column name="ID_WYPOZYCZALNIA" id="6CC6D672-63E9-33B2-3B49-866DC02F4715">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>WYPOZYCZENIA</sourceObjSchema>
+<sourceObjName>ID_WYPOZYCZALNIA</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-10 15:09:40 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5A5639FF-91CC-9124-9D1F-29F5629C63E1" referredColumn="E0388923-DE30-8015-9675-68206B7DCC03"/>
+</associations>
+</Column>
+<Column name="ID_PLATNOSC" id="F918BCDC-92AD-5E1E-6B72-33606C7501D8">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>WYPOZYCZENIA</sourceObjSchema>
+<sourceObjName>ID_PLATNOSC</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-10 15:09:40 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="063BFC40-F073-7335-F2E9-F3AD8F0A6022" referredColumn="67E2C4BE-AD03-936F-B9D6-6CC33BF055F2"/>
+</associations>
+</Column>
+<Column name="ID_STATUS" id="997E8EF7-020C-759E-E81E-E010CDE88EF4">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>WYPOZYCZENIA</sourceObjSchema>
+<sourceObjName>ID_STATUS</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-10 15:09:40 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0F8A2732-4354-37C5-314B-30DABCDABC2A" referredColumn="BC87F434-F8C9-665C-78A2-D2BBC67C30D8"/>
+</associations>
+</Column>
+<Column name="DATA_WYPOZYCZENIA" id="57666F20-507B-01E0-7EB4-96A9EA162852">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>WYPOZYCZENIA</sourceObjSchema>
+<sourceObjName>DATA_WYPOZYCZENIA</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-10 15:09:40 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATA_ODDANIA" id="F75ED88A-3501-858B-8D93-291D1CAC4E8C">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>WYPOZYCZENIA</sourceObjSchema>
+<sourceObjName>DATA_ODDANIA</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-10 15:09:40 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CENA" id="56F4556A-976B-CA87-2737-BF2E17886B65">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>WYPOZYCZENIA</sourceObjSchema>
+<sourceObjName>CENA</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-10 15:09:40 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3A1FD68C-35FD-3593-AC16-69EFA503D852" schemaObject="A88C22BB-8E63-609D-C5AF-42E59FC59833" name="WYPOZYCZENIA_PK">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>PRO_BD</sourceObjSchema>
+<sourceObjName>SYS_C0018024</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-10 15:09:40 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CDE5162F-FF2A-FBF5-7571-F36B136F79B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EC23BF67-CA80-9BCC-641E-588F71AB3151" name="FK_KLIENT">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-10 15:09:40 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F60B2F0-342F-CD6A-F461-133F9D39FBA6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5F9F3353-13D1-0E34-869D-A65BB51AE7B1" name="FK_PLATNOSC">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-10 15:09:40 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F918BCDC-92AD-5E1E-6B72-33606C7501D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="38EB90C8-C253-9EF3-C150-90E8C64C157B" name="FK_SKUTER">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-10 15:09:40 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F5F33B07-F1B1-1269-2625-C31728C6CBB8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B99D6F19-8963-ACCE-606D-640E2C2120C2" name="SYS_C0018027">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-10 15:09:40 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6CC6D672-63E9-33B2-3B49-866DC02F4715"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0C8F228A-5232-5067-9FA6-BD9CE80EE002" name="SYS_C0018029">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-10 15:09:40 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="997E8EF7-020C-759E-E81E-E010CDE88EF4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="01B2C376-3C60-756B-EC83-0AF5E2E7DDF5" schemaObject="A88C22BB-8E63-609D-C5AF-42E59FC59833" name="PLATNOSC">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>PRO_BD</sourceObjSchema>
+<sourceObjName>PLATNOSC</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-10 15:09:40 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="67E2C4BE-AD03-936F-B9D6-6CC33BF055F2">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>PLATNOSC</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-10 15:09:40 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_STATUS" id="FAA6B69B-0668-24A9-2185-0F0126B9F053">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>PLATNOSC</sourceObjSchema>
+<sourceObjName>ID_STATUS</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-10 15:09:40 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F52BC487-475D-7864-B3D9-0D441AF43103" referredColumn="A9ED04A0-1DE1-49D6-4FC8-67CEE555FBE5"/>
+</associations>
+</Column>
+<Column name="ID_RODZAJ" id="06A849D4-2795-EDAB-3CC2-083E94AF73B7">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>PLATNOSC</sourceObjSchema>
+<sourceObjName>ID_RODZAJ</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-10 15:09:40 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A0689B2B-2445-1536-EAD8-B3050C0E0C89" referredColumn="E54AB357-7629-BBD7-1762-0812DF1D4011"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7F83628D-DB00-F583-FF81-C6449FD46F9D" schemaObject="A88C22BB-8E63-609D-C5AF-42E59FC59833" name="PLATNOSC_PK">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>PRO_BD</sourceObjSchema>
+<sourceObjName>SYS_C0017992</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-10 15:09:40 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="67E2C4BE-AD03-936F-B9D6-6CC33BF055F2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6E061BC2-81D3-4FDE-1063-9F64B3B84F27" name="FK_RODZAJ_PL">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-10 15:09:40 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="06A849D4-2795-EDAB-3CC2-083E94AF73B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="239445CF-375B-B45E-0CD9-22AF5CDE5569" name="FK_STATUS_PL">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-10 15:09:40 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FAA6B69B-0668-24A9-2185-0F0126B9F053"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
