@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DBA14120-E5FC-A5B9-B750-D4D0308E4EE8" containerWithKeyObject="C2F7A838-CFFC-CE0F-C368-2CB417E593D7" localFKIndex="4B1E0200-E09B-9C10-9BBA-AA4538C48C77" name="FK_PLATNOSC_RODZAJ">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>PRO_BD</sourceObjSchema>
+<sourceObjName>FK_PLATNOSC_RODZAJ</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-10 15:16:45 UTC</createdTime>
+<ownerDesignName>schem</ownerDesignName>
+<referredTableLongName>PRO_BD.RODZAJ_PLATNOSCI</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>256EFE3A-3251-D1DB-866B-FC8C686DAF0D</referredTableID>
+<keyObject>3C5D4587-4A3C-6004-B046-47F4558B5F5A</keyObject>
+<referredKeyID>3C5D4587-4A3C-6004-B046-47F4558B5F5A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

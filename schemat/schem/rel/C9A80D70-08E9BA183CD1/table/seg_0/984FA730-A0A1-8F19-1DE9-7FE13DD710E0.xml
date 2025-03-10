@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="984FA730-A0A1-8F19-1DE9-7FE13DD710E0" schemaObject="ADFB3065-1890-CB32-207C-BAA5CFA1C2D4" name="STATUS_SKUTERA">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>PRO_BD</sourceObjSchema>
+<sourceObjName>STATUS_SKUTERA</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-10 15:16:45 UTC</createdTime>
+<ownerDesignName>schem</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="4DBE16EF-6AE1-C6FE-9C2C-D73E29460715">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>STATUS_SKUTERA</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-10 15:16:45 UTC</createdTime>
+<ownerDesignName>schem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAZWA" id="51577407-BF6A-A123-C9C4-3CBAA1CF52BD">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>STATUS_SKUTERA</sourceObjSchema>
+<sourceObjName>NAZWA</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-10 15:16:45 UTC</createdTime>
+<ownerDesignName>schem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B4E9C385-8DD0-00F8-02B0-CF2288CA47DC" schemaObject="ADFB3065-1890-CB32-207C-BAA5CFA1C2D4" name="STATUS_SKUTERA_PK">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>PRO_BD</sourceObjSchema>
+<sourceObjName>SYS_C0018074</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-10 15:16:45 UTC</createdTime>
+<ownerDesignName>schem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4DBE16EF-6AE1-C6FE-9C2C-D73E29460715"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="755797D7-71FC-9E1F-59FE-809E13E4DEC2" schemaObject="ADFB3065-1890-CB32-207C-BAA5CFA1C2D4" name="STATUS_SKUTERA_NAZWA_UN">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>PRO_BD</sourceObjSchema>
+<sourceObjName>SYS_C0018075</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-10 15:16:45 UTC</createdTime>
+<ownerDesignName>schem</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="51577407-BF6A-A123-C9C4-3CBAA1CF52BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

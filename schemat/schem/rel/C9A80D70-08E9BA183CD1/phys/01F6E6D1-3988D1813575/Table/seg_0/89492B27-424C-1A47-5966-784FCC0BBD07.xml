@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="STATUS_PLATNOSCI" directorySegmentName="seg_0" id="89492B27-424C-1A47-5966-784FCC0BBD07">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-10 15:16:45 UTC</createdTime>
+<ownerDesignName>schem</ownerDesignName>
+<schemaObject>ADFB3065-1890-CB32-207C-BAA5CFA1C2D4</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>20176F36-618E-BD14-72CE-46F92D5A6F11</segment>
+<tableSpace>74551E05-A14E-81B4-2A42-30C0234EF705</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NAZWA" id="5D291E5F-5A26-291C-EBEA-DC52ABD78614">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-10 15:16:45 UTC</createdTime>
+<ownerDesignName>schem</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="82D584F1-9A91-8B17-3809-AF4C84D6ABBC">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-10 15:16:45 UTC</createdTime>
+<ownerDesignName>schem</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="STATUS_PLATNOSCI_PK" id="2B7C4391-7DAC-4F02-042E-776B68B3FB15">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-10 15:16:45 UTC</createdTime>
+<ownerDesignName>schem</ownerDesignName>
+<schemaObject>ADFB3065-1890-CB32-207C-BAA5CFA1C2D4</schemaObject>
+<segment>94F7AF50-2CA6-05F3-EA95-D0B0F4B66FA5</segment>
+<tableSpace>74551E05-A14E-81B4-2A42-30C0234EF705</tableSpace>
+<indexSegment>94F7AF50-2CA6-05F3-EA95-D0B0F4B66FA5</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="STATUS_PLATNOSCI_NAZWA_UN" id="5991A0E4-9836-DC78-BCB8-BBB159B7438F">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-10 15:16:45 UTC</createdTime>
+<ownerDesignName>schem</ownerDesignName>
+<schemaObject>ADFB3065-1890-CB32-207C-BAA5CFA1C2D4</schemaObject>
+<segment>94F7AF50-2CA6-05F3-EA95-D0B0F4B66FA5</segment>
+<tableSpace>74551E05-A14E-81B4-2A42-30C0234EF705</tableSpace>
+<indexSegment>94F7AF50-2CA6-05F3-EA95-D0B0F4B66FA5</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev20c>

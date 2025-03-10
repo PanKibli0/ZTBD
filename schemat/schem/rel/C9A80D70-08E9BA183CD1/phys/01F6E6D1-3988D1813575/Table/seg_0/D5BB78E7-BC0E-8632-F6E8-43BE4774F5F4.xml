@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="WOJEWODZTWO" directorySegmentName="seg_0" id="D5BB78E7-BC0E-8632-F6E8-43BE4774F5F4">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-10 15:16:45 UTC</createdTime>
+<ownerDesignName>schem</ownerDesignName>
+<schemaObject>ADFB3065-1890-CB32-207C-BAA5CFA1C2D4</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>20176F36-618E-BD14-72CE-46F92D5A6F11</segment>
+<tableSpace>74551E05-A14E-81B4-2A42-30C0234EF705</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NAZWA" id="252FAA68-FB33-4A4F-6CEF-CF50829574C1">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-10 15:16:45 UTC</createdTime>
+<ownerDesignName>schem</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_PANSTWO" id="29E3B10D-095F-8ED5-E2E2-81F5CEAD4D45">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-10 15:16:45 UTC</createdTime>
+<ownerDesignName>schem</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="684294F9-D6D7-40F6-D944-43B35F48662E">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-10 15:16:45 UTC</createdTime>
+<ownerDesignName>schem</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_WOJEWODZTWO_PANSTWO" id="4969C44A-3C03-F399-6AEC-DF70F37C21E2">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-10 15:16:45 UTC</createdTime>
+<ownerDesignName>schem</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="WOJEWODZTWO_PK" id="30C2E925-87CD-21CA-072F-CD62E8B7266B">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-10 15:16:45 UTC</createdTime>
+<ownerDesignName>schem</ownerDesignName>
+<schemaObject>ADFB3065-1890-CB32-207C-BAA5CFA1C2D4</schemaObject>
+<segment>94F7AF50-2CA6-05F3-EA95-D0B0F4B66FA5</segment>
+<tableSpace>74551E05-A14E-81B4-2A42-30C0234EF705</tableSpace>
+<indexSegment>94F7AF50-2CA6-05F3-EA95-D0B0F4B66FA5</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>
