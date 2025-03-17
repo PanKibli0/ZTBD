@@ -8,3 +8,5 @@ ID Z GLOWNEJ TABELI
 
 #==================================================
 GPT PORWNAINAIE BD Z HURTOWNIA
+
+Weicej slownikowych do SKUTERA
