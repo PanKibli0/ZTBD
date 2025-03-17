@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="PRODUCENT" directorySegmentName="seg_0" id="05D31191-A677-9E2C-F0D3-61E156231E92">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-17 19:11:30 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<schemaObject>3BFA6127-1FE8-1DAD-2E73-1EF3A4F96B65</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>9C66F2A0-730D-1B97-0249-0671CDB58335</segment>
+<tableSpace>C4A7C200-29F1-C91E-2770-A7844A5FD0C8</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NAZWA" id="24F93B2C-DC39-4CD5-B162-6B7A4040F60E">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-17 19:11:30 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="C21B6B6F-5D6E-8BDB-AE1D-97A3EF49D8DC">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-17 19:11:30 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PRODUCENT_PK" id="D815642F-F6BF-739B-1EE0-844B9BA58F23">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-17 19:11:31 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<schemaObject>3BFA6127-1FE8-1DAD-2E73-1EF3A4F96B65</schemaObject>
+<segment>BF129969-56BA-C96B-FE07-381DFBAB0D46</segment>
+<tableSpace>C4A7C200-29F1-C91E-2770-A7844A5FD0C8</tableSpace>
+<indexSegment>BF129969-56BA-C96B-FE07-381DFBAB0D46</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="PRODUCENT_NAZWA_UN" id="B4E74410-38C9-3BEC-C44A-67D9A9D85D5E">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-17 19:11:31 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<schemaObject>3BFA6127-1FE8-1DAD-2E73-1EF3A4F96B65</schemaObject>
+<segment>BF129969-56BA-C96B-FE07-381DFBAB0D46</segment>
+<tableSpace>C4A7C200-29F1-C91E-2770-A7844A5FD0C8</tableSpace>
+<indexSegment>BF129969-56BA-C96B-FE07-381DFBAB0D46</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev20c>

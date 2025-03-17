@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="PANSTWO" directorySegmentName="seg_0" id="C7349E2A-A157-974D-4456-9245709893B8">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-17 19:11:30 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<schemaObject>3BFA6127-1FE8-1DAD-2E73-1EF3A4F96B65</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>9C66F2A0-730D-1B97-0249-0671CDB58335</segment>
+<tableSpace>C4A7C200-29F1-C91E-2770-A7844A5FD0C8</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID" id="63EB11DF-16CC-D166-AC07-F2BC891A50ED">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-17 19:11:30 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NAZWA" id="8818AE9C-9642-0828-0ABF-6163C157D9C8">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-17 19:11:30 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PANSTWO_PK" id="186CFACE-6F20-C100-581C-2F9E0269679D">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-17 19:11:31 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<schemaObject>3BFA6127-1FE8-1DAD-2E73-1EF3A4F96B65</schemaObject>
+<segment>BF129969-56BA-C96B-FE07-381DFBAB0D46</segment>
+<tableSpace>C4A7C200-29F1-C91E-2770-A7844A5FD0C8</tableSpace>
+<indexSegment>BF129969-56BA-C96B-FE07-381DFBAB0D46</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="PANSTWO_NAZWA_UN" id="456FA0DC-C049-93BF-F441-AEFF9C74B64F">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-17 19:11:31 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<schemaObject>3BFA6127-1FE8-1DAD-2E73-1EF3A4F96B65</schemaObject>
+<segment>BF129969-56BA-C96B-FE07-381DFBAB0D46</segment>
+<tableSpace>C4A7C200-29F1-C91E-2770-A7844A5FD0C8</tableSpace>
+<indexSegment>BF129969-56BA-C96B-FE07-381DFBAB0D46</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev20c>

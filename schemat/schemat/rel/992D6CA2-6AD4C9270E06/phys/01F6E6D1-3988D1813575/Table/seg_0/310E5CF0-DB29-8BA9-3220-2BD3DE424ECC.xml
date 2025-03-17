@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="KOLOR" directorySegmentName="seg_0" id="310E5CF0-DB29-8BA9-3220-2BD3DE424ECC">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-17 19:11:30 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<schemaObject>3BFA6127-1FE8-1DAD-2E73-1EF3A4F96B65</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>9C66F2A0-730D-1B97-0249-0671CDB58335</segment>
+<tableSpace>C4A7C200-29F1-C91E-2770-A7844A5FD0C8</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID" id="08DB4479-9554-C2EC-1501-E947E2FA4E5C">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-17 19:11:30 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NAZWA" id="09E6C57B-6C69-535E-3526-BD8D16B53D05">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-17 19:11:30 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="KOLOR_PK" id="78F10344-5833-73B5-0877-3CDB03321AB9">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-17 19:11:31 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<schemaObject>3BFA6127-1FE8-1DAD-2E73-1EF3A4F96B65</schemaObject>
+<segment>BF129969-56BA-C96B-FE07-381DFBAB0D46</segment>
+<tableSpace>C4A7C200-29F1-C91E-2770-A7844A5FD0C8</tableSpace>
+<indexSegment>BF129969-56BA-C96B-FE07-381DFBAB0D46</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="KOLOR_NAZWA_UN" id="0CFE29AA-1614-A286-F12E-A5500D354899">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-17 19:11:31 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<schemaObject>3BFA6127-1FE8-1DAD-2E73-1EF3A4F96B65</schemaObject>
+<segment>BF129969-56BA-C96B-FE07-381DFBAB0D46</segment>
+<tableSpace>C4A7C200-29F1-C91E-2770-A7844A5FD0C8</tableSpace>
+<indexSegment>BF129969-56BA-C96B-FE07-381DFBAB0D46</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev20c>
