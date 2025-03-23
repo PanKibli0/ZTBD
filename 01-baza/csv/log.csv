@@ -1,0 +1,52 @@
+Typ napędu 3
+
+kolor 30
+
+model 60
+
+pakiet 30
+
+producent 30
+
+wypozyczalnia 10 
+
+skutery 600
+
+panstwa 3
+
+województwa 100
+
+miasta 100
+
+ulice 1000 ~~
+
+rodzaj płatności 10
+
+wygeneruj 200 rekordów dla tabeli skuter w formacie numerid|numer z 
+
+numer_rekordu|numer_od_0_do_30|nazwa 
+
+
+dla tych województw wygeneruj po 1 mieście które się tam faktycznie znajduje w prawdziwym świecie według wzoru nrrekordu|nazwamiasta|idwojewodztwa  nie uzywaj znaków specjalnych
+
+
+
+
+
+
+
+
+# Liczba dodatkowych rekordów do wygenerowania
+additional_records = 240
+
+# Generowanie dodatkowych rekordów, kontynuując numerację
+new_records = [
+    f"{i+61}|{random.randint(1,60)}|{random.randint(1,30)}|{random.randint(1,3)}|{random.randint(1,60)}|{random.randint(1,30)}|{random.uniform(50,1000):.2f}|{random.randint(2005,2024)}"
+    for i in range(additional_records)
+]
+
+# Połączenie istniejących i nowych rekordów
+full_records = records + new_records
+
+# Wynik
+"\n".join(full_records)
