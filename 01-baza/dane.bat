@@ -4,12 +4,12 @@ sqlldr pro_bd/123@localhost:1522/XEPDB1 control=ctl/miasto.ctl log=log/miasto.lo
 sqlldr pro_bd/123@localhost:1522/XEPDB1 control=ctl/ulica.ctl log=log/ulica.log bad=bad/ulica.bad
 sqlldr pro_bd/123@localhost:1522/XEPDB1 control=ctl/klient.ctl log=log/klient.log bad=bad/klient.bad
 sqlldr pro_bd/123@localhost:1522/XEPDB1 control=ctl/wypozyczalnia.ctl log=log/wypozyczalnia.log bad=bad/wypozyczalnia.bad
+sqlldr pro_bd/123@localhost:1522/XEPDB1 control=ctl/pracownik.ctl log=log/pracownik.log bad=bad/pracownik.bad
 sqlldr pro_bd/123@localhost:1522/XEPDB1 control=ctl/producent.ctl log=log/producent.log bad=bad/producent.bad
 sqlldr pro_bd/123@localhost:1522/XEPDB1 control=ctl/model.ctl log=log/model.log bad=bad/model.bad
 sqlldr pro_bd/123@localhost:1522/XEPDB1 control=ctl/kolor.ctl log=log/kolor.log bad=bad/kolor.bad
 sqlldr pro_bd/123@localhost:1522/XEPDB1 control=ctl/typ_napedu.ctl log=log/typ_napedu.log bad=bad/typ_napedu.bad
 sqlldr pro_bd/123@localhost:1522/XEPDB1 control=ctl/pakiet_wyposazenia.ctl log=log/pakiet_wyposazenia.log bad=bad/pakiet_wyposazenia.bad
 sqlldr pro_bd/123@localhost:1522/XEPDB1 control=ctl/skuter.ctl log=log/skuter.log bad=bad/skuter.bad
-sqlldr pro_bd/123@localhost:1522/XEPDB1 control=ctl/pracownik.ctl log=log/pracownik.log bad=bad/pracownik.bad
 sqlldr pro_bd/123@localhost:1522/XEPDB1 control=ctl/rodzaj_platnosci.ctl log=log/rodzaj_platnosci.log bad=bad/rodzaj_platnosci.bad
 sqlldr pro_bd/123@localhost:1522/XEPDB1 control=ctl/wypozyczenia.ctl log=log/wypozyczenia.log bad=bad/wypozyczenia.bad
