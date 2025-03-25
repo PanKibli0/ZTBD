@@ -22,7 +22,9 @@ ulice 1000 ~~
 
 rodzaj płatności 10
 
-pracownik 
+pracownik 100
+
+klient ~~
 
 wygeneruj 200 rekordów dla tabeli skuter w formacie numerid|numer z 
 
