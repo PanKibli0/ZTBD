@@ -1,5 +1,5 @@
 
-SQL*Loader: Release 21.0.0.0.0 - Production on Tue Mar 25 18:52:58 2025
+SQL*Loader: Release 21.0.0.0.0 - Production on Sun Mar 30 11:54:25 2025
 Version 21.3.0.0.0
 
 Copyright (c) 1982, 2021, Oracle and/or its affiliates.  All rights reserved.
@@ -27,24 +27,6 @@ ID                                  FIRST     *   |       CHARACTER
 NAZWA                                NEXT     *   |       CHARACTER            
 ID_WOJEWODZTWO                       NEXT     *   |       CHARACTER            
 
+SQL*Loader-926: OCI error while executing delete/truncate (due to REPLACE/TRUNCATE keyword) for table MIASTO
+ORA-02292: integrity constraint (PRO_BD.FK_ULICA_MIASTO) violated - child record found
 
-Table MIASTO:
-  100 Rows successfully loaded.
-  0 Rows not loaded due to data errors.
-  0 Rows not loaded because all WHEN clauses were failed.
-  0 Rows not loaded because all fields were null.
-
-
-Space allocated for bind array:                 193500 bytes(250 rows)
-Read   buffer bytes: 1048576
-
-Total logical records skipped:          0
-Total logical records read:           100
-Total logical records rejected:         0
-Total logical records discarded:        0
-
-Run began on Tue Mar 25 18:52:58 2025
-Run ended on Tue Mar 25 18:52:58 2025
-
-Elapsed time was:     00:00:00.15
-CPU time was:         00:00:00.08
