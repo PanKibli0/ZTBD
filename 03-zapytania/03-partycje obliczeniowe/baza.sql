@@ -1,3 +1,5 @@
+-- Obliczenie sumy przychodów z wypo¿yczeñ w ró¿nych lokalizacjach: kraj, województwo, miasto oraz sumy przychodów w tych lokalizacjach na ró¿nych poziomach agregacji.
+
 SELECT 
     p.NAZWA AS PANSTWO, 
     w.NAZWA AS WOJEWODZTWO, 

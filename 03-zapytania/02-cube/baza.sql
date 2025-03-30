@@ -1,4 +1,4 @@
-
+-- Sprawdzenie liczby wypo¿yczeñ skuterów w ró¿nych lokalizacjach: kraj, województwo, miasto.
 
 SELECT 
     p.NAZWA AS PANSTWO, 
