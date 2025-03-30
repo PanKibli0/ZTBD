@@ -1,4 +1,6 @@
---Sprawdzenie, które metody p³atnoœci generuj¹ najwiêksze przychody w danym kraju, województwie i mieœcie.
+--Sprawdzenie, ktï¿½re metody pï¿½atnoï¿½ci generujï¿½ najwiï¿½ksze przychody w danym kraju, wojewï¿½dztwie i mieï¿½cie.
+
+SPOOL wynik1.txt
 
 SELECT 
     p.NAZWA AS PANSTWO,
@@ -15,3 +17,5 @@ FROM WYPOZYCZENIA wyp
     JOIN RODZAJ_PLATNOSCI r ON wyp.ID_RODZAJ_PLATNOSCI = r.ID
 GROUP BY ROLLUP (p.NAZWA, w.NAZWA, m.NAZWA, r.NAZWA)
 ORDER BY SUM(wyp.CENA);
+
+SPOOL OFF;

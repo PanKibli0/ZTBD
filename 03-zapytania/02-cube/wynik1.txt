@@ -1,0 +1,875 @@
+
+PANSTWO                                            WOJEWODZTWO                                        MIASTO                                             LICZBA_WYPOZYCZEN
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- -----------------
+                                                                                                                                                                    100000
+                                                                                                      Pau                                                              496
+                                                                                                      Asti                                                             997
+                                                                                                      Bari                                                             499
+                                                                                                      Bodo                                                             511
+                                                                                                      Eger                                                            2484
+                                                                                                      Gyor                                                             540
+                                                                                                      Lodz                                                             500
+                                                                                                      Lyon                                                            1486
+                                                                                                      Oslo                                                             998
+                                                                                                      Pecz                                                             506
+
+PANSTWO                                            WOJEWODZTWO                                        MIASTO                                             LICZBA_WYPOZYCZEN
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- -----------------
+                                                                                                      Senj                                                             524
+                                                                                                      Boras                                                           2481
+                                                                                                      Brest                                                           2522
+                                                                                                      Falun                                                            475
+                                                                                                      Lille                                                            511
+                                                                                                      Malmo                                                           1969
+                                                                                                      Nicea                                                           1016
+                                                                                                      Opawa                                                            496
+                                                                                                      Praga                                                            466
+                                                                                                      Radom                                                            513
+                                                                                                      Rouen                                                           1033
+
+PANSTWO                                            WOJEWODZTWO                                        MIASTO                                             LICZBA_WYPOZYCZEN
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- -----------------
+                                                                                                      Skien                                                           1030
+                                                                                                      Turyn                                                            536
+                                                                                                      Bastia                                                          1483
+                                                                                                      Bergen                                                           475
+                                                                                                      Colmar                                                          1407
+                                                                                                      Dakovo                                                           479
+                                                                                                      Drezno                                                           979
+                                                                                                      Gdansk                                                          1484
+                                                                                                      Gdynia                                                          1029
+                                                                                                      Girona                                                          1009
+                                                                                                      Gjovik                                                           515
+
+PANSTWO                                            WOJEWODZTWO                                        MIASTO                                             LICZBA_WYPOZYCZEN
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- -----------------
+                                                                                                      Gospic                                                           482
+                                                                                                      Huesca                                                           962
+                                                                                                      Lubeka                                                           499
+                                                                                                      Lublin                                                          1014
+                                                                                                      Modena                                                           998
+                                                                                                      Narwik                                                           495
+                                                                                                      Orebro                                                           508
+                                                                                                      Poznan                                                           495
+                                                                                                      Rijeka                                                           521
+                                                                                                      Szeged                                                           486
+                                                                                                      Tuluza                                                           965
+
+PANSTWO                                            WOJEWODZTWO                                        MIASTO                                             LICZBA_WYPOZYCZEN
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- -----------------
+                                                                                                      Ajaccio                                                          417
+                                                                                                      Alesund                                                          499
+                                                                                                      Arendal                                                          508
+                                                                                                      Bergamo                                                          568
+                                                                                                      Bolonia                                                          986
+                                                                                                      Cakovec                                                         1502
+                                                                                                      Chrudim                                                          518
+                                                                                                      Cottbus                                                          472
+                                                                                                      Daruvar                                                          517
+                                                                                                      Gliwice                                                         1457
+                                                                                                      Hanower                                                          506
+
+PANSTWO                                            WOJEWODZTWO                                        MIASTO                                             LICZBA_WYPOZYCZEN
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- -----------------
+                                                                                                      Katania                                                         1015
+                                                                                                      Klatovy                                                          548
+                                                                                                      Legnica                                                          486
+                                                                                                      Liberec                                                          516
+                                                                                                      Messyna                                                         1578
+                                                                                                      Ostrawa                                                          460
+                                                                                                      Palermo                                                          971
+                                                                                                      Poczdam                                                         1480
+                                                                                                      Sandnes                                                          969
+                                                                                                      Sewilla                                                          509
+                                                                                                      Szolnok                                                         1546
+
+PANSTWO                                            WOJEWODZTWO                                        MIASTO                                             LICZBA_WYPOZYCZEN
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- -----------------
+                                                                                                      Uppsala                                                         1022
+                                                                                                      Wenecja                                                          476
+                                                                                                      Wroclaw                                                          492
+                                                                                                      Bordeaux                                                         495
+                                                                                                      Chomutov                                                         495
+                                                                                                      Goteborg                                                         490
+                                                                                                      Halmstad                                                        1501
+                                                                                                      Krizevci                                                         509
+                                                                                                      Le Havre                                                         478
+                                                                                                      Marsylia                                                        1057
+                                                                                                      Moguncja                                                        1000
+
+PANSTWO                                            WOJEWODZTWO                                        MIASTO                                             LICZBA_WYPOZYCZEN
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- -----------------
+                                                                                                      Oroshaza                                                         519
+                                                                                                      Schwerin                                                         503
+                                                                                                      Varazdin                                                        1024
+                                                                                                      Vasteras                                                         527
+                                                                                                      Vinkovci                                                         535
+                                                                                                      Walencja                                                         501
+                                                                                                      Warszawa                                                         472
+                                                                                                      Zaragoza                                                         475
+                                                                                                      Barcelona                                                        514
+                                                                                                      Budapeszt                                                       1019
+                                                                                                      Cartagena                                                        511
+
+PANSTWO                                            WOJEWODZTWO                                        MIASTO                                             LICZBA_WYPOZYCZEN
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- -----------------
+                                                                                                      Darmstadt                                                        467
+                                                                                                      Dunkierka                                                        495
+                                                                                                      Florencja                                                        516
+                                                                                                      Frankfurt                                                        489
+                                                                                                      Haugesund                                                        537
+                                                                                                      Monachium                                                        476
+                                                                                                      Olomuniec                                                        970
+                                                                                                      Pardubice                                                       1982
+                                                                                                      Prostejow                                                        989
+                                                                                                      Stavanger                                                       1511
+                                                                                                      Steinkjer                                                        989
+
+PANSTWO                                            WOJEWODZTWO                                        MIASTO                                             LICZBA_WYPOZYCZEN
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- -----------------
+                                                                                                      Trondheim                                                        482
+                                                                                                      Wiesbaden                                                        985
+                                                                                                      Koprivnica                                                       994
+                                                                                                      Norrkoping                                                      1038
+                                                                                                      Valladolid                                                       998
+                                                                                                      Ciudad Real                                                      499
+                                                                                                      Lillehammer                                                      977
+                                                                                                      Neunkirchen                                                      971
+                                                                                                      Nyiregyhaza                                                      480
+                                                                                                      Saarbrucken                                                      507
+                                                                                                      Karlowe Wary                                                    1013
+
+PANSTWO                                            WOJEWODZTWO                                        MIASTO                                             LICZBA_WYPOZYCZEN
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- -----------------
+                                                                                                      Kristiansand                                                    1528
+                                                                                                      Beli Manastir                                                   1511
+                                                                                                      Saint-Etienne                                                    504
+                                                                                                      Usci nad Laba                                                   1019
+                                                                                                      Hradec Kralove                                                   502
+                                                                                                      Szekesfehervar                                                   977
+                                                                                                      Mosonmagyarovar                                                 1002
+                                                                                                      Hodmezovasarhely                                                 516
+                                                                                                      Alcala de Henares                                                538
+                                                                                                      Jablonec nad Nysa                                                512
+                                                                                                      Czeske Budziejowice                                              537
+
+PANSTWO                                            WOJEWODZTWO                                        MIASTO                                             LICZBA_WYPOZYCZEN
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- -----------------
+                                                                                                      Piotrkow Trybunalski                                             501
+                                                                                                      Santiago de Compostela                                           471
+                                                   Lika                                                                                                               1006
+                                                   Lika                                               Senj                                                             524
+                                                   Lika                                               Gospic                                                           482
+                                                   Oslo                                                                                                                998
+                                                   Oslo                                               Oslo                                                             998
+                                                   Agder                                                                                                              2036
+                                                   Agder                                              Arendal                                                          508
+                                                   Agder                                              Kristiansand                                                    1528
+                                                   Bekes                                                                                                               519
+
+PANSTWO                                            WOJEWODZTWO                                        MIASTO                                             LICZBA_WYPOZYCZEN
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- -----------------
+                                                   Bekes                                              Oroshaza                                                         519
+                                                   Fejer                                                                                                               517
+                                                   Fejer                                              Szekesfehervar                                                   517
+                                                   Hesja                                                                                                               956
+                                                   Hesja                                              Darmstadt                                                        467
+                                                   Hesja                                              Frankfurt                                                        489
+                                                   Heves                                                                                                               490
+                                                   Heves                                              Eger                                                             490
+                                                   Praga                                                                                                              1485
+                                                   Praga                                              Praga                                                            466
+                                                   Praga                                              Usci nad Laba                                                   1019
+
+PANSTWO                                            WOJEWODZTWO                                        MIASTO                                             LICZBA_WYPOZYCZEN
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- -----------------
+                                                   Saara                                                                                                              1478
+                                                   Saara                                              Neunkirchen                                                      971
+                                                   Saara                                              Saarbrucken                                                      507
+                                                   Apulia                                                                                                              499
+                                                   Apulia                                             Bari                                                             499
+                                                   Berlin                                                                                                              472
+                                                   Berlin                                             Cottbus                                                          472
+                                                   Madryt                                                                                                              538
+                                                   Madryt                                             Alcala de Henares                                                538
+                                                   Murcja                                                                                                              511
+                                                   Murcja                                             Cartagena                                                        511
+
+PANSTWO                                            WOJEWODZTWO                                        MIASTO                                             LICZBA_WYPOZYCZEN
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- -----------------
+                                                   Skania                                                                                                             1969
+                                                   Skania                                             Malmo                                                           1969
+                                                   Baranja                                                                                                            1990
+                                                   Baranja                                            Dakovo                                                           479
+                                                   Baranja                                            Beli Manastir                                                   1511
+                                                   Baranya                                                                                                             506
+                                                   Baranya                                            Pecz                                                             506
+                                                   Bawaria                                                                                                             476
+                                                   Bawaria                                            Monachium                                                        476
+                                                   Dalarna                                                                                                             475
+                                                   Dalarna                                            Falun                                                            475
+
+PANSTWO                                            WOJEWODZTWO                                        MIASTO                                             LICZBA_WYPOZYCZEN
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- -----------------
+                                                   Galicja                                                                                                             471
+                                                   Galicja                                            Santiago de Compostela                                           471
+                                                   Halland                                                                                                            1501
+                                                   Halland                                            Halmstad                                                        1501
+                                                   Hamburg                                                                                                             499
+                                                   Hamburg                                            Lubeka                                                           499
+                                                   Korsyka                                                                                                            1900
+                                                   Korsyka                                            Bastia                                                          1483
+                                                   Korsyka                                            Ajaccio                                                          417
+                                                   Kvarner                                                                                                             521
+                                                   Kvarner                                            Rijeka                                                           521
+
+PANSTWO                                            WOJEWODZTWO                                        MIASTO                                             LICZBA_WYPOZYCZEN
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- -----------------
+                                                   Lodzkie                                                                                                            1001
+                                                   Lodzkie                                            Lodz                                                             500
+                                                   Lodzkie                                            Piotrkow Trybunalski                                             501
+                                                   Piemont                                                                                                            1533
+                                                   Piemont                                            Asti                                                             997
+                                                   Piemont                                            Turyn                                                            536
+                                                   Slaskie                                                                                                            1457
+                                                   Slaskie                                            Gliwice                                                         1457
+                                                   Sycylia                                                                                                            1986
+                                                   Sycylia                                            Katania                                                         1015
+                                                   Sycylia                                            Palermo                                                          971
+
+PANSTWO                                            WOJEWODZTWO                                        MIASTO                                             LICZBA_WYPOZYCZEN
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- -----------------
+                                                   Uppsala                                                                                                            1022
+                                                   Uppsala                                            Uppsala                                                         1022
+                                                   Zagorje                                                                                                            2035
+                                                   Zagorje                                            Cakovec                                                         1011
+                                                   Zagorje                                            Varazdin                                                        1024
+                                                   Aragonia                                                                                                           1437
+                                                   Aragonia                                           Huesca                                                           962
+                                                   Aragonia                                           Zaragoza                                                         475
+                                                   Bilogora                                                                                                            517
+                                                   Bilogora                                           Daruvar                                                          517
+                                                   Bretania                                                                                                           2522
+
+PANSTWO                                            WOJEWODZTWO                                        MIASTO                                             LICZBA_WYPOZYCZEN
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- -----------------
+                                                   Bretania                                           Brest                                                           2522
+                                                   Csongrad                                                                                                           1002
+                                                   Csongrad                                           Szeged                                                           486
+                                                   Csongrad                                           Hodmezovasarhely                                                 516
+                                                   Kalabria                                                                                                           1578
+                                                   Kalabria                                           Messyna                                                         1578
+                                                   Nordland                                                                                                           1006
+                                                   Nordland                                           Bodo                                                             511
+                                                   Nordland                                           Narwik                                                           495
+                                                   Plzensky                                                                                                            548
+                                                   Plzensky                                           Klatovy                                                          548
+
+PANSTWO                                            WOJEWODZTWO                                        MIASTO                                             LICZBA_WYPOZYCZEN
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- -----------------
+                                                   Rogaland                                                                                                           2480
+                                                   Rogaland                                           Sandnes                                                          969
+                                                   Rogaland                                           Stavanger                                                       1511
+                                                   Saksonia                                                                                                            979
+                                                   Saksonia                                           Drezno                                                           979
+                                                   Slawonia                                                                                                            535
+                                                   Slawonia                                           Vinkovci                                                         535
+                                                   Toskania                                                                                                            516
+                                                   Toskania                                           Florencja                                                        516
+                                                   Vestland                                                                                                           1012
+                                                   Vestland                                           Bergen                                                           475
+
+PANSTWO                                            WOJEWODZTWO                                        MIASTO                                             LICZBA_WYPOZYCZEN
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- -----------------
+                                                   Vestland                                           Haugesund                                                        537
+                                                   Walencja                                                                                                            501
+                                                   Walencja                                           Walencja                                                         501
+                                                   Andaluzja                                                                                                           509
+                                                   Andaluzja                                          Sewilla                                                          509
+                                                   Budapeszt                                                                                                          1479
+                                                   Budapeszt                                          Budapeszt                                                       1019
+                                                   Budapeszt                                          Szekesfehervar                                                   460
+                                                   Grand Est                                                                                                          1407
+                                                   Grand Est                                          Colmar                                                          1407
+                                                   Innlandet                                                                                                          1492
+
+PANSTWO                                            WOJEWODZTWO                                        MIASTO                                             LICZBA_WYPOZYCZEN
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- -----------------
+                                                   Innlandet                                          Gjovik                                                           515
+                                                   Innlandet                                          Lillehammer                                                      977
+                                                   Jihocesky                                                                                                           537
+                                                   Jihocesky                                          Czeske Budziejowice                                              537
+                                                   Katalonia                                                                                                          1523
+                                                   Katalonia                                          Girona                                                          1009
+                                                   Katalonia                                          Barcelona                                                        514
+                                                   Liberecky                                                                                                          1028
+                                                   Liberecky                                          Liberec                                                          516
+                                                   Liberecky                                          Jablonec nad Nysa                                                512
+                                                   Lombardia                                                                                                           568
+
+PANSTWO                                            WOJEWODZTWO                                        MIASTO                                             LICZBA_WYPOZYCZEN
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- -----------------
+                                                   Lombardia                                          Bergamo                                                          568
+                                                   Lubelskie                                                                                                          1014
+                                                   Lubelskie                                          Lublin                                                          1014
+                                                   Normandia                                                                                                          1511
+                                                   Normandia                                          Rouen                                                           1033
+                                                   Normandia                                          Le Havre                                                         478
+                                                   Oksytania                                                                                                           474
+                                                   Oksytania                                          Tuluza                                                           474
+                                                   Olomoucky                                                                                                          1959
+                                                   Olomoucky                                          Olomuniec                                                        970
+                                                   Olomoucky                                          Prostejow                                                        989
+
+PANSTWO                                            WOJEWODZTWO                                        MIASTO                                             LICZBA_WYPOZYCZEN
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- -----------------
+                                                   Podravina                                                                                                          1503
+                                                   Podravina                                          Krizevci                                                         509
+                                                   Podravina                                          Koprivnica                                                       994
+                                                   Pomorskie                                                                                                          2513
+                                                   Pomorskie                                          Gdansk                                                          1484
+                                                   Pomorskie                                          Gdynia                                                          1029
+                                                   Trondelag                                                                                                          1471
+                                                   Trondelag                                          Steinkjer                                                        989
+                                                   Trondelag                                          Trondheim                                                        482
+                                                   Medjimurje                                                                                                          491
+                                                   Medjimurje                                         Cakovec                                                          491
+
+PANSTWO                                            WOJEWODZTWO                                        MIASTO                                             LICZBA_WYPOZYCZEN
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- -----------------
+                                                   Pardubicky                                                                                                         2026
+                                                   Pardubicky                                         Chrudim                                                          518
+                                                   Pardubicky                                         Pardubice                                                       1508
+                                                   Hajdu-Bihar                                                                                                         480
+                                                   Hajdu-Bihar                                        Nyiregyhaza                                                      480
+                                                   Karlovarsky                                                                                                        1508
+                                                   Karlovarsky                                        Chomutov                                                         495
+                                                   Karlovarsky                                        Karlowe Wary                                                    1013
+                                                   Mazowieckie                                                                                                         985
+                                                   Mazowieckie                                        Radom                                                            513
+                                                   Mazowieckie                                        Warszawa                                                         472
+
+PANSTWO                                            WOJEWODZTWO                                        MIASTO                                             LICZBA_WYPOZYCZEN
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- -----------------
+                                                   Vastmanland                                                                                                        1035
+                                                   Vastmanland                                        Orebro                                                           508
+                                                   Vastmanland                                        Vasteras                                                         527
+                                                   Dolnoslaskie                                                                                                        978
+                                                   Dolnoslaskie                                       Legnica                                                          486
+                                                   Dolnoslaskie                                       Wroclaw                                                          492
+                                                   Ostergotland                                                                                                       1038
+                                                   Ostergotland                                       Norrkoping                                                      1038
+                                                   Brandenburgia                                                                                                      1480
+                                                   Brandenburgia                                      Poczdam                                                         1480
+                                                   Ile-de-France                                                                                                      1016
+
+PANSTWO                                            WOJEWODZTWO                                        MIASTO                                             LICZBA_WYPOZYCZEN
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- -----------------
+                                                   Ile-de-France                                      Nicea                                                           1016
+                                                   Kastylia-Leon                                                                                                       998
+                                                   Kastylia-Leon                                      Valladolid                                                       998
+                                                   Wielkopolskie                                                                                                       495
+                                                   Wielkopolskie                                      Poznan                                                           495
+                                                   Dolna Saksonia                                                                                                      506
+                                                   Dolna Saksonia                                     Hanower                                                          506
+                                                   Emilia-Romania                                                                                                     1984
+                                                   Emilia-Romania                                     Modena                                                           998
+                                                   Emilia-Romania                                     Bolonia                                                          986
+                                                   Nowa Akwitania                                                                                                      991
+
+PANSTWO                                            WOJEWODZTWO                                        MIASTO                                             LICZBA_WYPOZYCZEN
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- -----------------
+                                                   Nowa Akwitania                                     Pau                                                              496
+                                                   Nowa Akwitania                                     Bordeaux                                                         495
+                                                   Hauts-de-France                                                                                                    1006
+                                                   Hauts-de-France                                    Lille                                                            511
+                                                   Hauts-de-France                                    Dunkierka                                                        495
+                                                   Kralovehradecky                                                                                                     976
+                                                   Kralovehradecky                                    Pardubice                                                        474
+                                                   Kralovehradecky                                    Hradec Kralove                                                   502
+                                                   Moravskoslezsky                                                                                                     956
+                                                   Moravskoslezsky                                    Opawa                                                            496
+                                                   Moravskoslezsky                                    Ostrawa                                                          460
+
+PANSTWO                                            WOJEWODZTWO                                        MIASTO                                             LICZBA_WYPOZYCZEN
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- -----------------
+                                                   More og Romsdal                                                                                                     499
+                                                   More og Romsdal                                    Alesund                                                          499
+                                                   Vastra Gotaland                                                                                                    2971
+                                                   Vastra Gotaland                                    Boras                                                           2481
+                                                   Vastra Gotaland                                    Goteborg                                                         490
+                                                   Gyor-Moson-Sopron                                                                                                  1542
+                                                   Gyor-Moson-Sopron                                  Gyor                                                             540
+                                                   Gyor-Moson-Sopron                                  Mosonmagyarovar                                                 1002
+                                                   Kastylia-La Mancha                                                                                                  499
+                                                   Kastylia-La Mancha                                 Ciudad Real                                                      499
+                                                   Nadrenia-Palatynat                                                                                                 1985
+
+PANSTWO                                            WOJEWODZTWO                                        MIASTO                                             LICZBA_WYPOZYCZEN
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- -----------------
+                                                   Nadrenia-Palatynat                                 Moguncja                                                        1000
+                                                   Nadrenia-Palatynat                                 Wiesbaden                                                        985
+                                                   Owernia-Rodan-Alpy                                                                                                 1990
+                                                   Owernia-Rodan-Alpy                                 Lyon                                                            1486
+                                                   Owernia-Rodan-Alpy                                 Saint-Etienne                                                    504
+                                                   Wenecja Euganejska                                                                                                  476
+                                                   Wenecja Euganejska                                 Wenecja                                                          476
+                                                   Borsod-Abauj-Zemplen                                                                                               1994
+                                                   Borsod-Abauj-Zemplen                               Eger                                                            1994
+                                                   Jasz-Nagykun-Szolnok                                                                                               1546
+                                                   Jasz-Nagykun-Szolnok                               Szolnok                                                         1546
+
+PANSTWO                                            WOJEWODZTWO                                        MIASTO                                             LICZBA_WYPOZYCZEN
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- -----------------
+                                                   Vestfold og Telemark                                                                                               1030
+                                                   Vestfold og Telemark                               Skien                                                           1030
+                                                   Meklemburgia-Pomorze Przednie                                                                                       503
+                                                   Meklemburgia-Pomorze Przednie                      Schwerin                                                         503
+                                                   Prowansja-Alpy-Lazurowe Wybrzeze                                                                                   1548
+                                                   Prowansja-Alpy-Lazurowe Wybrzeze                   Tuluza                                                           491
+                                                   Prowansja-Alpy-Lazurowe Wybrzeze                   Marsylia                                                        1057
+Wegry                                                                                                                                                                10075
+Wegry                                                                                                 Eger                                                            2484
+Wegry                                                                                                 Gyor                                                             540
+Wegry                                                                                                 Pecz                                                             506
+
+PANSTWO                                            WOJEWODZTWO                                        MIASTO                                             LICZBA_WYPOZYCZEN
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- -----------------
+Wegry                                                                                                 Szeged                                                           486
+Wegry                                                                                                 Szolnok                                                         1546
+Wegry                                                                                                 Oroshaza                                                         519
+Wegry                                                                                                 Budapeszt                                                       1019
+Wegry                                                                                                 Nyiregyhaza                                                      480
+Wegry                                                                                                 Szekesfehervar                                                   977
+Wegry                                                                                                 Mosonmagyarovar                                                 1002
+Wegry                                                                                                 Hodmezovasarhely                                                 516
+Wegry                                              Bekes                                                                                                               519
+Wegry                                              Bekes                                              Oroshaza                                                         519
+Wegry                                              Fejer                                                                                                               517
+
+PANSTWO                                            WOJEWODZTWO                                        MIASTO                                             LICZBA_WYPOZYCZEN
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- -----------------
+Wegry                                              Fejer                                              Szekesfehervar                                                   517
+Wegry                                              Heves                                                                                                               490
+Wegry                                              Heves                                              Eger                                                             490
+Wegry                                              Baranya                                                                                                             506
+Wegry                                              Baranya                                            Pecz                                                             506
+Wegry                                              Csongrad                                                                                                           1002
+Wegry                                              Csongrad                                           Szeged                                                           486
+Wegry                                              Csongrad                                           Hodmezovasarhely                                                 516
+Wegry                                              Budapeszt                                                                                                          1479
+Wegry                                              Budapeszt                                          Budapeszt                                                       1019
+Wegry                                              Budapeszt                                          Szekesfehervar                                                   460
+
+PANSTWO                                            WOJEWODZTWO                                        MIASTO                                             LICZBA_WYPOZYCZEN
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- -----------------
+Wegry                                              Hajdu-Bihar                                                                                                         480
+Wegry                                              Hajdu-Bihar                                        Nyiregyhaza                                                      480
+Wegry                                              Gyor-Moson-Sopron                                                                                                  1542
+Wegry                                              Gyor-Moson-Sopron                                  Gyor                                                             540
+Wegry                                              Gyor-Moson-Sopron                                  Mosonmagyarovar                                                 1002
+Wegry                                              Borsod-Abauj-Zemplen                                                                                               1994
+Wegry                                              Borsod-Abauj-Zemplen                               Eger                                                            1994
+Wegry                                              Jasz-Nagykun-Szolnok                                                                                               1546
+Wegry                                              Jasz-Nagykun-Szolnok                               Szolnok                                                         1546
+Czechy                                                                                                                                                               11023
+Czechy                                                                                                Opawa                                                            496
+
+PANSTWO                                            WOJEWODZTWO                                        MIASTO                                             LICZBA_WYPOZYCZEN
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- -----------------
+Czechy                                                                                                Praga                                                            466
+Czechy                                                                                                Chrudim                                                          518
+Czechy                                                                                                Klatovy                                                          548
+Czechy                                                                                                Liberec                                                          516
+Czechy                                                                                                Ostrawa                                                          460
+Czechy                                                                                                Chomutov                                                         495
+Czechy                                                                                                Olomuniec                                                        970
+Czechy                                                                                                Pardubice                                                       1982
+Czechy                                                                                                Prostejow                                                        989
+Czechy                                                                                                Karlowe Wary                                                    1013
+Czechy                                                                                                Usci nad Laba                                                   1019
+
+PANSTWO                                            WOJEWODZTWO                                        MIASTO                                             LICZBA_WYPOZYCZEN
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- -----------------
+Czechy                                                                                                Hradec Kralove                                                   502
+Czechy                                                                                                Jablonec nad Nysa                                                512
+Czechy                                                                                                Czeske Budziejowice                                              537
+Czechy                                             Praga                                                                                                              1485
+Czechy                                             Praga                                              Praga                                                            466
+Czechy                                             Praga                                              Usci nad Laba                                                   1019
+Czechy                                             Plzensky                                                                                                            548
+Czechy                                             Plzensky                                           Klatovy                                                          548
+Czechy                                             Jihocesky                                                                                                           537
+Czechy                                             Jihocesky                                          Czeske Budziejowice                                              537
+Czechy                                             Liberecky                                                                                                          1028
+
+PANSTWO                                            WOJEWODZTWO                                        MIASTO                                             LICZBA_WYPOZYCZEN
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- -----------------
+Czechy                                             Liberecky                                          Liberec                                                          516
+Czechy                                             Liberecky                                          Jablonec nad Nysa                                                512
+Czechy                                             Olomoucky                                                                                                          1959
+Czechy                                             Olomoucky                                          Olomuniec                                                        970
+Czechy                                             Olomoucky                                          Prostejow                                                        989
+Czechy                                             Pardubicky                                                                                                         2026
+Czechy                                             Pardubicky                                         Chrudim                                                          518
+Czechy                                             Pardubicky                                         Pardubice                                                       1508
+Czechy                                             Karlovarsky                                                                                                        1508
+Czechy                                             Karlovarsky                                        Chomutov                                                         495
+Czechy                                             Karlovarsky                                        Karlowe Wary                                                    1013
+
+PANSTWO                                            WOJEWODZTWO                                        MIASTO                                             LICZBA_WYPOZYCZEN
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- -----------------
+Czechy                                             Kralovehradecky                                                                                                     976
+Czechy                                             Kralovehradecky                                    Pardubice                                                        474
+Czechy                                             Kralovehradecky                                    Hradec Kralove                                                   502
+Czechy                                             Moravskoslezsky                                                                                                     956
+Czechy                                             Moravskoslezsky                                    Opawa                                                            496
+Czechy                                             Moravskoslezsky                                    Ostrawa                                                          460
+Niemcy                                                                                                                                                                9334
+Niemcy                                                                                                Drezno                                                           979
+Niemcy                                                                                                Lubeka                                                           499
+Niemcy                                                                                                Cottbus                                                          472
+Niemcy                                                                                                Hanower                                                          506
+
+PANSTWO                                            WOJEWODZTWO                                        MIASTO                                             LICZBA_WYPOZYCZEN
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- -----------------
+Niemcy                                                                                                Poczdam                                                         1480
+Niemcy                                                                                                Moguncja                                                        1000
+Niemcy                                                                                                Schwerin                                                         503
+Niemcy                                                                                                Darmstadt                                                        467
+Niemcy                                                                                                Frankfurt                                                        489
+Niemcy                                                                                                Monachium                                                        476
+Niemcy                                                                                                Wiesbaden                                                        985
+Niemcy                                                                                                Neunkirchen                                                      971
+Niemcy                                                                                                Saarbrucken                                                      507
+Niemcy                                             Hesja                                                                                                               956
+Niemcy                                             Hesja                                              Darmstadt                                                        467
+
+PANSTWO                                            WOJEWODZTWO                                        MIASTO                                             LICZBA_WYPOZYCZEN
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- -----------------
+Niemcy                                             Hesja                                              Frankfurt                                                        489
+Niemcy                                             Saara                                                                                                              1478
+Niemcy                                             Saara                                              Neunkirchen                                                      971
+Niemcy                                             Saara                                              Saarbrucken                                                      507
+Niemcy                                             Berlin                                                                                                              472
+Niemcy                                             Berlin                                             Cottbus                                                          472
+Niemcy                                             Bawaria                                                                                                             476
+Niemcy                                             Bawaria                                            Monachium                                                        476
+Niemcy                                             Hamburg                                                                                                             499
+Niemcy                                             Hamburg                                            Lubeka                                                           499
+Niemcy                                             Saksonia                                                                                                            979
+
+PANSTWO                                            WOJEWODZTWO                                        MIASTO                                             LICZBA_WYPOZYCZEN
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- -----------------
+Niemcy                                             Saksonia                                           Drezno                                                           979
+Niemcy                                             Brandenburgia                                                                                                      1480
+Niemcy                                             Brandenburgia                                      Poczdam                                                         1480
+Niemcy                                             Dolna Saksonia                                                                                                      506
+Niemcy                                             Dolna Saksonia                                     Hanower                                                          506
+Niemcy                                             Nadrenia-Palatynat                                                                                                 1985
+Niemcy                                             Nadrenia-Palatynat                                 Moguncja                                                        1000
+Niemcy                                             Nadrenia-Palatynat                                 Wiesbaden                                                        985
+Niemcy                                             Meklemburgia-Pomorze Przednie                                                                                       503
+Niemcy                                             Meklemburgia-Pomorze Przednie                      Schwerin                                                         503
+Polska                                                                                                                                                                8443
+
+PANSTWO                                            WOJEWODZTWO                                        MIASTO                                             LICZBA_WYPOZYCZEN
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- -----------------
+Polska                                                                                                Lodz                                                             500
+Polska                                                                                                Radom                                                            513
+Polska                                                                                                Gdansk                                                          1484
+Polska                                                                                                Gdynia                                                          1029
+Polska                                                                                                Lublin                                                          1014
+Polska                                                                                                Poznan                                                           495
+Polska                                                                                                Gliwice                                                         1457
+Polska                                                                                                Legnica                                                          486
+Polska                                                                                                Wroclaw                                                          492
+Polska                                                                                                Warszawa                                                         472
+Polska                                                                                                Piotrkow Trybunalski                                             501
+
+PANSTWO                                            WOJEWODZTWO                                        MIASTO                                             LICZBA_WYPOZYCZEN
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- -----------------
+Polska                                             Lodzkie                                                                                                            1001
+Polska                                             Lodzkie                                            Lodz                                                             500
+Polska                                             Lodzkie                                            Piotrkow Trybunalski                                             501
+Polska                                             Slaskie                                                                                                            1457
+Polska                                             Slaskie                                            Gliwice                                                         1457
+Polska                                             Lubelskie                                                                                                          1014
+Polska                                             Lubelskie                                          Lublin                                                          1014
+Polska                                             Pomorskie                                                                                                          2513
+Polska                                             Pomorskie                                          Gdansk                                                          1484
+Polska                                             Pomorskie                                          Gdynia                                                          1029
+Polska                                             Mazowieckie                                                                                                         985
+
+PANSTWO                                            WOJEWODZTWO                                        MIASTO                                             LICZBA_WYPOZYCZEN
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- -----------------
+Polska                                             Mazowieckie                                        Radom                                                            513
+Polska                                             Mazowieckie                                        Warszawa                                                         472
+Polska                                             Dolnoslaskie                                                                                                        978
+Polska                                             Dolnoslaskie                                       Legnica                                                          486
+Polska                                             Dolnoslaskie                                       Wroclaw                                                          492
+Polska                                             Wielkopolskie                                                                                                       495
+Polska                                             Wielkopolskie                                      Poznan                                                           495
+Wlochy                                                                                                                                                                9140
+Wlochy                                                                                                Asti                                                             997
+Wlochy                                                                                                Bari                                                             499
+Wlochy                                                                                                Turyn                                                            536
+
+PANSTWO                                            WOJEWODZTWO                                        MIASTO                                             LICZBA_WYPOZYCZEN
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- -----------------
+Wlochy                                                                                                Modena                                                           998
+Wlochy                                                                                                Bergamo                                                          568
+Wlochy                                                                                                Bolonia                                                          986
+Wlochy                                                                                                Katania                                                         1015
+Wlochy                                                                                                Messyna                                                         1578
+Wlochy                                                                                                Palermo                                                          971
+Wlochy                                                                                                Wenecja                                                          476
+Wlochy                                                                                                Florencja                                                        516
+Wlochy                                             Apulia                                                                                                              499
+Wlochy                                             Apulia                                             Bari                                                             499
+Wlochy                                             Piemont                                                                                                            1533
+
+PANSTWO                                            WOJEWODZTWO                                        MIASTO                                             LICZBA_WYPOZYCZEN
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- -----------------
+Wlochy                                             Piemont                                            Asti                                                             997
+Wlochy                                             Piemont                                            Turyn                                                            536
+Wlochy                                             Sycylia                                                                                                            1986
+Wlochy                                             Sycylia                                            Katania                                                         1015
+Wlochy                                             Sycylia                                            Palermo                                                          971
+Wlochy                                             Kalabria                                                                                                           1578
+Wlochy                                             Kalabria                                           Messyna                                                         1578
+Wlochy                                             Toskania                                                                                                            516
+Wlochy                                             Toskania                                           Florencja                                                        516
+Wlochy                                             Lombardia                                                                                                           568
+Wlochy                                             Lombardia                                          Bergamo                                                          568
+
+PANSTWO                                            WOJEWODZTWO                                        MIASTO                                             LICZBA_WYPOZYCZEN
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- -----------------
+Wlochy                                             Emilia-Romania                                                                                                     1984
+Wlochy                                             Emilia-Romania                                     Modena                                                           998
+Wlochy                                             Emilia-Romania                                     Bolonia                                                          986
+Wlochy                                             Wenecja Euganejska                                                                                                  476
+Wlochy                                             Wenecja Euganejska                                 Wenecja                                                          476
+Francja                                                                                                                                                              14365
+Francja                                                                                               Pau                                                              496
+Francja                                                                                               Lyon                                                            1486
+Francja                                                                                               Brest                                                           2522
+Francja                                                                                               Lille                                                            511
+Francja                                                                                               Nicea                                                           1016
+
+PANSTWO                                            WOJEWODZTWO                                        MIASTO                                             LICZBA_WYPOZYCZEN
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- -----------------
+Francja                                                                                               Rouen                                                           1033
+Francja                                                                                               Bastia                                                          1483
+Francja                                                                                               Colmar                                                          1407
+Francja                                                                                               Tuluza                                                           965
+Francja                                                                                               Ajaccio                                                          417
+Francja                                                                                               Bordeaux                                                         495
+Francja                                                                                               Le Havre                                                         478
+Francja                                                                                               Marsylia                                                        1057
+Francja                                                                                               Dunkierka                                                        495
+Francja                                                                                               Saint-Etienne                                                    504
+Francja                                            Korsyka                                                                                                            1900
+
+PANSTWO                                            WOJEWODZTWO                                        MIASTO                                             LICZBA_WYPOZYCZEN
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- -----------------
+Francja                                            Korsyka                                            Bastia                                                          1483
+Francja                                            Korsyka                                            Ajaccio                                                          417
+Francja                                            Bretania                                                                                                           2522
+Francja                                            Bretania                                           Brest                                                           2522
+Francja                                            Grand Est                                                                                                          1407
+Francja                                            Grand Est                                          Colmar                                                          1407
+Francja                                            Normandia                                                                                                          1511
+Francja                                            Normandia                                          Rouen                                                           1033
+Francja                                            Normandia                                          Le Havre                                                         478
+Francja                                            Oksytania                                                                                                           474
+Francja                                            Oksytania                                          Tuluza                                                           474
+
+PANSTWO                                            WOJEWODZTWO                                        MIASTO                                             LICZBA_WYPOZYCZEN
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- -----------------
+Francja                                            Ile-de-France                                                                                                      1016
+Francja                                            Ile-de-France                                      Nicea                                                           1016
+Francja                                            Nowa Akwitania                                                                                                      991
+Francja                                            Nowa Akwitania                                     Pau                                                              496
+Francja                                            Nowa Akwitania                                     Bordeaux                                                         495
+Francja                                            Hauts-de-France                                                                                                    1006
+Francja                                            Hauts-de-France                                    Lille                                                            511
+Francja                                            Hauts-de-France                                    Dunkierka                                                        495
+Francja                                            Owernia-Rodan-Alpy                                                                                                 1990
+Francja                                            Owernia-Rodan-Alpy                                 Lyon                                                            1486
+Francja                                            Owernia-Rodan-Alpy                                 Saint-Etienne                                                    504
+
+PANSTWO                                            WOJEWODZTWO                                        MIASTO                                             LICZBA_WYPOZYCZEN
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- -----------------
+Francja                                            Prowansja-Alpy-Lazurowe Wybrzeze                                                                                   1548
+Francja                                            Prowansja-Alpy-Lazurowe Wybrzeze                   Tuluza                                                           491
+Francja                                            Prowansja-Alpy-Lazurowe Wybrzeze                   Marsylia                                                        1057
+Szwecja                                                                                                                                                              10011
+Szwecja                                                                                               Boras                                                           2481
+Szwecja                                                                                               Falun                                                            475
+Szwecja                                                                                               Malmo                                                           1969
+Szwecja                                                                                               Orebro                                                           508
+Szwecja                                                                                               Uppsala                                                         1022
+Szwecja                                                                                               Goteborg                                                         490
+Szwecja                                                                                               Halmstad                                                        1501
+
+PANSTWO                                            WOJEWODZTWO                                        MIASTO                                             LICZBA_WYPOZYCZEN
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- -----------------
+Szwecja                                                                                               Vasteras                                                         527
+Szwecja                                                                                               Norrkoping                                                      1038
+Szwecja                                            Skania                                                                                                             1969
+Szwecja                                            Skania                                             Malmo                                                           1969
+Szwecja                                            Dalarna                                                                                                             475
+Szwecja                                            Dalarna                                            Falun                                                            475
+Szwecja                                            Halland                                                                                                            1501
+Szwecja                                            Halland                                            Halmstad                                                        1501
+Szwecja                                            Uppsala                                                                                                            1022
+Szwecja                                            Uppsala                                            Uppsala                                                         1022
+Szwecja                                            Vastmanland                                                                                                        1035
+
+PANSTWO                                            WOJEWODZTWO                                        MIASTO                                             LICZBA_WYPOZYCZEN
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- -----------------
+Szwecja                                            Vastmanland                                        Orebro                                                           508
+Szwecja                                            Vastmanland                                        Vasteras                                                         527
+Szwecja                                            Ostergotland                                                                                                       1038
+Szwecja                                            Ostergotland                                       Norrkoping                                                      1038
+Szwecja                                            Vastra Gotaland                                                                                                    2971
+Szwecja                                            Vastra Gotaland                                    Boras                                                           2481
+Szwecja                                            Vastra Gotaland                                    Goteborg                                                         490
+Norwegia                                                                                                                                                             12024
+Norwegia                                                                                              Bodo                                                             511
+Norwegia                                                                                              Oslo                                                             998
+Norwegia                                                                                              Skien                                                           1030
+
+PANSTWO                                            WOJEWODZTWO                                        MIASTO                                             LICZBA_WYPOZYCZEN
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- -----------------
+Norwegia                                                                                              Bergen                                                           475
+Norwegia                                                                                              Gjovik                                                           515
+Norwegia                                                                                              Narwik                                                           495
+Norwegia                                                                                              Alesund                                                          499
+Norwegia                                                                                              Arendal                                                          508
+Norwegia                                                                                              Sandnes                                                          969
+Norwegia                                                                                              Haugesund                                                        537
+Norwegia                                                                                              Stavanger                                                       1511
+Norwegia                                                                                              Steinkjer                                                        989
+Norwegia                                                                                              Trondheim                                                        482
+Norwegia                                                                                              Lillehammer                                                      977
+
+PANSTWO                                            WOJEWODZTWO                                        MIASTO                                             LICZBA_WYPOZYCZEN
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- -----------------
+Norwegia                                                                                              Kristiansand                                                    1528
+Norwegia                                           Oslo                                                                                                                998
+Norwegia                                           Oslo                                               Oslo                                                             998
+Norwegia                                           Agder                                                                                                              2036
+Norwegia                                           Agder                                              Arendal                                                          508
+Norwegia                                           Agder                                              Kristiansand                                                    1528
+Norwegia                                           Nordland                                                                                                           1006
+Norwegia                                           Nordland                                           Bodo                                                             511
+Norwegia                                           Nordland                                           Narwik                                                           495
+Norwegia                                           Rogaland                                                                                                           2480
+Norwegia                                           Rogaland                                           Sandnes                                                          969
+
+PANSTWO                                            WOJEWODZTWO                                        MIASTO                                             LICZBA_WYPOZYCZEN
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- -----------------
+Norwegia                                           Rogaland                                           Stavanger                                                       1511
+Norwegia                                           Vestland                                                                                                           1012
+Norwegia                                           Vestland                                           Bergen                                                           475
+Norwegia                                           Vestland                                           Haugesund                                                        537
+Norwegia                                           Innlandet                                                                                                          1492
+Norwegia                                           Innlandet                                          Gjovik                                                           515
+Norwegia                                           Innlandet                                          Lillehammer                                                      977
+Norwegia                                           Trondelag                                                                                                          1471
+Norwegia                                           Trondelag                                          Steinkjer                                                        989
+Norwegia                                           Trondelag                                          Trondheim                                                        482
+Norwegia                                           More og Romsdal                                                                                                     499
+
+PANSTWO                                            WOJEWODZTWO                                        MIASTO                                             LICZBA_WYPOZYCZEN
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- -----------------
+Norwegia                                           More og Romsdal                                    Alesund                                                          499
+Norwegia                                           Vestfold og Telemark                                                                                               1030
+Norwegia                                           Vestfold og Telemark                               Skien                                                           1030
+Chorwacja                                                                                                                                                             8598
+Chorwacja                                                                                             Senj                                                             524
+Chorwacja                                                                                             Dakovo                                                           479
+Chorwacja                                                                                             Gospic                                                           482
+Chorwacja                                                                                             Rijeka                                                           521
+Chorwacja                                                                                             Cakovec                                                         1502
+Chorwacja                                                                                             Daruvar                                                          517
+Chorwacja                                                                                             Krizevci                                                         509
+
+PANSTWO                                            WOJEWODZTWO                                        MIASTO                                             LICZBA_WYPOZYCZEN
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- -----------------
+Chorwacja                                                                                             Varazdin                                                        1024
+Chorwacja                                                                                             Vinkovci                                                         535
+Chorwacja                                                                                             Koprivnica                                                       994
+Chorwacja                                                                                             Beli Manastir                                                   1511
+Chorwacja                                          Lika                                                                                                               1006
+Chorwacja                                          Lika                                               Senj                                                             524
+Chorwacja                                          Lika                                               Gospic                                                           482
+Chorwacja                                          Baranja                                                                                                            1990
+Chorwacja                                          Baranja                                            Dakovo                                                           479
+Chorwacja                                          Baranja                                            Beli Manastir                                                   1511
+Chorwacja                                          Kvarner                                                                                                             521
+
+PANSTWO                                            WOJEWODZTWO                                        MIASTO                                             LICZBA_WYPOZYCZEN
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- -----------------
+Chorwacja                                          Kvarner                                            Rijeka                                                           521
+Chorwacja                                          Zagorje                                                                                                            2035
+Chorwacja                                          Zagorje                                            Cakovec                                                         1011
+Chorwacja                                          Zagorje                                            Varazdin                                                        1024
+Chorwacja                                          Bilogora                                                                                                            517
+Chorwacja                                          Bilogora                                           Daruvar                                                          517
+Chorwacja                                          Slawonia                                                                                                            535
+Chorwacja                                          Slawonia                                           Vinkovci                                                         535
+Chorwacja                                          Podravina                                                                                                          1503
+Chorwacja                                          Podravina                                          Krizevci                                                         509
+Chorwacja                                          Podravina                                          Koprivnica                                                       994
+
+PANSTWO                                            WOJEWODZTWO                                        MIASTO                                             LICZBA_WYPOZYCZEN
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- -----------------
+Chorwacja                                          Medjimurje                                                                                                          491
+Chorwacja                                          Medjimurje                                         Cakovec                                                          491
+Hiszpania                                                                                                                                                             6987
+Hiszpania                                                                                             Girona                                                          1009
+Hiszpania                                                                                             Huesca                                                           962
+Hiszpania                                                                                             Sewilla                                                          509
+Hiszpania                                                                                             Walencja                                                         501
+Hiszpania                                                                                             Zaragoza                                                         475
+Hiszpania                                                                                             Barcelona                                                        514
+Hiszpania                                                                                             Cartagena                                                        511
+Hiszpania                                                                                             Valladolid                                                       998
+
+PANSTWO                                            WOJEWODZTWO                                        MIASTO                                             LICZBA_WYPOZYCZEN
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- -----------------
+Hiszpania                                                                                             Ciudad Real                                                      499
+Hiszpania                                                                                             Alcala de Henares                                                538
+Hiszpania                                                                                             Santiago de Compostela                                           471
+Hiszpania                                          Madryt                                                                                                              538
+Hiszpania                                          Madryt                                             Alcala de Henares                                                538
+Hiszpania                                          Murcja                                                                                                              511
+Hiszpania                                          Murcja                                             Cartagena                                                        511
+Hiszpania                                          Galicja                                                                                                             471
+Hiszpania                                          Galicja                                            Santiago de Compostela                                           471
+Hiszpania                                          Aragonia                                                                                                           1437
+Hiszpania                                          Aragonia                                           Huesca                                                           962
+
+PANSTWO                                            WOJEWODZTWO                                        MIASTO                                             LICZBA_WYPOZYCZEN
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- -----------------
+Hiszpania                                          Aragonia                                           Zaragoza                                                         475
+Hiszpania                                          Walencja                                                                                                            501
+Hiszpania                                          Walencja                                           Walencja                                                         501
+Hiszpania                                          Andaluzja                                                                                                           509
+Hiszpania                                          Andaluzja                                          Sewilla                                                          509
+Hiszpania                                          Katalonia                                                                                                          1523
+Hiszpania                                          Katalonia                                          Girona                                                          1009
+Hiszpania                                          Katalonia                                          Barcelona                                                        514
+Hiszpania                                          Kastylia-Leon                                                                                                       998
+Hiszpania                                          Kastylia-Leon                                      Valladolid                                                       998
+Hiszpania                                          Kastylia-La Mancha                                                                                                  499
+
+PANSTWO                                            WOJEWODZTWO                                        MIASTO                                             LICZBA_WYPOZYCZEN
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- -----------------
+Hiszpania                                          Kastylia-La Mancha                                 Ciudad Real                                                      499
+
+683 rows selected. 
+

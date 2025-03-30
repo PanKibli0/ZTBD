@@ -1,4 +1,6 @@
--- Analiza liczby wypo¿yczeñ skuterów i œredniej liczby wypo¿yczeñ w poszczególnych latach dla ró¿nych producentów i metod p³atnoœci.
+-- Analiza liczby wypoï¿½yczeï¿½ skuterï¿½w i ï¿½redniej liczby wypoï¿½yczeï¿½ w poszczegï¿½lnych latach dla rï¿½nych producentï¿½w i metod pï¿½atnoï¿½ci.
+
+SPOOL wynik1.txt
 
 SELECT 
     p.NAZWA AS PRODUCENT,
@@ -14,4 +16,4 @@ FROM WYPOZYCZENIA w
 GROUP BY p.NAZWA, rp.NAZWA, EXTRACT(YEAR FROM w.DATA_WYPOZYCZENIA)
 ORDER BY ROK, p.NAZWA, rp.NAZWA;
 
-
+SPOOL OFF;

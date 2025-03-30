@@ -1,4 +1,6 @@
--- Obliczenie sumy przychodów z wypo¿yczeñ w ró¿nych lokalizacjach: kraj, województwo, miasto oraz sumy przychodów w tych lokalizacjach na ró¿nych poziomach agregacji.
+-- Obliczenie sumy przychodï¿½w z wypoï¿½yczeï¿½ w rï¿½nych lokalizacjach: kraj, wojewï¿½dztwo, miasto oraz sumy przychodï¿½w w tych lokalizacjach na rï¿½nych poziomach agregacji.
+
+SPOOL wynik1.txt
 
 SELECT 
     p.NAZWA AS PANSTWO, 
@@ -7,7 +9,7 @@ SELECT
     SUM(wyp.CENA) AS SUMA_PLATNOSCI, 
     SUM(SUM(wyp.CENA)) OVER (PARTITION BY p.NAZWA) AS SUMA_PLATNOSCI_W_KRAJU,
     SUM(SUM(wyp.CENA)) OVER (PARTITION BY p.NAZWA, w.NAZWA) AS SUMA_PLATNOSCI_W_WOJEWODZTWIE,
-    SUM(SUM(wyp.CENA)) OVER (PARTITION BY p.NAZWA, w.NAZWA, m.NAZWA) AS SUMA_PLATNOSCI_W_MIEŒCIE
+    SUM(SUM(wyp.CENA)) OVER (PARTITION BY p.NAZWA, w.NAZWA, m.NAZWA) AS SUMA_PLATNOSCI_W_MIEï¿½CIE
 FROM WYPOZYCZENIA wyp
     JOIN KLIENT k ON wyp.ID_KLIENT = k.ID
     JOIN ULICA u ON k.ID_ULICA = u.ID
@@ -15,3 +17,5 @@ FROM WYPOZYCZENIA wyp
     JOIN WOJEWODZTWO w ON m.ID_WOJEWODZTWO = w.ID
     JOIN PANSTWO p ON w.ID_PANSTWO = p.ID
 GROUP BY p.NAZWA, w.NAZWA, m.NAZWA;
+
+SPOOL OFF;

@@ -1,4 +1,6 @@
--- Sprawdzenie liczby wypo¿yczeñ skuterów w ró¿nych lokalizacjach: kraj, województwo, miasto.
+-- Sprawdzenie liczby wypoï¿½yczeï¿½ skuterï¿½w w rï¿½nych lokalizacjach: kraj, wojewï¿½dztwo, miasto.
+
+SPOOL wynik1.txt
 
 SELECT 
     p.NAZWA AS PANSTWO, 
@@ -12,3 +14,5 @@ FROM WYPOZYCZENIA wyp
     JOIN WOJEWODZTWO w ON m.ID_WOJEWODZTWO = w.ID
     JOIN PANSTWO p ON w.ID_PANSTWO = p.ID
 GROUP BY CUBE (p.NAZWA, w.NAZWA, m.NAZWA);
+
+SPOOL OFF;

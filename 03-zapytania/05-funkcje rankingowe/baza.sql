@@ -1,5 +1,6 @@
--- Sprawdzenie, które modele skuterów i typy napêdu ciesz¹ siê najwiêkszym zainteresowaniem w poszczególnych wypo¿yczalniach, z rankingiem wed³ug liczby wypo¿yczeñ.
+-- Sprawdzenie, ktï¿½re modele skuterï¿½w i typy napï¿½du cieszï¿½ siï¿½ najwiï¿½kszym zainteresowaniem w poszczegï¿½lnych wypoï¿½yczalniach, z rankingiem wedï¿½ug liczby wypoï¿½yczeï¿½.
 
+SPOOL wynik1.txt
 
 SELECT 
     wy.NAZWA AS WYPOZYCZALNIA,
@@ -14,3 +15,5 @@ JOIN TYP_NAPEDU t ON s.ID_TYP_NAPEDU = t.ID
 JOIN WYPOZYCZALNIA wy ON s.ID_WYPOZYCZALNIA = wy.ID
 GROUP BY wy.NAZWA, m.NAZWA, t.NAZWA
 ORDER BY wy.NAZWA, RANKING;
+
+SPOOL OFF;
