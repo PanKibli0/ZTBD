@@ -1,100 +1,200 @@
-1|Dębowa|1
-2|Lipowa|2
-3|Sosnowa|3
+1|Lipowa|1
+2|Klonowa|2
+3|Wierzbowa|3
 4|Brzozowa|4
-5|Wierzbowa|5
-6|Topolowa|6
-7|Jodłowa|7
-8|Modrzewiowa|8
-9|Klonowa|9
-10|Jesionowa|10
-11|Lindenstrasse|11
-12|Eichenweg|12
-13|Birkenallee|13
-14|Kiefernweg|14
-15|Ahornstrasse|15
-16|Tannenweg|16
-17|Buchenstrasse|17
-18|Fichtenweg|18
-19|Ulmenstrasse|19
-20|Eschenweg|20
-21|Hrastova|21
-22|Javorova|22
-23|Bukova|23
-24|Borova|24
-25|Cempresova|25
-26|Jelova|26
-27|Kastanova|27
-28|Ljesnjakova|28
-29|Orahova|29
-30|Smrekova|30
-31|RueChene|31
-32|RueErable|32
-33|RueHetre|33
-34|RuePin|34
-35|RueCyprès|35
-36|RueSapin|36
-37|RueChataignier|37
-38|RueNoisetier|38
-39|RueNoyer|39
-40|RueEpicéa|40
-41|CalleRoble|41
-42|CalleArce|42
-43|CalleHaya|43
-44|CallePino|44
-45|CalleCipres|45
-46|CalleAbeto|46
-47|CalleCastano|47
-48|CalleAvellano|48
-49|CalleNogal|49
-50|CalleAbedul|50
-51|ViaQuercia|51
-52|ViaAcero|52
-53|ViaFaggio|53
-54|ViaPino|54
-55|ViaCipresso|55
-56|ViaAbete|56
-57|ViaCastagno|57
-58|ViaNocciolo|58
-59|ViaNoce|59
-60|ViaBetulla|60
-61|Eikeveien|61
-62|Lonneveien|62
-63|Bokveien|63
-64|Furustien|64
-65|Sypressveien|65
-66|Granveien|66
-67|Kastanjeveien|67
-68|Hasselveien|68
-69|Valnottveien|69
-70|Bjerkeveien|70
-71|Ekvägen|71
-72|Lönnvägen|72
-73|Bokvägen|73
-74|Tallvägen|74
-75|Cypressvägen|75
-76|Granvägen|76
-77|Kastanjevägen|77
-78|Hasselvägen|78
-79|Valnötsvägen|79
-80|Björkvägen|80
-81|Dubova|81
-82|Javorova|82
-83|Bukova|83
-84|Borovicova|84
-85|Cypresova|85
-86|Jedlova|86
-87|Kastanova|87
-88|Liskova|88
-89|Oresakova|89
-90|Smrkova|90
-91|Tolgyfa|91
-92|Juharfa|92
-93|Bukkfa|93
-94|Fenyofa|94
-95|Ciprusfa|95
-96|Lucfenyo|96
-97|Gesztenyefa|97
-98|Mogyorofa|98
-99|Diofa|99
-100|Nyirfa|100
+5|Jesionowa|5
+6|Sosnowa|6
+7|Topolowa|7
+8|Jodlowa|8
+9|Modrzewiowa|9
+10|Cisowa|10
+11|Swierkowa|11
+12|Debowa|12
+13|Gruszkowa|13
+14|Malwowa|14
+15|Orzechowa|15
+16|Zielona|16
+17|Rozana|17
+18|Blawatna|18
+19|Sloneczna|19
+20|Kwiatowa|20
+1|Lindenstrasse|1
+2|Eichenweg|2
+3|Birkenallee|3
+4|Kiefernweg|4
+5|Ahornstrasse|5
+6|Tannenweg|6
+7|Buchenstrasse|7
+8|Fichtenweg|8
+9|Ulmenstrasse|9
+10|Eschenweg|10
+11|Steigenweg|11
+12|Fichtenstrasse|12
+13|Tannenstrasse|13
+14|Erlenweg|14
+15|Waldesweg|15
+16|Kastanienweg|16
+17|Eichenstrasse|17
+18|Buchenweg|18
+19|Kieferstrasse|19
+20|Haselstrasse|20
+1|Jadranska|1 
+2|Suncana|2
+3|Zelenika|3
+4|Vinogradska|4  
+5|Moreplovaca|5 
+6|Lavanda|6
+7|Maslinarska|7  
+8|Dubrava|8
+9|Kamenita|9
+10|Ribarska|10
+11|Mediteranska|11
+12|Borova|12
+13|Lucka|13
+14|Planinska|14
+15|Obala|15
+16|Trg Slobode|16
+17|Cvjetna|17
+18|Proljecna|18
+19|Rajska|19
+20|Zora|20
+1|Riviere|1
+2|Soleil|2
+3|Verdure|3
+4|Vignoble|4
+5|Marin|5
+6|Lavande|6
+7|Oliviers|7
+8|Foret|8
+9|Pierreuse|9
+10|Pecheurs|10
+11|Mediterranee|11
+12|Pins|12
+13|Portuaire|13
+14|Montagneuse|14
+15|Cote|15
+16|Place Liberte|16
+17|Fleurie|17
+18|Printemps|18
+19|Paradis|19
+20|Aurore|20
+1|Rio|1
+2|Sol|2
+3|Verde|3
+4|Viñedo|4
+5|Marinero|5
+6|Lavanda|6
+7|Olivos|7
+8|Bosque|8
+9|Piedra|9
+10|Pescadores|10
+11|Mediterraneo|11
+12|Pinos|12
+13|Portuaria|13
+14|Montaña|14
+15|Costa|15
+16|Plaza Libertad|16
+17|Floreada|17
+18|Primavera|18
+19|Paraiso|19
+20|Aurora|20
+1|Fiume|1
+2|Sole|2
+3|Verde|3
+4|Vigneto|4
+5|Marina|5
+6|Lavanda|6
+7|Ulivi|7
+8|Bosco|8
+9|Rocciosa|9
+10|Pescatori|10
+11|Mediterraneo|11
+12|Pini|12
+13|Portuale|13
+14|Montana|14
+15|Costa|15
+16|Piazza Liberta|16
+17|Fiorita|17
+18|Primavera|18
+19|Paradiso|19
+20|Aurora|20
+1|Karl Johans gate|1
+2|Storgata|2
+3|Dronningens gate|3
+4|Kirkegata|4
+5|Markveien|5
+6|Bogstadveien|6
+7|Torggata|7
+8|Munkedamsveien|8
+9|Ullevalsveien|9
+10|Grunerlokka|10
+11|Frognerveien|11
+12|Sognsveien|12
+13|Hausmanns gate|13
+14|Maridalsveien|14
+15|Sandakerveien|15
+16|Kirkeveien|16
+17|Pilestredet|17
+18|Holmenkollveien|18
+19|Bygdoy alle|19
+20|Skippergata|20
+1|Drottninggatan|1
+2|Sveavagen|2
+3|Kungsgatan|3
+4|Storgatan|4
+5|Vasagatan|5
+6|Hornsgatan|6
+7|Sodermalmsallen|7
+8|Birger Jarlsgatan|8
+9|Gustav Adolfs torg|9
+10|Hamngatan|10
+11|Ostermalmsgatan|11
+12|Sankt Eriksgatan|12
+13|Karlavagen|13
+14|Narvavagen|14
+15|Folkungagatan|15
+16|Tulegatan|16
+17|Luntmakargatan|17
+18|Sibyllegatan|18
+19|Regeringsgatan|19
+20|Valhallavagen|20
+1|Masarykova|1
+2|Husova|2
+3|Smetanova|3
+4|Komenskeho|4
+5|Jungmannova|5
+6|Tylova|6
+7|Palackeho|7
+8|Riegrova|8
+9|Bezrucova|9
+10|Havlickova|10
+11|Nerudova|11
+12|Jiraskova|12
+13|Zizkova|13
+14|Benesova|14
+15|Kollarova|15
+16|Borovskeho|16
+17|Seifertova|17
+18|Stefanikova|18
+19|Vrchlickeho|19
+20|Dvorakova|20
+1|Petofi utca|1
+2|Kossuth utca|2
+3|Szechenyi utca|3
+4|Rakoczi utca|4
+5|Ady Endre utca|5
+6|Jokai utca|6
+7|Arany Janos utca|7
+8|Deak Ferenc utca|8
+9|Tancsics Mihaly utca|9
+10|Vorosmarty utca|10
+11|Bartok Bela utca|11
+12|Kazinczy utca|12
+13|Mikszath Kalman utca|13
+14|Bajcsy-Zsilinszky utca|14
+15|Madach Imre utca|15
+16|Radnoti utca|16
+17|Batthyany utca|17
+18|Zrinyi utca|18
+19|Somogyi utca|19
+20|Mora Ferenc utca|20
