@@ -1,5 +1,5 @@
 
-SQL*Loader: Release 21.0.0.0.0 - Production on Sun Mar 30 12:28:04 2025
+SQL*Loader: Release 21.0.0.0.0 - Production on Sun Mar 30 12:40:28 2025
 Version 21.3.0.0.0
 
 Copyright (c) 1982, 2021, Oracle and/or its affiliates.  All rights reserved.
@@ -42,8 +42,8 @@ Total logical records read:            10
 Total logical records rejected:         0
 Total logical records discarded:        0
 
-Run began on Sun Mar 30 12:28:04 2025
-Run ended on Sun Mar 30 12:28:04 2025
+Run began on Sun Mar 30 12:40:28 2025
+Run ended on Sun Mar 30 12:40:28 2025
 
-Elapsed time was:     00:00:00.12
-CPU time was:         00:00:00.08
+Elapsed time was:     00:00:00.13
+CPU time was:         00:00:00.06
