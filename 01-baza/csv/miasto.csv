@@ -1,7 +1,7 @@
 1|Warszawa|1
 2|Radom|1
 3|Krakow|2
-4|Tarnów|2
+4|Tarnow|2
 5|Poznan|3
 6|Kalisz|3
 7|Katowice|4
@@ -13,7 +13,7 @@
 13|Lodz|7
 14|Piotrkow Trybunalski|7
 15|Lublin|8
-16|Che³m|8
+16|Chelm|8
 17|Rzeszow|9
 18|Przemysl|9
 19|Bydgoszcz|10
@@ -121,9 +121,9 @@
 121|Oslo|61
 122|Drammen|61
 123|Drammen|62
-124|H?nefoss|62
+124|Honefoss|62
 125|Lillehammer|63
-126|Gj?vik|63
+126|Gjovik|63
 127|Skien|64
 128|Porsgrunn|64
 129|Kristiansand|65
@@ -139,27 +139,27 @@
 139|Bodo|70
 140|Narwik|70
 141|Sztokholm|71
-142|Södertälje|71
+142|Sodertalje|71
 143|Goteborg|72
-144|Bor?s|72
+144|Boras|72
 145|Malmo|73
 146|Lund|73
 147|Linkoping|74
 148|Norrkoping|74
 149|Uppsala|75
-150|Väster?s|75
+150|Vasteras|75
 151|Jonkoping|76
-152|Värnamo|76
+152|Varnamo|76
 153|Halmstad|77
 154|Falkenberg|77
 155|Vasteras|78
-156|Örebro|78
+156|Orebro|78
 157|Falun|79
-158|Borlänge|79
+158|Borlange|79
 159|Gavle|80
 160|Sandviken|80
 161|Praga|81
-162|Uœci nad £ab¹|81
+162|Usci nad Laba|81
 163|Czeske Budziejowice|82
 164|Tabor|82
 165|Brno|83
@@ -169,11 +169,11 @@
 169|Hradec Kralove|85
 170|Pardubice|85
 171|Liberec|86
-172|Jablonec nad Nys¹|86
+172|Jablonec nad Nysa|86
 173|Ostrawa|87
 174|Opawa|87
 175|Olomuniec|88
-176|Proœciejów|88
+176|Prostejow|88
 177|Pardubice|89
 178|Chrudim|89
 179|Pilzno|90
@@ -181,7 +181,7 @@
 181|Budapeszt|91
 182|Szekesfehervar|91
 183|Pecz|92
-184|Kaposvár|92
+184|Kaposvar|92
 185|Bekescsaba|93
 186|Oroshaza|93
 187|Miszkolc|94
