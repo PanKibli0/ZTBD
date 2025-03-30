@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="SKUTER" directorySegmentName="seg_0" id="56E763D5-DE92-2FBD-E129-2AB332A9B258">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-30 12:12:00 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<schemaObject>59F9589D-D10E-BBF3-DA40-3AD35F89F242</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>2951BA6D-6DA8-2392-3451-CACB13DFFA6C</segment>
+<tableSpace>96D190C3-AFFC-4664-43AA-BEA76B88785E</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID_TYP_NAPEDU" id="1DDF48E8-1002-646F-9FD6-7B0B546B1A33">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-30 12:12:00 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="POJEMNOSC" id="1E93BFC1-51ED-7F11-E514-7229C5009AEC">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-30 12:12:00 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="268D5641-F5C1-18A7-F16F-7E3B43F6E56C">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-30 12:12:00 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_MODEL" id="8D5F1C0E-219C-D115-99B8-7A06700EFEB8">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-30 12:12:00 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_WYPOZYCZALNIA" id="971285C7-C1FC-D3E8-B8A6-22A932661791">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-30 12:12:00 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ROK_PRODUKCJI" id="A1AFA4CD-D9DB-7598-26EB-CB1F6721FD3F">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-30 12:12:00 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_PAKIET_WYPOSAZENIA" id="E497E67C-E6C5-CD8F-5552-E19882F7FDB4">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-30 12:12:00 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_KOLOR" id="FB8974EC-C010-2DA8-6DBE-163977AD1799">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-30 12:12:00 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_SKUTER_MODEL" id="69A12AA1-1109-681B-8D20-1F327A4EC4D6">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-30 12:12:04 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_SKUTER_PAKIET_WYPOSAZENIA" id="6A716287-23F7-0733-3ACF-AFCAE93D6B72">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-30 12:12:04 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_SKUTER_TYP_NAPEDU" id="B7D47882-BFBD-DEC0-99C6-41ABA7576A0F">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-30 12:12:04 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_SKUTER_WYPOZYCZALNIA" id="DCB9DDA2-4CA5-6798-A278-10D0F73DD71C">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-30 12:12:04 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_SKUTER_KOLOR" id="EA1CEB09-17F6-D438-B167-E23301DC20AA">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-30 12:12:04 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="SKUTER_PK" id="65911C08-CB1B-1FE1-69D2-00DD58FF51D1">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-30 12:12:03 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<schemaObject>59F9589D-D10E-BBF3-DA40-3AD35F89F242</schemaObject>
+<segment>FCC9994F-B4A6-6133-61C2-37162893FE77</segment>
+<tableSpace>96D190C3-AFFC-4664-43AA-BEA76B88785E</tableSpace>
+<indexSegment>FCC9994F-B4A6-6133-61C2-37162893FE77</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="KLIENT" directorySegmentName="seg_0" id="E31A2071-FB54-6C59-3A11-754A8884C35F">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-30 12:12:00 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<schemaObject>59F9589D-D10E-BBF3-DA40-3AD35F89F242</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>2951BA6D-6DA8-2392-3451-CACB13DFFA6C</segment>
+<tableSpace>96D190C3-AFFC-4664-43AA-BEA76B88785E</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DATA_URODZENIA" id="00A2A5F4-ED3D-8956-7473-1D6FF282519F">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-30 12:12:00 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NAZWISKO" id="0A40C56E-5EDA-FDCE-7E0E-528F4CB088E5">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-30 12:12:00 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_ULICA" id="1DEF1946-85FB-8E3A-C76C-50F1846849C3">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-30 12:12:00 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="B61524EC-D3A8-8F74-0680-8CE1162556B1">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-30 12:12:00 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NR_TELEFONU" id="D90C9989-9A95-413F-DAF0-4C11AD0452E9">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-30 12:12:00 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NR_LOKALU" id="E12025C7-27F6-CF1D-7CBE-1A4782601BB4">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-30 12:12:00 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IMIE" id="F4A173CA-FFFF-F654-880E-9CB0ECF78AFC">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-30 12:12:00 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_KLIENT_ULICA" id="1818D238-104A-E77D-EE2D-8D8A2D48F40B">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-30 12:12:04 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="KLIENT_PK" id="9147916D-2D37-75D3-332A-CA5638960813">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-30 12:12:03 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<schemaObject>59F9589D-D10E-BBF3-DA40-3AD35F89F242</schemaObject>
+<segment>FCC9994F-B4A6-6133-61C2-37162893FE77</segment>
+<tableSpace>96D190C3-AFFC-4664-43AA-BEA76B88785E</tableSpace>
+<indexSegment>FCC9994F-B4A6-6133-61C2-37162893FE77</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

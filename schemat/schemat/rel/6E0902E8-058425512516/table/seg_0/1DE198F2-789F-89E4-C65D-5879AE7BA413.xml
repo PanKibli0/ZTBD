@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1DE198F2-789F-89E4-C65D-5879AE7BA413" schemaObject="59F9589D-D10E-BBF3-DA40-3AD35F89F242" name="RODZAJ_PLATNOSCI">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>PRO_BD</sourceObjSchema>
+<sourceObjName>RODZAJ_PLATNOSCI</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-30 12:12:00 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="9C437B4B-5899-9CA9-C45C-4E4FE26A07ED">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>RODZAJ_PLATNOSCI</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-30 12:12:00 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAZWA" id="CCBB4BA0-9A9F-5822-1D52-11FF60411CFF">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>RODZAJ_PLATNOSCI</sourceObjSchema>
+<sourceObjName>NAZWA</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-30 12:12:00 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C68294F9-BC02-987A-EAC8-D2A8D6D6D2A2" schemaObject="59F9589D-D10E-BBF3-DA40-3AD35F89F242" name="RODZAJ_PLATNOSCI_PK">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>PRO_BD</sourceObjSchema>
+<sourceObjName>SYS_C0020098</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-30 12:12:01 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C437B4B-5899-9CA9-C45C-4E4FE26A07ED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4399580B-AA15-F1AC-5017-B75B4CE967E9" schemaObject="59F9589D-D10E-BBF3-DA40-3AD35F89F242" name="RODZAJ_PLATNOSCI_NAZWA_UN">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>PRO_BD</sourceObjSchema>
+<sourceObjName>SYS_C0020099</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-03-30 12:12:01 UTC</createdTime>
+<ownerDesignName>schemat</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CCBB4BA0-9A9F-5822-1D52-11FF60411CFF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
