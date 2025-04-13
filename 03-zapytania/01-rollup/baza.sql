@@ -1,6 +1,6 @@
 -- ROLLUP
 
---Sprawdzenie, ktore metody platnosci generuja najwyzsze przychody w danym kraju, wojewodztwie i miescie.
+--Zapytanie agreguje przychody z wypozyczen wedlug kraju, wojewodztwa, miasta oraz metody platnosci.
 
 SPOOL wynik1.txt
 
@@ -34,6 +34,61 @@ ORDER BY agg.LACZNY_PRZYCHOD;
 
 SPOOL OFF;
 
+----------------------------------------------------------------------------------------------
+--Zapytanie agreguje przychody z wypozyczen wedlug wypozyczalni, pracownika i metody platnosci.
+
 SPOOL wyniki2.txt
 
+SELECT 
+    NVL(wypo.NAZWA, 'RAZEM - WYPOZYCZALNIA') AS WYPOZYCZALNIA,
+    NVL(p.IMIE, 'RAZEM -') || ' ' || NVL(p.NAZWISKO, 'PRACOWNIK') AS PRACOWNIK,
+    NVL(r.NAZWA, 'RAZEM - PLATNOSC') AS RODZAJ_PLATNOSCI,
+    agg.PRZYCHOD
+FROM (
+    SELECT 
+        wypo.ID AS WYPOZYCZALNIA_ID,
+        p.ID AS PRACOWNIK_ID,
+        r.ID AS RODZAJ_PLATNOSCI_ID,
+        SUM(w.CENA) AS PRZYCHOD
+    FROM WYPOZYCZENIA w
+        JOIN PRACOWNIK p ON w.ID_PRACOWNIK = p.ID
+        JOIN WYPOZYCZALNIA wypo ON p.ID_WYPOZYCZALNIA = wypo.ID
+        JOIN RODZAJ_PLATNOSCI r ON w.ID_RODZAJ_PLATNOSCI = r.ID
+    GROUP BY ROLLUP(wypo.ID, p.ID, r.ID)
+) agg
+LEFT JOIN WYPOZYCZALNIA wypo ON agg.WYPOZYCZALNIA_ID = wypo.ID
+LEFT JOIN PRACOWNIK p ON agg.PRACOWNIK_ID = p.ID
+LEFT JOIN RODZAJ_PLATNOSCI r ON agg.RODZAJ_PLATNOSCI_ID = r.ID
+ORDER BY PRZYCHOD;
+   
+SPOOL OFF;
+
+----------------------------------------------------------------------------------------------
+--Zapytanie agreguje przychody z wypozyczen wedlug producenta, modelu i pakietu wyposazenia skuterow.
+SPOOL wyniki3.txt
+
+SELECT 
+    NVL(prod.NAZWA, 'RAZEM - PRODUCENT') AS PRODUCENT,
+    NVL(mod.NAZWA, 'RAZEM - MODEL') AS MODEL,
+    NVL(pak.NAZWA, 'RAZEM - PAKIET') AS PAKIET_WYPOSAZENIA,
+    agg.LACZNY_PRZYCHOD
+FROM (
+    SELECT 
+        prod.ID AS PRODUCENT_ID,
+        mod.ID AS MODEL_ID,
+        pak.ID AS PAKIET_ID,
+        SUM(wyp.CENA) AS LACZNY_PRZYCHOD
+    FROM WYPOZYCZENIA wyp
+        JOIN SKUTER s ON wyp.ID_SKUTER = s.ID
+        JOIN MODEL mod ON s.ID_MODEL = mod.ID
+        JOIN PRODUCENT prod ON mod.ID_PRODUCENT = prod.ID
+        JOIN PAKIET_WYPOSAZENIA pak ON s.ID_PAKIET_WYPOSAZENIA = pak.ID
+    GROUP BY 
+        ROLLUP(prod.ID, mod.ID, pak.ID)
+) agg
+LEFT JOIN PRODUCENT prod ON agg.PRODUCENT_ID = prod.ID
+LEFT JOIN MODEL mod ON agg.MODEL_ID = mod.ID
+LEFT JOIN PAKIET_WYPOSAZENIA pak ON agg.PAKIET_ID = pak.ID
+ORDER BY LACZNY_PRZYCHOD; 
+    
 SPOOL OFF;

@@ -1,23 +1,70 @@
 -- PARTYCJE OBLICZENIOWE
 
--- Obliczenie sumy przychod�w z wypo�ycze� w r�nych lokalizacjach: kraj, wojew�dztwo, miasto oraz sumy przychod�w w tych lokalizacjach na r�nych poziomach agregacji.
-
+-- Srednia cena wypozyczenia wg producenta, typu napedu, pakietu i modelu
 SPOOL wynik1.txt
 
 SELECT 
-    p.NAZWA AS PANSTWO, 
-    w.NAZWA AS WOJEWODZTWO, 
-    m.NAZWA AS MIASTO,
-    SUM(wyp.CENA) AS SUMA_PLATNOSCI, 
-    SUM(SUM(wyp.CENA)) OVER (PARTITION BY p.NAZWA) AS SUMA_PLATNOSCI_W_KRAJU,
-    SUM(SUM(wyp.CENA)) OVER (PARTITION BY p.NAZWA, w.NAZWA) AS SUMA_PLATNOSCI_W_WOJEWODZTWIE,
-    SUM(SUM(wyp.CENA)) OVER (PARTITION BY p.NAZWA, w.NAZWA, m.NAZWA) AS SUMA_PLATNOSCI_W_MIESCIE
-FROM WYPOZYCZENIA wyp
-    JOIN KLIENT k ON wyp.ID_KLIENT = k.ID
-    JOIN ULICA u ON k.ID_ULICA = u.ID
-    JOIN MIASTO m ON u.ID_MIASTO = m.ID
-    JOIN WOJEWODZTWO w ON m.ID_WOJEWODZTWO = w.ID
-    JOIN PANSTWO p ON w.ID_PANSTWO = p.ID
-GROUP BY p.NAZWA, w.NAZWA, m.NAZWA;
+    PR.NAZWA AS PRODUCENT,
+    M.NAZWA AS MODEL,
+    TN.NAZWA AS TYP_NAPEDU,
+    PW.NAZWA AS PAKIET,
+    W.CENA,
+    AVG(W.CENA) OVER (PARTITION BY PR.ID, M.ID, TN.ID, PW.ID) AS SREDNIA_CENA
+
+FROM 
+    WYPOZYCZENIA W
+JOIN SKUTER S ON W.ID_SKUTER = S.ID
+JOIN MODEL M ON S.ID_MODEL = M.ID
+JOIN PRODUCENT PR ON M.ID_PRODUCENT = PR.ID
+JOIN TYP_NAPEDU TN ON S.ID_TYP_NAPEDU = TN.ID
+JOIN PAKIET_WYPOSAZENIA PW ON S.ID_PAKIET_WYPOSAZENIA = PW.ID;
+
+SPOOL OFF;
+
+--------------------------------------------------------------------------------------------
+-- Srednia cena wypozyczenia wg klienta, rodzaju platnosci i koloru skutera
+
+SPOOL wynik2.txt
+
+SELECT 
+    K.IMIE || ' ' || K.NAZWISKO AS KLIENT,
+    RP.NAZWA AS PLATNOSC,
+    KOL.NAZWA AS KOLOR,
+    W.CENA,
+
+    round(AVG(W.CENA) OVER (PARTITION BY K.ID, RP.ID, KOL.ID), 2) AS SREDNIA_CENA
+
+FROM 
+    WYPOZYCZENIA W
+JOIN KLIENT K ON W.ID_KLIENT = K.ID
+JOIN SKUTER S ON W.ID_SKUTER = S.ID
+JOIN KOLOR KOL ON S.ID_KOLOR = KOL.ID
+JOIN RODZAJ_PLATNOSCI RP ON W.ID_RODZAJ_PLATNOSCI = RP.ID;
+
+SPOOL OFF;
+
+--------------------------------------------------------------------------------------------
+-- Najstarsze i najnowszee skutery od danego producenta, ktore sa uzywane w konkretnym miescie i wypozyczalni
+
+SPOOL wynik3.txt
+
+SELECT 
+    M.NAZWA AS MIASTO,
+    WY.NAZWA AS WYPOZYCZALNIA,
+    PR.NAZWA AS PRODUCENT,
+    S.ROK_PRODUKCJI,
+
+    MIN(S.ROK_PRODUKCJI) OVER (PARTITION BY M.ID, WY.ID, PR.ID) AS NAJSTARSZY_ROK,
+    MAX(S.ROK_PRODUKCJI) OVER (PARTITION BY M.ID, WY.ID, PR.ID) AS NAJNOWSZY_ROK
+
+FROM 
+    WYPOZYCZENIA W
+JOIN SKUTER S ON W.ID_SKUTER = S.ID
+JOIN MODEL MO ON S.ID_MODEL = MO.ID
+JOIN PRODUCENT PR ON MO.ID_PRODUCENT = PR.ID
+JOIN WYPOZYCZALNIA WY ON S.ID_WYPOZYCZALNIA = WY.ID
+JOIN ULICA U ON WY.ID_ULICA = U.ID
+JOIN MIASTO M ON U.ID_MIASTO = M.ID;
+
 
 SPOOL OFF;

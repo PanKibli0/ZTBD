@@ -873,3 +873,26 @@ Hiszpania                                          Kastylia-La Mancha           
 
 683 rows selected. 
 
+
+Error starting at line : 23 in command -
+SELECT 
+    NVL(p.NAZWA, 'RAZEM - PANSTWO') AS PANSTWO,
+    NVL(w.NAZWA, 'RAZEM - WOJEWODZTWO') AS WOJEWODZTWO,
+    NVL(m.NAZWA, 'RAZEM - MIASTO') AS MIASTO,
+    NVL(r.NAZWA, 'RAZEM - PLATNOSC') AS RODZAJ_PLATNOSCI,
+    SUM(wyp.CENA) AS LACZNY_PRZYCHOD
+FROM WYPOZYCZENIA wyp
+    JOIN KLIENT k ON wyp.ID_KLIENT = k.ID
+    JOIN ULICA u ON k.ID_ULICA = u.ID
+    JOIN MIASTO m ON u.ID_MIASTO = m.ID
+    JOIN WOJEWODZTWO w ON m.ID_WOJEWODZTWO = w.ID
+    JOIN PANSTWO p ON w.ID_PANSTWO = p.ID
+    JOIN RODZAJ_PLATNOSCI r ON wyp.ID_RODZAJ_PLATNOSCI = r.ID
+GROUP BY CUBE (p.id, w.id, m.id, r.id)
+ORDER BY LACZNY_PRZYCHOD DESC
+Error at Command Line : 24 Column : 9
+Error report -
+SQL Error: ORA-00979: to nie jest wyra¿enie GROUP BY
+00979. 00000 -  "not a GROUP BY expression"
+*Cause:    
+*Action:

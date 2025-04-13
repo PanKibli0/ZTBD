@@ -1,5 +1,6 @@
--- Analiza liczby wypo�ycze� skuter�w i �redniej liczby wypo�ycze� w poszczeg�lnych latach dla r�nych producent�w i metod p�atno�ci.
+-- OKNA CZASOWE
 
+-- Analiza liczby wypozyczen skuterow i sredniej liczby wypozyczen w poszczegolnych latach dla roznych producentow i metod platnosci.
 SPOOL wynik1.txt
 
 SELECT 
