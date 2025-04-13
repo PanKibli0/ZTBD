@@ -6108,5 +6108,5 @@ PRODUCENT                                          RODZAJ_PLATNOSCI             
 Yamaha                                             Przelew bankowy                                          2022                13                9,7
 Yamaha                                             Revolut                                                  2022                 6                9,7
 
-4Â 798 rows selected. 
+4 798 rows selected. 
 

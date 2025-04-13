@@ -1,21 +1,39 @@
---Sprawdzenie, kt�re metody p�atno�ci generuj� najwi�ksze przychody w danym kraju, wojew�dztwie i mie�cie.
+-- ROLLUP
+
+--Sprawdzenie, ktore metody platnosci generuja najwyzsze przychody w danym kraju, wojewodztwie i miescie.
 
 SPOOL wynik1.txt
 
 SELECT 
-    p.NAZWA AS PANSTWO,
-    w.NAZWA AS WOJEWODZTWO, 
-    m.NAZWA AS MIASTO,
-    r.NAZWA AS RODZAJ_PLATNOSCI, 
-    SUM(wyp.CENA) AS LACZNY_PRZYCHOD
-FROM WYPOZYCZENIA wyp
-    JOIN KLIENT k ON wyp.ID_KLIENT = k.ID
-    JOIN ULICA u ON k.ID_ULICA = u.ID
-    JOIN MIASTO m ON u.ID_MIASTO = m.ID
-    JOIN WOJEWODZTWO w ON m.ID_WOJEWODZTWO = w.ID
-    JOIN PANSTWO p ON w.ID_PANSTWO = p.ID
-    JOIN RODZAJ_PLATNOSCI r ON wyp.ID_RODZAJ_PLATNOSCI = r.ID
-GROUP BY ROLLUP (p.NAZWA, w.NAZWA, m.NAZWA, r.NAZWA)
-ORDER BY SUM(wyp.CENA);
+    NVL(p.NAZWA, 'RAZEM - PANSTWO') AS PANSTWO,
+    NVL(w.NAZWA, 'RAZEM - WOJEWODZTWO') AS WOJEWODZTWO,
+    NVL(m.NAZWA, 'RAZEM - MIASTO') AS MIASTO,
+    NVL(r.NAZWA, 'RAZEM - PLATNOSC') AS RODZAJ_PLATNOSCI,
+    agg.LACZNY_PRZYCHOD
+FROM (
+    SELECT 
+        p.id AS PANSTWO_ID,
+        w.id AS WOJEWODZTWO_ID, 
+        m.id AS MIASTO_ID,
+        r.id AS RODZAJ_PLATNOSCI_ID, 
+        SUM(wyp.CENA) AS LACZNY_PRZYCHOD
+    FROM WYPOZYCZENIA wyp
+        JOIN KLIENT k ON wyp.ID_KLIENT = k.ID
+        JOIN ULICA u ON k.ID_ULICA = u.ID
+        JOIN MIASTO m ON u.ID_MIASTO = m.ID
+        JOIN WOJEWODZTWO w ON m.ID_WOJEWODZTWO = w.ID
+        JOIN PANSTWO p ON w.ID_PANSTWO = p.ID
+        JOIN RODZAJ_PLATNOSCI r ON wyp.ID_RODZAJ_PLATNOSCI = r.ID
+    GROUP BY ROLLUP (p.id, w.id, m.id, r.id)
+) agg
+LEFT JOIN PANSTWO p ON agg.PANSTWO_ID = p.ID
+LEFT JOIN WOJEWODZTWO w ON agg.WOJEWODZTWO_ID = w.ID
+LEFT JOIN MIASTO m ON agg.MIASTO_ID = m.ID
+LEFT JOIN RODZAJ_PLATNOSCI r ON agg.RODZAJ_PLATNOSCI_ID = r.ID
+ORDER BY agg.LACZNY_PRZYCHOD;
+
+SPOOL OFF;
+
+SPOOL wyniki2.txt
 
 SPOOL OFF;

@@ -1,3 +1,5 @@
+-- FUNKCJE RANKINGOWE
+
 -- Sprawdzenie, kt�re modele skuter�w i typy nap�du ciesz� si� najwi�kszym zainteresowaniem w poszczeg�lnych wypo�yczalniach, z rankingiem wed�ug liczby wypo�ycze�.
 
 SPOOL wynik1.txt

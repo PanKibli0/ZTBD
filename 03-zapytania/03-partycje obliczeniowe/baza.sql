@@ -1,3 +1,5 @@
+-- PARTYCJE OBLICZENIOWE
+
 -- Obliczenie sumy przychod�w z wypo�ycze� w r�nych lokalizacjach: kraj, wojew�dztwo, miasto oraz sumy przychod�w w tych lokalizacjach na r�nych poziomach agregacji.
 
 SPOOL wynik1.txt
@@ -9,7 +11,7 @@ SELECT
     SUM(wyp.CENA) AS SUMA_PLATNOSCI, 
     SUM(SUM(wyp.CENA)) OVER (PARTITION BY p.NAZWA) AS SUMA_PLATNOSCI_W_KRAJU,
     SUM(SUM(wyp.CENA)) OVER (PARTITION BY p.NAZWA, w.NAZWA) AS SUMA_PLATNOSCI_W_WOJEWODZTWIE,
-    SUM(SUM(wyp.CENA)) OVER (PARTITION BY p.NAZWA, w.NAZWA, m.NAZWA) AS SUMA_PLATNOSCI_W_MIE�CIE
+    SUM(SUM(wyp.CENA)) OVER (PARTITION BY p.NAZWA, w.NAZWA, m.NAZWA) AS SUMA_PLATNOSCI_W_MIESCIE
 FROM WYPOZYCZENIA wyp
     JOIN KLIENT k ON wyp.ID_KLIENT = k.ID
     JOIN ULICA u ON k.ID_ULICA = u.ID

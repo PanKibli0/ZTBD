@@ -1,0 +1,543 @@
+
+WYPOZYCZALNIA                                      MODEL                                              TYP_NAPEDU                                         LICZBA_WYPOZYCZEN    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+EasyScooter                                        Urban50                                            Spalinowy dwusuwowy                                              789          1
+EasyScooter                                        Crossover150                                       Spalinowy dwusuwowy                                              659          2
+EasyScooter                                        Jupiter125                                         Spalinowy czterosuwowy                                           658          3
+EasyScooter                                        S01+                                               Spalinowy czterosuwowy                                           654          4
+EasyScooter                                        XDiavel125                                         Elektryczny                                                      536          5
+EasyScooter                                        Chieftain                                          Spalinowy dwusuwowy                                              531          6
+EasyScooter                                        Matrix150                                          Elektryczny                                                      510          7
+EasyScooter                                        Leoncino125                                        Spalinowy dwusuwowy                                              506          8
+EasyScooter                                        PeopleS150                                         Elektryczny                                                      505          9
+EasyScooter                                        LX150                                              Spalinowy dwusuwowy                                              504         10
+EasyScooter                                        Cuxi100                                            Spalinowy dwusuwowy                                              500         11
+
+WYPOZYCZALNIA                                      MODEL                                              TYP_NAPEDU                                         LICZBA_WYPOZYCZEN    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+EasyScooter                                        Forza750                                           Spalinowy dwusuwowy                                              499         12
+EasyScooter                                        Fiddle125                                          Spalinowy dwusuwowy                                              497         13
+EasyScooter                                        R18                                                Spalinowy dwusuwowy                                              496         14
+EasyScooter                                        Racer150                                           Spalinowy czterosuwowy                                           490         15
+EasyScooter                                        PulsarNS125                                        Elektryczny                                                      490         15
+EasyScooter                                        PulsarNS125                                        Spalinowy czterosuwowy                                           483         17
+EasyScooter                                        KPV150                                             Spalinowy czterosuwowy                                           482         18
+EasyScooter                                        Primavera150                                       Spalinowy dwusuwowy                                              479         19
+EasyScooter                                        Vision110                                          Spalinowy dwusuwowy                                              371         20
+EasyScooter                                        Evo125                                             Spalinowy czterosuwowy                                           369         21
+EasyScooter                                        X-Ride125                                          Elektryczny                                                      360         22
+
+WYPOZYCZALNIA                                      MODEL                                              TYP_NAPEDU                                         LICZBA_WYPOZYCZEN    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+EasyScooter                                        R18                                                Elektryczny                                                      359         23
+EasyScooter                                        Jet14                                              Elektryczny                                                      357         24
+EasyScooter                                        MQiGT                                              Spalinowy dwusuwowy                                              355         25
+EasyScooter                                        GTS300                                             Elektryczny                                                      353         26
+EasyScooter                                        Vision110                                          Spalinowy czterosuwowy                                           351         27
+EasyScooter                                        R18                                                Spalinowy czterosuwowy                                           351         27
+EasyScooter                                        ZT310T                                             Elektryczny                                                      351         27
+EasyScooter                                        PCX125                                             Elektryczny                                                      351         27
+EasyScooter                                        Django125                                          Spalinowy czterosuwowy                                           348         31
+EasyScooter                                        Dragster200                                        Spalinowy czterosuwowy                                           344         32
+EasyScooter                                        GTS300                                             Spalinowy dwusuwowy                                              342         33
+
+WYPOZYCZALNIA                                      MODEL                                              TYP_NAPEDU                                         LICZBA_WYPOZYCZEN    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+EasyScooter                                        X-Ride125                                          Spalinowy dwusuwowy                                              341         34
+EasyScooter                                        Tango125                                           Spalinowy dwusuwowy                                              340         35
+EasyScooter                                        Crossover150                                       Spalinowy czterosuwowy                                           340         35
+EasyScooter                                        VivaE                                              Elektryczny                                                      338         37
+EasyScooter                                        Maxsym400                                          Elektryczny                                                      337         38
+EasyScooter                                        Jupiter125                                         Elektryczny                                                      336         39
+EasyScooter                                        Dragster200                                        Spalinowy dwusuwowy                                              336         39
+EasyScooter                                        Beverly350                                         Elektryczny                                                      335         41
+EasyScooter                                        TCMax                                              Spalinowy dwusuwowy                                              333         42
+EasyScooter                                        Outlook150                                         Elektryczny                                                      332         43
+EasyScooter                                        Thunder125                                         Spalinowy dwusuwowy                                              332         43
+
+WYPOZYCZALNIA                                      MODEL                                              TYP_NAPEDU                                         LICZBA_WYPOZYCZEN    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+EasyScooter                                        C400GT                                             Spalinowy dwusuwowy                                              326         45
+EasyScooter                                        PulsarNS125                                        Spalinowy dwusuwowy                                              325         46
+EasyScooter                                        GT2022                                             Spalinowy dwusuwowy                                              324         47
+EasyScooter                                        Outlook150                                         Spalinowy dwusuwowy                                              323         48
+EasyScooter                                        Django125                                          Spalinowy dwusuwowy                                              323         48
+EasyScooter                                        Racer150                                           Elektryczny                                                      322         50
+EasyScooter                                        Matrix150                                          Spalinowy dwusuwowy                                              320         51
+EasyScooter                                        Thunder125                                         Elektryczny                                                      317         52
+EasyScooter                                        KPV150                                             Spalinowy dwusuwowy                                              316         53
+EasyScooter                                        Crossover150                                       Elektryczny                                                      314         54
+EasyScooter                                        BulletRS                                           Elektryczny                                                      308         55
+
+WYPOZYCZALNIA                                      MODEL                                              TYP_NAPEDU                                         LICZBA_WYPOZYCZEN    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+EasyScooter                                        Agility125                                         Spalinowy czterosuwowy                                           296         56
+EasyScooter                                        GT2022                                             Spalinowy czterosuwowy                                           195         57
+EasyScooter                                        310M                                               Elektryczny                                                      191         58
+EasyScooter                                        S2ABS                                              Elektryczny                                                      189         59
+EasyScooter                                        XMAX300                                            Spalinowy czterosuwowy                                           188         60
+EasyScooter                                        Downtown350                                        Spalinowy dwusuwowy                                              188         60
+EasyScooter                                        Vision110                                          Elektryczny                                                      187         62
+EasyScooter                                        X-Ride125                                          Spalinowy czterosuwowy                                           186         63
+EasyScooter                                        Elite125                                           Spalinowy czterosuwowy                                           185         64
+EasyScooter                                        650MT                                              Spalinowy czterosuwowy                                           182         65
+EasyScooter                                        MQiGT                                              Spalinowy czterosuwowy                                           182         65
+
+WYPOZYCZALNIA                                      MODEL                                              TYP_NAPEDU                                         LICZBA_WYPOZYCZEN    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+EasyScooter                                        J300                                               Elektryczny                                                      180         67
+EasyScooter                                        Agility125                                         Elektryczny                                                      180         67
+EasyScooter                                        Outlook150                                         Spalinowy czterosuwowy                                           179         69
+EasyScooter                                        650MT                                              Spalinowy dwusuwowy                                              178         70
+EasyScooter                                        Atlantis50                                         Elektryczny                                                      178         70
+EasyScooter                                        Cuxi100                                            Spalinowy czterosuwowy                                           177         72
+EasyScooter                                        Metropolis400                                      Elektryczny                                                      176         73
+EasyScooter                                        Cruisym300                                         Spalinowy dwusuwowy                                              176         73
+EasyScooter                                        Forsa125                                           Spalinowy dwusuwowy                                              176         73
+EasyScooter                                        V7III                                              Spalinowy dwusuwowy                                              175         76
+EasyScooter                                        310M                                               Spalinowy dwusuwowy                                              175         76
+
+WYPOZYCZALNIA                                      MODEL                                              TYP_NAPEDU                                         LICZBA_WYPOZYCZEN    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+EasyScooter                                        Like200i                                           Spalinowy czterosuwowy                                           175         76
+EasyScooter                                        Matrix150                                          Spalinowy czterosuwowy                                           174         79
+EasyScooter                                        Like200i                                           Elektryczny                                                      174         79
+EasyScooter                                        Atlantis50                                         Spalinowy czterosuwowy                                           172         81
+EasyScooter                                        Downtown350                                        Elektryczny                                                      172         81
+EasyScooter                                        Cuxi100                                            Elektryczny                                                      171         83
+EasyScooter                                        C400GT                                             Elektryczny                                                      171         83
+EasyScooter                                        Beverly350                                         Spalinowy dwusuwowy                                              170         85
+EasyScooter                                        BulletRS                                           Spalinowy czterosuwowy                                           169         86
+EasyScooter                                        Elettrica                                          Spalinowy dwusuwowy                                              169         86
+EasyScooter                                        Django125                                          Elektryczny                                                      168         88
+
+WYPOZYCZALNIA                                      MODEL                                              TYP_NAPEDU                                         LICZBA_WYPOZYCZEN    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+EasyScooter                                        S2ABS                                              Spalinowy dwusuwowy                                              167         89
+EasyScooter                                        X-Town300                                          Spalinowy czterosuwowy                                           165         90
+EasyScooter                                        Forsa125                                           Spalinowy czterosuwowy                                           165         90
+EasyScooter                                        XDiavel125                                         Spalinowy czterosuwowy                                           164         92
+EasyScooter                                        Cruisym300                                         Elektryczny                                                      163         93
+EasyScooter                                        S2ABS                                              Spalinowy czterosuwowy                                           163         93
+EasyScooter                                        Racer150                                           Spalinowy dwusuwowy                                              161         95
+EasyScooter                                        Burgman400                                         Spalinowy dwusuwowy                                              160         96
+EasyScooter                                        ZT310T                                             Spalinowy dwusuwowy                                              159         97
+EasyScooter                                        Tango125                                           Elektryczny                                                      159         97
+EasyScooter                                        XDiavel125                                         Spalinowy dwusuwowy                                              158         99
+
+WYPOZYCZALNIA                                      MODEL                                              TYP_NAPEDU                                         LICZBA_WYPOZYCZEN    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+EasyScooter                                        Elite125                                           Elektryczny                                                      158         99
+EasyScooter                                        Elettrica                                          Elektryczny                                                      156        101
+EasyScooter                                        GTS300                                             Spalinowy czterosuwowy                                           156        101
+EasyScooter                                        SR50                                               Elektryczny                                                      154        103
+EasyScooter                                        Jet14                                              Spalinowy dwusuwowy                                              154        103
+EasyScooter                                        PCX125                                             Spalinowy czterosuwowy                                           153        105
+EasyScooter                                        Jet14                                              Spalinowy czterosuwowy                                           153        105
+EasyScooter                                        Vortex250                                          Elektryczny                                                      153        105
+EasyScooter                                        TCMax                                              Elektryczny                                                      153        105
+EasyScooter                                        Citycom300                                         Spalinowy czterosuwowy                                           152        109
+EasyScooter                                        Metropolis400                                      Spalinowy dwusuwowy                                              151        110
+
+WYPOZYCZALNIA                                      MODEL                                              TYP_NAPEDU                                         LICZBA_WYPOZYCZEN    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+EasyScooter                                        Atlantis50                                         Spalinowy dwusuwowy                                              151        110
+EasyScooter                                        Forza750                                           Spalinowy czterosuwowy                                           149        112
+EasyScooter                                        Chieftain                                          Spalinowy czterosuwowy                                           149        112
+EasyScooter                                        Burgman400                                         Spalinowy czterosuwowy                                           148        114
+EasyScooter                                        Leoncino125                                        Spalinowy czterosuwowy                                           148        114
+EasyScooter                                        Dragster200                                        Elektryczny                                                      148        114
+EasyScooter                                        MQiGT                                              Elektryczny                                                      146        117
+EasyScooter                                        J300                                               Spalinowy czterosuwowy                                           146        117
+EasyScooter                                        S01+                                               Elektryczny                                                      145        119
+EasyScooter                                        650MT                                              Elektryczny                                                      140        120
+MotoHire                                           X-Ride125                                          Elektryczny                                                      641          1
+
+WYPOZYCZALNIA                                      MODEL                                              TYP_NAPEDU                                         LICZBA_WYPOZYCZEN    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+MotoHire                                           ZT310T                                             Spalinowy dwusuwowy                                              488          2
+MotoHire                                           R18                                                Spalinowy dwusuwowy                                              362          3
+MotoHire                                           Chieftain                                          Spalinowy czterosuwowy                                           353          4
+MotoHire                                           Fiddle125                                          Spalinowy dwusuwowy                                              351          5
+MotoHire                                           Leoncino125                                        Spalinowy czterosuwowy                                           346          6
+MotoHire                                           Urban50                                            Spalinowy czterosuwowy                                           343          7
+MotoHire                                           XDiavel125                                         Spalinowy dwusuwowy                                              339          8
+MotoHire                                           S01+                                               Spalinowy czterosuwowy                                           335          9
+MotoHire                                           Outlook150                                         Elektryczny                                                      334         10
+MotoHire                                           Jupiter125                                         Spalinowy czterosuwowy                                           334         10
+MotoHire                                           X-Ride125                                          Spalinowy dwusuwowy                                              328         12
+
+WYPOZYCZALNIA                                      MODEL                                              TYP_NAPEDU                                         LICZBA_WYPOZYCZEN    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+MotoHire                                           Maxsym400                                          Spalinowy dwusuwowy                                              328         12
+MotoHire                                           Evo125                                             Spalinowy dwusuwowy                                              324         14
+MotoHire                                           Forsa125                                           Spalinowy czterosuwowy                                           323         15
+MotoHire                                           Leoncino125                                        Spalinowy dwusuwowy                                              316         16
+MotoHire                                           Jupiter125                                         Spalinowy dwusuwowy                                              313         17
+MotoHire                                           Evo125                                             Elektryczny                                                      313         17
+MotoHire                                           Metropolis400                                      Spalinowy dwusuwowy                                              311         19
+MotoHire                                           XMAX300                                            Elektryczny                                                      300         20
+MotoHire                                           PeopleS150                                         Spalinowy dwusuwowy                                              208         21
+MotoHire                                           S2ABS                                              Spalinowy dwusuwowy                                              204         22
+MotoHire                                           LX150                                              Spalinowy dwusuwowy                                              194         23
+
+WYPOZYCZALNIA                                      MODEL                                              TYP_NAPEDU                                         LICZBA_WYPOZYCZEN    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+MotoHire                                           Forza750                                           Spalinowy czterosuwowy                                           189         24
+MotoHire                                           GT2022                                             Spalinowy dwusuwowy                                              183         25
+MotoHire                                           Jet14                                              Elektryczny                                                      182         26
+MotoHire                                           LX150                                              Elektryczny                                                      178         27
+MotoHire                                           Thunder125                                         Spalinowy dwusuwowy                                              177         28
+MotoHire                                           J300                                               Spalinowy dwusuwowy                                              176         29
+MotoHire                                           Thunder125                                         Elektryczny                                                      175         30
+MotoHire                                           TCMax                                              Spalinowy czterosuwowy                                           175         30
+MotoHire                                           Cuxi100                                            Elektryczny                                                      174         32
+MotoHire                                           Burgman400                                         Spalinowy czterosuwowy                                           174         32
+MotoHire                                           Atlantis50                                         Elektryczny                                                      173         34
+
+WYPOZYCZALNIA                                      MODEL                                              TYP_NAPEDU                                         LICZBA_WYPOZYCZEN    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+MotoHire                                           Like200i                                           Spalinowy czterosuwowy                                           173         34
+MotoHire                                           Cruisym300                                         Spalinowy dwusuwowy                                              172         36
+MotoHire                                           SR50                                               Spalinowy dwusuwowy                                              172         36
+MotoHire                                           Racer150                                           Elektryczny                                                      172         36
+MotoHire                                           Citycom300                                         Elektryczny                                                      171         39
+MotoHire                                           PCX125                                             Spalinowy dwusuwowy                                              170         40
+MotoHire                                           Crossover150                                       Elektryczny                                                      170         40
+MotoHire                                           Burgman400                                         Elektryczny                                                      170         40
+MotoHire                                           Evo125                                             Spalinowy czterosuwowy                                           169         43
+MotoHire                                           S2ABS                                              Elektryczny                                                      169         43
+MotoHire                                           S2ABS                                              Spalinowy czterosuwowy                                           168         45
+
+WYPOZYCZALNIA                                      MODEL                                              TYP_NAPEDU                                         LICZBA_WYPOZYCZEN    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+MotoHire                                           Crossover150                                       Spalinowy czterosuwowy                                           168         45
+MotoHire                                           XMAX300                                            Spalinowy dwusuwowy                                              168         45
+MotoHire                                           Thunder125                                         Spalinowy czterosuwowy                                           167         48
+MotoHire                                           Django125                                          Elektryczny                                                      167         48
+MotoHire                                           Downtown350                                        Elektryczny                                                      166         50
+MotoHire                                           TCMax                                              Spalinowy dwusuwowy                                              166         50
+MotoHire                                           Maxsym400                                          Elektryczny                                                      166         50
+MotoHire                                           MQiGT                                              Elektryczny                                                      165         53
+MotoHire                                           C400GT                                             Spalinowy dwusuwowy                                              163         54
+MotoHire                                           Primavera150                                       Spalinowy czterosuwowy                                           163         54
+MotoHire                                           Elite125                                           Spalinowy czterosuwowy                                           162         56
+
+WYPOZYCZALNIA                                      MODEL                                              TYP_NAPEDU                                         LICZBA_WYPOZYCZEN    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+MotoHire                                           Agility125                                         Elektryczny                                                      162         56
+MotoHire                                           Dragster200                                        Elektryczny                                                      161         58
+MotoHire                                           X-Town300                                          Spalinowy dwusuwowy                                              161         58
+MotoHire                                           Jet14                                              Spalinowy czterosuwowy                                           159         60
+MotoHire                                           Racer150                                           Spalinowy dwusuwowy                                              158         61
+MotoHire                                           Urban50                                            Spalinowy dwusuwowy                                              157         62
+MotoHire                                           Tango125                                           Elektryczny                                                      156         63
+MotoHire                                           Hunter150                                          Spalinowy czterosuwowy                                           156         63
+MotoHire                                           S01+                                               Elektryczny                                                      156         63
+MotoHire                                           Madison300                                         Spalinowy czterosuwowy                                           155         66
+MotoHire                                           Forza750                                           Spalinowy dwusuwowy                                              155         66
+
+WYPOZYCZALNIA                                      MODEL                                              TYP_NAPEDU                                         LICZBA_WYPOZYCZEN    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+MotoHire                                           ZT310T                                             Elektryczny                                                      155         66
+MotoHire                                           PulsarNS125                                        Spalinowy dwusuwowy                                              155         66
+MotoHire                                           Beverly350                                         Elektryczny                                                      154         70
+MotoHire                                           Downtown350                                        Spalinowy dwusuwowy                                              154         70
+MotoHire                                           Fiddle125                                          Elektryczny                                                      154         70
+MotoHire                                           V7III                                              Elektryczny                                                      153         73
+MotoHire                                           SR50                                               Spalinowy czterosuwowy                                           153         73
+MotoHire                                           Dragster200                                        Spalinowy dwusuwowy                                              152         75
+MotoHire                                           C400GT                                             Elektryczny                                                      143         76
+MotoHire                                           PCX125                                             Spalinowy czterosuwowy                                           135         77
+PowerRide                                          310M                                               Spalinowy czterosuwowy                                           514          1
+
+WYPOZYCZALNIA                                      MODEL                                              TYP_NAPEDU                                         LICZBA_WYPOZYCZEN    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+PowerRide                                          PCX125                                             Spalinowy czterosuwowy                                           500          2
+PowerRide                                          Citycom300                                         Elektryczny                                                      500          2
+PowerRide                                          VivaE                                              Elektryczny                                                      461          4
+PowerRide                                          Chieftain                                          Elektryczny                                                      340          5
+PowerRide                                          Atlantis50                                         Spalinowy dwusuwowy                                              339          6
+PowerRide                                          ZT310T                                             Elektryczny                                                      338          7
+PowerRide                                          PCX125                                             Spalinowy dwusuwowy                                              337          8
+PowerRide                                          XMAX300                                            Spalinowy czterosuwowy                                           334          9
+PowerRide                                          Like200i                                           Spalinowy dwusuwowy                                              332         10
+PowerRide                                          Cuxi100                                            Spalinowy czterosuwowy                                           331         11
+PowerRide                                          Fiddle125                                          Spalinowy czterosuwowy                                           329         12
+
+WYPOZYCZALNIA                                      MODEL                                              TYP_NAPEDU                                         LICZBA_WYPOZYCZEN    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+PowerRide                                          Agility125                                         Spalinowy czterosuwowy                                           329         12
+PowerRide                                          PulsarNS125                                        Spalinowy dwusuwowy                                              327         14
+PowerRide                                          Like200i                                           Spalinowy czterosuwowy                                           325         15
+PowerRide                                          Evo125                                             Spalinowy dwusuwowy                                              324         16
+PowerRide                                          650MT                                              Spalinowy czterosuwowy                                           305         17
+PowerRide                                          Madison300                                         Elektryczny                                                      303         18
+PowerRide                                          Forsa125                                           Spalinowy dwusuwowy                                              287         19
+PowerRide                                          X-Ride125                                          Spalinowy dwusuwowy                                              192         20
+PowerRide                                          Jupiter125                                         Spalinowy dwusuwowy                                              192         20
+PowerRide                                          XMAX300                                            Spalinowy dwusuwowy                                              191         22
+PowerRide                                          Matrix150                                          Spalinowy czterosuwowy                                           191         22
+
+WYPOZYCZALNIA                                      MODEL                                              TYP_NAPEDU                                         LICZBA_WYPOZYCZEN    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+PowerRide                                          Crossover150                                       Spalinowy dwusuwowy                                              189         24
+PowerRide                                          Vision110                                          Spalinowy dwusuwowy                                              189         24
+PowerRide                                          S01+                                               Spalinowy dwusuwowy                                              187         26
+PowerRide                                          X-Town300                                          Elektryczny                                                      184         27
+PowerRide                                          310M                                               Spalinowy dwusuwowy                                              182         28
+PowerRide                                          Forza750                                           Spalinowy czterosuwowy                                           182         28
+PowerRide                                          SR50                                               Spalinowy dwusuwowy                                              181         30
+PowerRide                                          Primavera150                                       Spalinowy dwusuwowy                                              181         30
+PowerRide                                          GT2022                                             Elektryczny                                                      181         30
+PowerRide                                          Django125                                          Elektryczny                                                      176         33
+PowerRide                                          R18                                                Spalinowy dwusuwowy                                              174         34
+
+WYPOZYCZALNIA                                      MODEL                                              TYP_NAPEDU                                         LICZBA_WYPOZYCZEN    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+PowerRide                                          BulletRS                                           Spalinowy czterosuwowy                                           173         35
+PowerRide                                          Vortex250                                          Spalinowy dwusuwowy                                              173         35
+PowerRide                                          Cruisym300                                         Elektryczny                                                      173         35
+PowerRide                                          Thunder125                                         Elektryczny                                                      173         35
+PowerRide                                          Fiddle125                                          Spalinowy dwusuwowy                                              173         35
+PowerRide                                          KPV150                                             Elektryczny                                                      173         35
+PowerRide                                          Outlook150                                         Spalinowy czterosuwowy                                           172         41
+PowerRide                                          Elite125                                           Spalinowy czterosuwowy                                           171         42
+PowerRide                                          Primavera150                                       Spalinowy czterosuwowy                                           171         42
+PowerRide                                          S01+                                               Elektryczny                                                      171         42
+PowerRide                                          PeopleS150                                         Elektryczny                                                      170         45
+
+WYPOZYCZALNIA                                      MODEL                                              TYP_NAPEDU                                         LICZBA_WYPOZYCZEN    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+PowerRide                                          X-Town300                                          Spalinowy dwusuwowy                                              170         45
+PowerRide                                          Citycom300                                         Spalinowy czterosuwowy                                           170         45
+PowerRide                                          LX150                                              Spalinowy dwusuwowy                                              169         48
+PowerRide                                          S2ABS                                              Spalinowy dwusuwowy                                              169         48
+PowerRide                                          Django125                                          Spalinowy czterosuwowy                                           168         50
+PowerRide                                          650MT                                              Spalinowy dwusuwowy                                              168         50
+PowerRide                                          Tango125                                           Spalinowy czterosuwowy                                           167         52
+PowerRide                                          Matrix150                                          Elektryczny                                                      166         53
+PowerRide                                          Crossover150                                       Elektryczny                                                      166         53
+PowerRide                                          BulletRS                                           Elektryczny                                                      165         55
+PowerRide                                          Vision110                                          Spalinowy czterosuwowy                                           164         56
+
+WYPOZYCZALNIA                                      MODEL                                              TYP_NAPEDU                                         LICZBA_WYPOZYCZEN    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+PowerRide                                          Urban50                                            Elektryczny                                                      164         56
+PowerRide                                          ZT310T                                             Spalinowy czterosuwowy                                           163         58
+PowerRide                                          Elettrica                                          Elektryczny                                                      163         58
+PowerRide                                          Outlook150                                         Spalinowy dwusuwowy                                              162         60
+PowerRide                                          VivaE                                              Spalinowy dwusuwowy                                              161         61
+PowerRide                                          GTS300                                             Elektryczny                                                      161         61
+PowerRide                                          Downtown350                                        Spalinowy czterosuwowy                                           160         63
+PowerRide                                          Elettrica                                          Spalinowy dwusuwowy                                              160         63
+PowerRide                                          Jet14                                              Elektryczny                                                      160         63
+PowerRide                                          LX150                                              Elektryczny                                                      159         66
+PowerRide                                          Urban50                                            Spalinowy dwusuwowy                                              159         66
+
+WYPOZYCZALNIA                                      MODEL                                              TYP_NAPEDU                                         LICZBA_WYPOZYCZEN    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+PowerRide                                          Evo125                                             Spalinowy czterosuwowy                                           157         68
+PowerRide                                          Racer150                                           Spalinowy czterosuwowy                                           157         68
+PowerRide                                          Thunder125                                         Spalinowy czterosuwowy                                           156         70
+PowerRide                                          Elite125                                           Elektryczny                                                      156         70
+PowerRide                                          Jet14                                              Spalinowy czterosuwowy                                           154         72
+PowerRide                                          XDiavel125                                         Elektryczny                                                      154         72
+PowerRide                                          Vision110                                          Elektryczny                                                      148         74
+PowerRide                                          TCMax                                              Spalinowy czterosuwowy                                           146         75
+PowerRide                                          Racer150                                           Elektryczny                                                      144         76
+PowerRide                                          XDiavel125                                         Spalinowy czterosuwowy                                           135         77
+QuickScoot                                         Dragster200                                        Elektryczny                                                      489          1
+
+WYPOZYCZALNIA                                      MODEL                                              TYP_NAPEDU                                         LICZBA_WYPOZYCZEN    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+QuickScoot                                         GTS300                                             Spalinowy dwusuwowy                                              486          2
+QuickScoot                                         Elite125                                           Spalinowy czterosuwowy                                           444          3
+QuickScoot                                         Jet14                                              Elektryczny                                                      372          4
+QuickScoot                                         Racer150                                           Elektryczny                                                      369          5
+QuickScoot                                         J300                                               Spalinowy czterosuwowy                                           359          6
+QuickScoot                                         650MT                                              Elektryczny                                                      354          7
+QuickScoot                                         Outlook150                                         Spalinowy dwusuwowy                                              353          8
+QuickScoot                                         Racer150                                           Spalinowy dwusuwowy                                              352          9
+QuickScoot                                         650MT                                              Spalinowy dwusuwowy                                              352          9
+QuickScoot                                         Urban50                                            Elektryczny                                                      349         11
+QuickScoot                                         S2ABS                                              Spalinowy czterosuwowy                                           348         12
+
+WYPOZYCZALNIA                                      MODEL                                              TYP_NAPEDU                                         LICZBA_WYPOZYCZEN    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+QuickScoot                                         Forsa125                                           Elektryczny                                                      343         13
+QuickScoot                                         Like200i                                           Spalinowy czterosuwowy                                           340         14
+QuickScoot                                         TCMax                                              Elektryczny                                                      332         15
+QuickScoot                                         Cruisym300                                         Spalinowy czterosuwowy                                           329         16
+QuickScoot                                         Chieftain                                          Elektryczny                                                      327         17
+QuickScoot                                         Racer150                                           Spalinowy czterosuwowy                                           327         17
+QuickScoot                                         Metropolis400                                      Spalinowy dwusuwowy                                              326         19
+QuickScoot                                         Crossover150                                       Spalinowy czterosuwowy                                           322         20
+QuickScoot                                         BulletRS                                           Spalinowy czterosuwowy                                           321         21
+QuickScoot                                         Jet14                                              Spalinowy dwusuwowy                                              312         22
+QuickScoot                                         Atlantis50                                         Spalinowy dwusuwowy                                              311         23
+
+WYPOZYCZALNIA                                      MODEL                                              TYP_NAPEDU                                         LICZBA_WYPOZYCZEN    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+QuickScoot                                         Madison300                                         Spalinowy dwusuwowy                                              303         24
+QuickScoot                                         Elite125                                           Elektryczny                                                      197         25
+QuickScoot                                         Matrix150                                          Spalinowy dwusuwowy                                              196         26
+QuickScoot                                         Hunter150                                          Elektryczny                                                      194         27
+QuickScoot                                         Thunder125                                         Spalinowy dwusuwowy                                              192         28
+QuickScoot                                         PCX125                                             Elektryczny                                                      188         29
+QuickScoot                                         S01+                                               Spalinowy czterosuwowy                                           187         30
+QuickScoot                                         Outlook150                                         Elektryczny                                                      184         31
+QuickScoot                                         Matrix150                                          Elektryczny                                                      178         32
+QuickScoot                                         VivaE                                              Spalinowy czterosuwowy                                           177         33
+QuickScoot                                         Django125                                          Spalinowy czterosuwowy                                           176         34
+
+WYPOZYCZALNIA                                      MODEL                                              TYP_NAPEDU                                         LICZBA_WYPOZYCZEN    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+QuickScoot                                         Citycom300                                         Spalinowy dwusuwowy                                              175         35
+QuickScoot                                         Forza750                                           Spalinowy dwusuwowy                                              175         35
+QuickScoot                                         Beverly350                                         Spalinowy dwusuwowy                                              174         37
+QuickScoot                                         XMAX300                                            Spalinowy dwusuwowy                                              172         38
+QuickScoot                                         310M                                               Elektryczny                                                      171         39
+QuickScoot                                         Metropolis400                                      Elektryczny                                                      171         39
+QuickScoot                                         XMAX300                                            Elektryczny                                                      167         41
+QuickScoot                                         Fiddle125                                          Spalinowy dwusuwowy                                              166         42
+QuickScoot                                         Cuxi100                                            Spalinowy czterosuwowy                                           166         42
+QuickScoot                                         Vortex250                                          Spalinowy dwusuwowy                                              165         44
+QuickScoot                                         Crossover150                                       Elektryczny                                                      165         44
+
+WYPOZYCZALNIA                                      MODEL                                              TYP_NAPEDU                                         LICZBA_WYPOZYCZEN    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+QuickScoot                                         R18                                                Spalinowy dwusuwowy                                              164         46
+QuickScoot                                         Thunder125                                         Elektryczny                                                      163         47
+QuickScoot                                         Cuxi100                                            Spalinowy dwusuwowy                                              163         47
+QuickScoot                                         PeopleS150                                         Spalinowy dwusuwowy                                              163         47
+QuickScoot                                         GT2022                                             Spalinowy dwusuwowy                                              162         50
+QuickScoot                                         Django125                                          Elektryczny                                                      162         50
+QuickScoot                                         X-Town300                                          Spalinowy dwusuwowy                                              161         52
+QuickScoot                                         MQiGT                                              Spalinowy dwusuwowy                                              161         52
+QuickScoot                                         R18                                                Elektryczny                                                      160         54
+QuickScoot                                         ZT310T                                             Spalinowy czterosuwowy                                           159         55
+QuickScoot                                         Agility125                                         Spalinowy dwusuwowy                                              159         55
+
+WYPOZYCZALNIA                                      MODEL                                              TYP_NAPEDU                                         LICZBA_WYPOZYCZEN    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+QuickScoot                                         SR50                                               Elektryczny                                                      159         55
+QuickScoot                                         Forsa125                                           Spalinowy czterosuwowy                                           159         55
+QuickScoot                                         GT2022                                             Elektryczny                                                      158         59
+QuickScoot                                         Primavera150                                       Elektryczny                                                      157         60
+QuickScoot                                         XDiavel125                                         Spalinowy czterosuwowy                                           157         60
+QuickScoot                                         Beverly350                                         Spalinowy czterosuwowy                                           157         60
+QuickScoot                                         S01+                                               Spalinowy dwusuwowy                                              156         63
+QuickScoot                                         Leoncino125                                        Spalinowy dwusuwowy                                              156         63
+QuickScoot                                         Like200i                                           Elektryczny                                                      154         65
+QuickScoot                                         GTS300                                             Spalinowy czterosuwowy                                           153         66
+QuickScoot                                         Leoncino125                                        Spalinowy czterosuwowy                                           153         66
+
+WYPOZYCZALNIA                                      MODEL                                              TYP_NAPEDU                                         LICZBA_WYPOZYCZEN    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+QuickScoot                                         C400GT                                             Spalinowy dwusuwowy                                              153         66
+QuickScoot                                         Cruisym300                                         Spalinowy dwusuwowy                                              152         69
+QuickScoot                                         X-Town300                                          Elektryczny                                                      152         69
+QuickScoot                                         Downtown350                                        Spalinowy czterosuwowy                                           150         71
+QuickScoot                                         Forza750                                           Elektryczny                                                      150         71
+QuickScoot                                         Citycom300                                         Elektryczny                                                      143         73
+UrbanScoot                                         XDiavel125                                         Spalinowy czterosuwowy                                           509          1
+UrbanScoot                                         GT2022                                             Elektryczny                                                      487          2
+UrbanScoot                                         Forza750                                           Spalinowy czterosuwowy                                           477          3
+UrbanScoot                                         V7III                                              Elektryczny                                                      466          4
+UrbanScoot                                         Vision110                                          Spalinowy czterosuwowy                                           356          5
+
+WYPOZYCZALNIA                                      MODEL                                              TYP_NAPEDU                                         LICZBA_WYPOZYCZEN    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+UrbanScoot                                         Madison300                                         Elektryczny                                                      350          6
+UrbanScoot                                         Hunter150                                          Elektryczny                                                      347          7
+UrbanScoot                                         Leoncino125                                        Spalinowy dwusuwowy                                              345          8
+UrbanScoot                                         650MT                                              Spalinowy dwusuwowy                                              342          9
+UrbanScoot                                         Jet14                                              Spalinowy czterosuwowy                                           338         10
+UrbanScoot                                         PCX125                                             Elektryczny                                                      337         11
+UrbanScoot                                         Thunder125                                         Spalinowy czterosuwowy                                           337         11
+UrbanScoot                                         Primavera150                                       Elektryczny                                                      335         13
+UrbanScoot                                         SR50                                               Elektryczny                                                      330         14
+UrbanScoot                                         BulletRS                                           Spalinowy czterosuwowy                                           325         15
+UrbanScoot                                         X-Ride125                                          Spalinowy dwusuwowy                                              323         16
+
+WYPOZYCZALNIA                                      MODEL                                              TYP_NAPEDU                                         LICZBA_WYPOZYCZEN    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+UrbanScoot                                         Madison300                                         Spalinowy dwusuwowy                                              323         16
+UrbanScoot                                         Citycom300                                         Elektryczny                                                      319         18
+UrbanScoot                                         S2ABS                                              Spalinowy czterosuwowy                                           310         19
+UrbanScoot                                         Elettrica                                          Elektryczny                                                      298         20
+UrbanScoot                                         PeopleS150                                         Spalinowy czterosuwowy                                           197         21
+UrbanScoot                                         310M                                               Spalinowy czterosuwowy                                           192         22
+UrbanScoot                                         Matrix150                                          Spalinowy dwusuwowy                                              189         23
+UrbanScoot                                         Cuxi100                                            Spalinowy dwusuwowy                                              189         23
+UrbanScoot                                         Cuxi100                                            Spalinowy czterosuwowy                                           187         25
+UrbanScoot                                         Urban50                                            Spalinowy dwusuwowy                                              186         26
+UrbanScoot                                         Jupiter125                                         Elektryczny                                                      184         27
+
+WYPOZYCZALNIA                                      MODEL                                              TYP_NAPEDU                                         LICZBA_WYPOZYCZEN    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+UrbanScoot                                         Thunder125                                         Spalinowy dwusuwowy                                              184         27
+UrbanScoot                                         TCMax                                              Elektryczny                                                      184         27
+UrbanScoot                                         PCX125                                             Spalinowy dwusuwowy                                              184         27
+UrbanScoot                                         Matrix150                                          Elektryczny                                                      183         31
+UrbanScoot                                         S01+                                               Spalinowy dwusuwowy                                              180         32
+UrbanScoot                                         R18                                                Spalinowy dwusuwowy                                              178         33
+UrbanScoot                                         Hunter150                                          Spalinowy czterosuwowy                                           177         34
+UrbanScoot                                         PulsarNS125                                        Spalinowy czterosuwowy                                           176         35
+UrbanScoot                                         MQiGT                                              Elektryczny                                                      176         35
+UrbanScoot                                         PCX125                                             Spalinowy czterosuwowy                                           175         37
+UrbanScoot                                         Citycom300                                         Spalinowy czterosuwowy                                           175         37
+
+WYPOZYCZALNIA                                      MODEL                                              TYP_NAPEDU                                         LICZBA_WYPOZYCZEN    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+UrbanScoot                                         XMAX300                                            Spalinowy dwusuwowy                                              174         39
+UrbanScoot                                         Dragster200                                        Elektryczny                                                      174         39
+UrbanScoot                                         Cruisym300                                         Elektryczny                                                      173         41
+UrbanScoot                                         Maxsym400                                          Elektryczny                                                      172         42
+UrbanScoot                                         LX150                                              Spalinowy czterosuwowy                                           172         42
+UrbanScoot                                         Tango125                                           Elektryczny                                                      172         42
+UrbanScoot                                         Beverly350                                         Elektryczny                                                      171         45
+UrbanScoot                                         VivaE                                              Spalinowy czterosuwowy                                           171         45
+UrbanScoot                                         Jet14                                              Spalinowy dwusuwowy                                              170         47
+UrbanScoot                                         KPV150                                             Spalinowy dwusuwowy                                              170         47
+UrbanScoot                                         J300                                               Spalinowy czterosuwowy                                           168         49
+
+WYPOZYCZALNIA                                      MODEL                                              TYP_NAPEDU                                         LICZBA_WYPOZYCZEN    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+UrbanScoot                                         V7III                                              Spalinowy czterosuwowy                                           168         49
+UrbanScoot                                         S01+                                               Spalinowy czterosuwowy                                           166         51
+UrbanScoot                                         Hunter150                                          Spalinowy dwusuwowy                                              166         51
+UrbanScoot                                         Outlook150                                         Elektryczny                                                      166         51
+UrbanScoot                                         Cruisym300                                         Spalinowy czterosuwowy                                           166         51
+UrbanScoot                                         PulsarNS125                                        Spalinowy dwusuwowy                                              165         55
+UrbanScoot                                         XMAX300                                            Elektryczny                                                      165         55
+UrbanScoot                                         V7III                                              Spalinowy dwusuwowy                                              164         57
+UrbanScoot                                         Evo125                                             Spalinowy czterosuwowy                                           164         57
+UrbanScoot                                         Racer150                                           Spalinowy dwusuwowy                                              163         59
+UrbanScoot                                         Like200i                                           Spalinowy czterosuwowy                                           162         60
+
+WYPOZYCZALNIA                                      MODEL                                              TYP_NAPEDU                                         LICZBA_WYPOZYCZEN    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+UrbanScoot                                         C400GT                                             Elektryczny                                                      162         60
+UrbanScoot                                         VivaE                                              Elektryczny                                                      161         62
+UrbanScoot                                         ZT310T                                             Spalinowy czterosuwowy                                           161         62
+UrbanScoot                                         Downtown350                                        Spalinowy dwusuwowy                                              161         62
+UrbanScoot                                         SR50                                               Spalinowy czterosuwowy                                           161         62
+UrbanScoot                                         Like200i                                           Elektryczny                                                      161         62
+UrbanScoot                                         Primavera150                                       Spalinowy czterosuwowy                                           160         67
+UrbanScoot                                         Tango125                                           Spalinowy czterosuwowy                                           159         68
+UrbanScoot                                         Outlook150                                         Spalinowy czterosuwowy                                           155         69
+UrbanScoot                                         Burgman400                                         Spalinowy czterosuwowy                                           154         70
+UrbanScoot                                         Burgman400                                         Spalinowy dwusuwowy                                              154         70
+
+WYPOZYCZALNIA                                      MODEL                                              TYP_NAPEDU                                         LICZBA_WYPOZYCZEN    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+UrbanScoot                                         Chieftain                                          Elektryczny                                                      149         72
+UrbanScoot                                         Maxsym400                                          Spalinowy czterosuwowy                                           148         73
+UrbanScoot                                         S2ABS                                              Spalinowy dwusuwowy                                              145         74
+UrbanScoot                                         Vortex250                                          Spalinowy dwusuwowy                                              142         75
+UrbanScoot                                         ZT310T                                             Spalinowy dwusuwowy                                              138         76
+
+423 rows selected. 
+
