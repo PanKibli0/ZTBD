@@ -1,0 +1,657 @@
+
+PRODUCENT                                          TYP_NAPEDU                                         PAKIET_WYPOSAZENIA                                 SREDNIA_POJEMNOSC    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+Suzuki                                             Spalinowy czterosuwowy                             TouringPlus                                                   999,49          1
+Keeway                                             Spalinowy dwusuwowy                                Sport                                                         998,83          2
+Aprilia                                            Spalinowy czterosuwowy                             Extreme                                                       994,14          3
+Moto Guzzi                                         Spalinowy czterosuwowy                             Adventure                                                     993,22          4
+TGB                                                Spalinowy czterosuwowy                             Premium                                                       988,56          5
+Malaguti                                           Spalinowy dwusuwowy                                Urban                                                         986,84          6
+TGB                                                Elektryczny                                        LED                                                           984,55          7
+Aeon                                               Elektryczny                                        Off-road                                                      983,39          8
+Super Soco                                         Spalinowy dwusuwowy                                Dynamic                                                       982,65          9
+Honda                                              Spalinowy czterosuwowy                             Prestige                                                      981,14         10
+Lifan                                              Elektryczny                                        Custom                                                         977,7         11
+
+PRODUCENT                                          TYP_NAPEDU                                         PAKIET_WYPOSAZENIA                                 SREDNIA_POJEMNOSC    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+Bajaj                                              Spalinowy czterosuwowy                             Urban                                                         977,59         12
+Suzuki                                             Spalinowy czterosuwowy                             City                                                          973,83         13
+Keeway                                             Spalinowy dwusuwowy                                Urban                                                          973,5         14
+CFMoto                                             Elektryczny                                        Business                                                      970,43         15
+Keeway                                             Elektryczny                                        Smart                                                         970,02         16
+Super Soco                                         Spalinowy dwusuwowy                                Off-road                                                      968,62         17
+Kawasaki                                           Spalinowy czterosuwowy                             Prestige                                                      966,06         18
+BMW                                                Spalinowy dwusuwowy                                Elegance                                                      964,33         19
+Aeon                                               Elektryczny                                        Eco                                                           960,44         20
+Super Soco                                         Spalinowy dwusuwowy                                Adventure                                                     959,77         21
+Malaguti                                           Spalinowy dwusuwowy                                Business                                                      958,04         22
+
+PRODUCENT                                          TYP_NAPEDU                                         PAKIET_WYPOSAZENIA                                 SREDNIA_POJEMNOSC    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+Rieju                                              Spalinowy czterosuwowy                             Pro                                                           957,97         23
+Aeon                                               Elektryczny                                        Elegance                                                      957,07         24
+Super Soco                                         Elektryczny                                        NightRide                                                     955,42         25
+Ducati                                             Spalinowy dwusuwowy                                Prestige                                                      954,48         26
+Suzuki                                             Elektryczny                                        NightRide                                                     951,81         27
+Aprilia                                            Elektryczny                                        Business                                                      951,39         28
+Ducati                                             Elektryczny                                        Urban                                                         950,93         29
+Rieju                                              Spalinowy dwusuwowy                                Business                                                      950,58         30
+Aeon                                               Elektryczny                                        Smart                                                          949,5         31
+Gogoro                                             Elektryczny                                        Standard                                                      948,02         32
+Aeon                                               Elektryczny                                        TouringPlus                                                   944,42         33
+
+PRODUCENT                                          TYP_NAPEDU                                         PAKIET_WYPOSAZENIA                                 SREDNIA_POJEMNOSC    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+BMW                                                Elektryczny                                        Classic                                                       943,04         34
+Ducati                                             Elektryczny                                        Touring                                                       942,29         35
+Sym                                                Spalinowy dwusuwowy                                Standard                                                      941,86         36
+Piaggio                                            Spalinowy czterosuwowy                             Ultimate                                                      939,71         37
+E-Twow                                             Spalinowy dwusuwowy                                Custom                                                        937,38         38
+E-Twow                                             Elektryczny                                        Custom                                                        935,44         39
+Lifan                                              Elektryczny                                        Urban                                                         932,89         40
+Lifan                                              Spalinowy czterosuwowy                             Tech                                                           932,8         41
+E-Twow                                             Spalinowy czterosuwowy                             Off-road                                                      929,33         42
+Lifan                                              Spalinowy dwusuwowy                                Elegance                                                      928,39         43
+Suzuki                                             Spalinowy czterosuwowy                             Sport                                                         926,25         44
+
+PRODUCENT                                          TYP_NAPEDU                                         PAKIET_WYPOSAZENIA                                 SREDNIA_POJEMNOSC    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+CFMoto                                             Spalinowy czterosuwowy                             NightRide                                                     926,07         45
+Peugeot                                            Spalinowy czterosuwowy                             Touring                                                       924,35         46
+TGB                                                Spalinowy czterosuwowy                             Smart                                                         924,29         47
+Keeway                                             Spalinowy czterosuwowy                             Travel                                                         921,5         48
+Ducati                                             Spalinowy dwusuwowy                                NightRide                                                     921,09         49
+Rieju                                              Spalinowy dwusuwowy                                TouringPlus                                                   920,81         50
+E-Twow                                             Elektryczny                                        Lux                                                           917,65         51
+Keeway                                             Spalinowy dwusuwowy                                Travel                                                        915,36         52
+Aeon                                               Elektryczny                                        Classic                                                       910,25         53
+Keeway                                             Spalinowy czterosuwowy                             Adventure                                                     907,92         54
+Keeway                                             Elektryczny                                        Urban                                                         904,91         55
+
+PRODUCENT                                          TYP_NAPEDU                                         PAKIET_WYPOSAZENIA                                 SREDNIA_POJEMNOSC    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+Rieju                                              Spalinowy czterosuwowy                             LED                                                           902,11         56
+Malaguti                                           Spalinowy czterosuwowy                             Eco                                                           899,33         57
+CFMoto                                             Elektryczny                                        TouringPlus                                                   897,82         58
+Rieju                                              Elektryczny                                        SafetyPlus                                                    897,69         59
+Moto Guzzi                                         Spalinowy dwusuwowy                                SafetyPlus                                                    888,89         60
+Ducati                                             Spalinowy czterosuwowy                             Business                                                      887,75         61
+Honda                                              Elektryczny                                        SafetyPlus                                                    883,67         62
+Gogoro                                             Spalinowy dwusuwowy                                Urban                                                         883,45         63
+Malaguti                                           Elektryczny                                        Ultimate                                                      882,83         64
+Bajaj                                              Elektryczny                                        Business                                                      873,32         65
+Aprilia                                            Spalinowy dwusuwowy                                Travel                                                         871,4         66
+
+PRODUCENT                                          TYP_NAPEDU                                         PAKIET_WYPOSAZENIA                                 SREDNIA_POJEMNOSC    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+BMW                                                Elektryczny                                        Smart                                                         871,23         67
+Peugeot                                            Elektryczny                                        Standard                                                      867,97         68
+Suzuki                                             Elektryczny                                        Safety                                                         861,5         69
+Lifan                                              Elektryczny                                        Pro                                                           861,07         70
+Sym                                                Elektryczny                                        Business                                                      858,33         71
+Lifan                                              Spalinowy czterosuwowy                             Sport                                                         858,32         72
+Aeon                                               Spalinowy dwusuwowy                                Standard                                                      856,02         73
+Peugeot                                            Spalinowy czterosuwowy                             Business                                                      853,58         74
+Aprilia                                            Spalinowy dwusuwowy                                Touring                                                       849,99         75
+Ducati                                             Elektryczny                                        Travel                                                        847,42         76
+Super Soco                                         Spalinowy dwusuwowy                                Tech                                                          846,67         77
+
+PRODUCENT                                          TYP_NAPEDU                                         PAKIET_WYPOSAZENIA                                 SREDNIA_POJEMNOSC    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+Aprilia                                            Elektryczny                                        Touring                                                       846,29         78
+Suzuki                                             Spalinowy dwusuwowy                                Winter                                                        844,22         79
+Super Soco                                         Elektryczny                                        Custom                                                        842,71         80
+Bajaj                                              Spalinowy dwusuwowy                                Smart                                                         841,03         81
+Bajaj                                              Elektryczny                                        Off-road                                                      839,88         82
+Aeon                                               Elektryczny                                        Winter                                                        839,54         83
+Suzuki                                             Elektryczny                                        Pro                                                           839,46         84
+Lifan                                              Spalinowy czterosuwowy                             Urban                                                          837,2         85
+Suzuki                                             Elektryczny                                        Elegance                                                      833,98         86
+Lifan                                              Spalinowy dwusuwowy                                Standard                                                      832,17         87
+Aeon                                               Spalinowy czterosuwowy                             Lux                                                           828,68         88
+
+PRODUCENT                                          TYP_NAPEDU                                         PAKIET_WYPOSAZENIA                                 SREDNIA_POJEMNOSC    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+Honda                                              Spalinowy dwusuwowy                                Extreme                                                       821,42         89
+Honda                                              Spalinowy dwusuwowy                                Urban                                                         817,16         90
+Suzuki                                             Elektryczny                                        Travel                                                        815,06         91
+E-Twow                                             Spalinowy czterosuwowy                             Tech                                                          814,35         92
+Rieju                                              Spalinowy czterosuwowy                             Sport                                                         810,11         93
+Aprilia                                            Elektryczny                                        Urban                                                          805,7         94
+Bajaj                                              Spalinowy czterosuwowy                             Ultimate                                                      803,27         95
+Ducati                                             Spalinowy dwusuwowy                                City                                                          797,38         96
+Ducati                                             Elektryczny                                        Sport                                                         795,06         97
+Aeon                                               Spalinowy dwusuwowy                                Off-road                                                      789,04         98
+Aprilia                                            Spalinowy czterosuwowy                             Eco                                                           788,89         99
+
+PRODUCENT                                          TYP_NAPEDU                                         PAKIET_WYPOSAZENIA                                 SREDNIA_POJEMNOSC    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+Honda                                              Spalinowy czterosuwowy                             Custom                                                        787,93        100
+Ducati                                             Spalinowy dwusuwowy                                Winter                                                        784,72        101
+Peugeot                                            Elektryczny                                        Sport                                                         779,88        102
+Peugeot                                            Spalinowy czterosuwowy                             City                                                          778,73        103
+Suzuki                                             Spalinowy czterosuwowy                             NightRide                                                     767,13        104
+Ducati                                             Elektryczny                                        Ultimate                                                      765,09        105
+Suzuki                                             Spalinowy dwusuwowy                                Adventure                                                     759,88        106
+Keeway                                             Spalinowy dwusuwowy                                Safety                                                        757,78        107
+CFMoto                                             Spalinowy czterosuwowy                             Elegance                                                      753,25        108
+Keeway                                             Spalinowy dwusuwowy                                Standard                                                      751,39        109
+Keeway                                             Elektryczny                                        Off-road                                                  751,213333        110
+
+PRODUCENT                                          TYP_NAPEDU                                         PAKIET_WYPOSAZENIA                                 SREDNIA_POJEMNOSC    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+Honda                                              Elektryczny                                        Elegance                                                      750,26        111
+Malaguti                                           Spalinowy dwusuwowy                                NightRide                                                     748,66        112
+Honda                                              Spalinowy dwusuwowy                                Custom                                                        743,63        113
+Super Soco                                         Spalinowy czterosuwowy                             Premium                                                       743,15        114
+Bajaj                                              Spalinowy dwusuwowy                                Dynamic                                                       743,12        115
+E-Twow                                             Elektryczny                                        Extreme                                                       734,95        116
+Rieju                                              Spalinowy dwusuwowy                                Safety                                                        733,34        117
+Moto Guzzi                                         Spalinowy czterosuwowy                             Extreme                                                       732,69        118
+Peugeot                                            Elektryczny                                        Exclusive                                                     731,73        119
+Suzuki                                             Spalinowy czterosuwowy                             Winter                                                        730,92        120
+Malaguti                                           Spalinowy czterosuwowy                             Komfort                                                       723,77        121
+
+PRODUCENT                                          TYP_NAPEDU                                         PAKIET_WYPOSAZENIA                                 SREDNIA_POJEMNOSC    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+Lifan                                              Spalinowy czterosuwowy                             Standard                                                    721,9675        122
+TGB                                                Spalinowy czterosuwowy                             Custom                                                       721,665        123
+Lifan                                              Spalinowy dwusuwowy                                Adventure                                                     720,58        124
+E-Twow                                             Elektryczny                                        Ultimate                                                      716,98        125
+CFMoto                                             Spalinowy dwusuwowy                                TouringPlus                                                   708,65        126
+Rieju                                              Spalinowy dwusuwowy                                Standard                                                     708,215        127
+Bajaj                                              Spalinowy dwusuwowy                                Travel                                                        708,06        128
+TGB                                                Spalinowy dwusuwowy                                LED                                                           706,97        129
+Rieju                                              Elektryczny                                        Elegance                                                      705,35        130
+Lifan                                              Spalinowy dwusuwowy                                Touring                                                       703,51        131
+TGB                                                Spalinowy dwusuwowy                                Sport                                                         701,84        132
+
+PRODUCENT                                          TYP_NAPEDU                                         PAKIET_WYPOSAZENIA                                 SREDNIA_POJEMNOSC    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+Sym                                                Spalinowy czterosuwowy                             NightRide                                                     701,56        133
+Yamaha                                             Elektryczny                                        Lux                                                           699,31        134
+CFMoto                                             Spalinowy czterosuwowy                             Touring                                                       699,24        135
+Rieju                                              Spalinowy czterosuwowy                             Safety                                                        697,87        136
+Gogoro                                             Spalinowy czterosuwowy                             Urban                                                         697,32        137
+Super Soco                                         Spalinowy dwusuwowy                                Urban                                                         696,52        138
+Aprilia                                            Elektryczny                                        Elegance                                                      696,25        139
+Super Soco                                         Elektryczny                                        Komfort                                                       693,62        140
+Loncin                                             Spalinowy czterosuwowy                             Custom                                                        693,01        141
+Keeway                                             Elektryczny                                        Pro                                                            692,2        142
+CFMoto                                             Spalinowy dwusuwowy                                Elegance                                                      691,23        143
+
+PRODUCENT                                          TYP_NAPEDU                                         PAKIET_WYPOSAZENIA                                 SREDNIA_POJEMNOSC    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+Suzuki                                             Spalinowy dwusuwowy                                Smart                                                     691,136667        144
+Peugeot                                            Elektryczny                                        Lux                                                           689,41        145
+Piaggio                                            Spalinowy dwusuwowy                                Winter                                                        686,81        146
+NIU                                                Spalinowy dwusuwowy                                Smart                                                         686,42        147
+TGB                                                Elektryczny                                        Urban                                                         685,66        148
+Peugeot                                            Spalinowy czterosuwowy                             Winter                                                        682,33        149
+Ducati                                             Spalinowy dwusuwowy                                LED                                                           681,53        150
+Suzuki                                             Spalinowy czterosuwowy                             Business                                                      679,33        151
+CFMoto                                             Spalinowy dwusuwowy                                Safety                                                       678,505        152
+Peugeot                                            Spalinowy dwusuwowy                                Premium                                                       678,32        153
+CFMoto                                             Spalinowy czterosuwowy                             Travel                                                        673,64        154
+
+PRODUCENT                                          TYP_NAPEDU                                         PAKIET_WYPOSAZENIA                                 SREDNIA_POJEMNOSC    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+Keeway                                             Spalinowy czterosuwowy                             Urban                                                         671,36        155
+Suzuki                                             Spalinowy czterosuwowy                             Prestige                                                      671,18        156
+Lifan                                              Spalinowy dwusuwowy                                Off-road                                                      669,66        157
+Aeon                                               Spalinowy dwusuwowy                                Dynamic                                                        667,9        158
+TGB                                                Spalinowy dwusuwowy                                Dynamic                                                       663,41        159
+E-Twow                                             Elektryczny                                        Off-road                                                      663,07        160
+Lifan                                              Elektryczny                                        Dynamic                                                      662,255        161
+Keeway                                             Spalinowy czterosuwowy                             Tech                                                          661,81        162
+Aeon                                               Spalinowy dwusuwowy                                Winter                                                        661,23        163
+Super Soco                                         Spalinowy czterosuwowy                             Standard                                                      655,53        164
+Gogoro                                             Elektryczny                                        Eco                                                           653,48        165
+
+PRODUCENT                                          TYP_NAPEDU                                         PAKIET_WYPOSAZENIA                                 SREDNIA_POJEMNOSC    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+Rieju                                              Spalinowy dwusuwowy                                City                                                          653,22        166
+Yamaha                                             Spalinowy dwusuwowy                                Dynamic                                                        653,1        167
+Lifan                                              Spalinowy czterosuwowy                             NightRide                                                     652,79        168
+Peugeot                                            Spalinowy dwusuwowy                                Elegance                                                      651,58        169
+Rieju                                              Elektryczny                                        Exclusive                                                     648,73        170
+Keeway                                             Elektryczny                                        Touring                                                       647,41        171
+Malaguti                                           Elektryczny                                        Winter                                                        644,34        172
+Rieju                                              Spalinowy dwusuwowy                                Touring                                                       644,34        172
+TGB                                                Spalinowy dwusuwowy                                City                                                          642,91        173
+Yamaha                                             Spalinowy czterosuwowy                             Safety                                                        641,15        174
+CFMoto                                             Elektryczny                                        Urban                                                         640,85        175
+
+PRODUCENT                                          TYP_NAPEDU                                         PAKIET_WYPOSAZENIA                                 SREDNIA_POJEMNOSC    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+Peugeot                                            Elektryczny                                        City                                                          638,83        176
+Moto Guzzi                                         Spalinowy dwusuwowy                                Ultimate                                                      633,17        177
+CFMoto                                             Elektryczny                                        Elegance                                                       632,8        178
+Moto Guzzi                                         Spalinowy dwusuwowy                                Prestige                                                      631,42        179
+Kawasaki                                           Spalinowy czterosuwowy                             Pro                                                           629,91        180
+Keeway                                             Spalinowy czterosuwowy                             LED                                                           624,24        181
+Suzuki                                             Spalinowy dwusuwowy                                LED                                                           621,32        182
+Keeway                                             Spalinowy dwusuwowy                                Extreme                                                       621,06        183
+Loncin                                             Spalinowy czterosuwowy                             TouringPlus                                                   620,82        184
+Super Soco                                         Elektryczny                                        City                                                          618,33        185
+E-Twow                                             Spalinowy dwusuwowy                                Komfort                                                       617,47        186
+
+PRODUCENT                                          TYP_NAPEDU                                         PAKIET_WYPOSAZENIA                                 SREDNIA_POJEMNOSC    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+Piaggio                                            Spalinowy czterosuwowy                             Elegance                                                      616,96        187
+CFMoto                                             Spalinowy dwusuwowy                                SafetyPlus                                                    616,86        188
+E-Twow                                             Spalinowy dwusuwowy                                Sport                                                         616,68        189
+Malaguti                                           Spalinowy dwusuwowy                                Smart                                                         614,61        190
+Yamaha                                             Spalinowy czterosuwowy                             Lux                                                           614,35        191
+Ducati                                             Spalinowy dwusuwowy                                Adventure                                                     614,24        192
+Keeway                                             Spalinowy czterosuwowy                             SafetyPlus                                                     611,3        193
+BMW                                                Elektryczny                                        Komfort                                                       610,98        194
+Bajaj                                              Spalinowy czterosuwowy                             Travel                                                        609,89        195
+Loncin                                             Spalinowy dwusuwowy                                Smart                                                         609,41        196
+Super Soco                                         Elektryczny                                        Premium                                                       606,79        197
+
+PRODUCENT                                          TYP_NAPEDU                                         PAKIET_WYPOSAZENIA                                 SREDNIA_POJEMNOSC    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+Moto Guzzi                                         Elektryczny                                        Eco                                                           604,88        198
+Gogoro                                             Spalinowy dwusuwowy                                Elegance                                                      604,72        199
+Malaguti                                           Spalinowy dwusuwowy                                Adventure                                                     604,48        200
+Honda                                              Elektryczny                                        NightRide                                                     603,33        201
+CFMoto                                             Spalinowy dwusuwowy                                Off-road                                                      600,28        202
+CFMoto                                             Spalinowy dwusuwowy                                Eco                                                           599,15        203
+Super Soco                                         Spalinowy czterosuwowy                             Smart                                                         598,77        204
+Loncin                                             Spalinowy dwusuwowy                                Off-road                                                      597,08        205
+TGB                                                Spalinowy czterosuwowy                             TouringPlus                                                   596,74        206
+Lifan                                              Spalinowy czterosuwowy                             SafetyPlus                                                    593,34        207
+Peugeot                                            Elektryczny                                        Business                                                      588,26        208
+
+PRODUCENT                                          TYP_NAPEDU                                         PAKIET_WYPOSAZENIA                                 SREDNIA_POJEMNOSC    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+Sym                                                Spalinowy dwusuwowy                                Premium                                                       587,53        209
+Moto Guzzi                                         Spalinowy czterosuwowy                             Travel                                                           587        210
+Lifan                                              Spalinowy dwusuwowy                                Business                                                      586,43        211
+Malaguti                                           Spalinowy czterosuwowy                             Touring                                                       586,35        212
+E-Twow                                             Spalinowy czterosuwowy                             Prestige                                                      585,62        213
+Lifan                                              Spalinowy dwusuwowy                                Safety                                                       585,505        214
+Bajaj                                              Elektryczny                                        Standard                                                      583,12        215
+Aprilia                                            Spalinowy dwusuwowy                                Urban                                                         580,15        216
+Bajaj                                              Spalinowy czterosuwowy                             Dynamic                                                        579,9        217
+Malaguti                                           Elektryczny                                        Travel                                                        579,36        218
+Lifan                                              Spalinowy dwusuwowy                                Tech                                                          576,16        219
+
+PRODUCENT                                          TYP_NAPEDU                                         PAKIET_WYPOSAZENIA                                 SREDNIA_POJEMNOSC    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+Aprilia                                            Spalinowy dwusuwowy                                City                                                          576,04        220
+CFMoto                                             Spalinowy czterosuwowy                             City                                                          575,96        221
+Suzuki                                             Spalinowy dwusuwowy                                NightRide                                                     575,55        222
+TGB                                                Spalinowy czterosuwowy                             Business                                                      573,58        223
+Aeon                                               Spalinowy czterosuwowy                             Ultimate                                                      573,27        224
+Sym                                                Elektryczny                                        Exclusive                                                     571,84        225
+Sym                                                Spalinowy dwusuwowy                                City                                                          569,67        226
+Super Soco                                         Elektryczny                                        Sport                                                         567,43        227
+Ducati                                             Spalinowy czterosuwowy                             Custom                                                        565,36        228
+E-Twow                                             Spalinowy dwusuwowy                                NightRide                                                     564,34        229
+Aeon                                               Elektryczny                                        Premium                                                       563,71        230
+
+PRODUCENT                                          TYP_NAPEDU                                         PAKIET_WYPOSAZENIA                                 SREDNIA_POJEMNOSC    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+Aprilia                                            Elektryczny                                        Adventure                                                     563,28        231
+Bajaj                                              Elektryczny                                        City                                                         559,665        232
+TGB                                                Spalinowy dwusuwowy                                Elegance                                                      559,64        233
+Keeway                                             Spalinowy czterosuwowy                             Komfort                                                       558,75        234
+Moto Guzzi                                         Spalinowy czterosuwowy                             Komfort                                                       555,35        235
+Lifan                                              Spalinowy dwusuwowy                                SafetyPlus                                                    555,27        236
+Rieju                                              Spalinowy dwusuwowy                                Smart                                                         554,18        237
+E-Twow                                             Spalinowy dwusuwowy                                Pro                                                            551,9        238
+Super Soco                                         Elektryczny                                        Touring                                                       546,18        239
+Lifan                                              Spalinowy dwusuwowy                                Classic                                                   542,446667        240
+Rieju                                              Elektryczny                                        Tech                                                          540,39        241
+
+PRODUCENT                                          TYP_NAPEDU                                         PAKIET_WYPOSAZENIA                                 SREDNIA_POJEMNOSC    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+Keeway                                             Spalinowy czterosuwowy                             NightRide                                                     540,35        242
+Sym                                                Spalinowy dwusuwowy                                Winter                                                        540,22        243
+E-Twow                                             Spalinowy dwusuwowy                                Dynamic                                                       540,07        244
+Moto Guzzi                                         Elektryczny                                        Dynamic                                                       538,51        245
+Lifan                                              Elektryczny                                        Smart                                                         536,54        246
+Gogoro                                             Elektryczny                                        Touring                                                       536,26        247
+Loncin                                             Spalinowy czterosuwowy                             Eco                                                          533,685        248
+Aeon                                               Spalinowy dwusuwowy                                City                                                          533,37        249
+Ducati                                             Spalinowy dwusuwowy                                Exclusive                                                     530,73        250
+Aeon                                               Elektryczny                                        Sport                                                         530,42        251
+Peugeot                                            Spalinowy czterosuwowy                             Smart                                                         529,29        252
+
+PRODUCENT                                          TYP_NAPEDU                                         PAKIET_WYPOSAZENIA                                 SREDNIA_POJEMNOSC    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+Suzuki                                             Spalinowy dwusuwowy                                Exclusive                                                     528,44        253
+CFMoto                                             Elektryczny                                        City                                                        527,6075        254
+Aprilia                                            Spalinowy czterosuwowy                             Exclusive                                                     527,56        255
+Honda                                              Elektryczny                                        Pro                                                           526,69        256
+Yamaha                                             Spalinowy czterosuwowy                             Sport                                                         526,64        257
+NIU                                                Elektryczny                                        Touring                                                       526,49        258
+Bajaj                                              Spalinowy dwusuwowy                                Tech                                                          525,24        259
+Rieju                                              Spalinowy dwusuwowy                                Prestige                                                      525,11        260
+Aeon                                               Spalinowy czterosuwowy                             Eco                                                           523,52        261
+Lifan                                              Elektryczny                                        Classic                                                       521,03        262
+TGB                                                Elektryczny                                        Premium                                                       520,94        263
+
+PRODUCENT                                          TYP_NAPEDU                                         PAKIET_WYPOSAZENIA                                 SREDNIA_POJEMNOSC    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+CFMoto                                             Spalinowy czterosuwowy                             Business                                                      519,69        264
+Suzuki                                             Elektryczny                                        Custom                                                        518,92        265
+Kawasaki                                           Spalinowy czterosuwowy                             Touring                                                       517,43        266
+Aeon                                               Spalinowy czterosuwowy                             Tech                                                          517,21        267
+Malaguti                                           Spalinowy dwusuwowy                                Komfort                                                       516,12        268
+Lifan                                              Elektryczny                                        Touring                                                        514,5        269
+Lifan                                              Elektryczny                                        Adventure                                                     511,59        270
+Peugeot                                            Spalinowy dwusuwowy                                SafetyPlus                                                     511,2        271
+Aeon                                               Spalinowy dwusuwowy                                SafetyPlus                                                    510,92        272
+Gogoro                                             Elektryczny                                        Off-road                                                      509,73        273
+Keeway                                             Elektryczny                                        LED                                                            508,6        274
+
+PRODUCENT                                          TYP_NAPEDU                                         PAKIET_WYPOSAZENIA                                 SREDNIA_POJEMNOSC    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+Loncin                                             Elektryczny                                        Sport                                                         507,39        275
+NIU                                                Spalinowy czterosuwowy                             Winter                                                        506,32        276
+Lifan                                              Spalinowy czterosuwowy                             Elegance                                                      500,68        277
+Rieju                                              Spalinowy dwusuwowy                                Classic                                                       500,27        278
+Peugeot                                            Spalinowy czterosuwowy                             Exclusive                                                     499,88        279
+TGB                                                Elektryczny                                        Winter                                                         496,7        280
+Kawasaki                                           Spalinowy czterosuwowy                             Lux                                                           493,34        281
+Sym                                                Elektryczny                                        Custom                                                         491,9        282
+Lifan                                              Elektryczny                                        Exclusive                                                      488,1        283
+Aeon                                               Spalinowy dwusuwowy                                Touring                                                       487,71        284
+Peugeot                                            Elektryczny                                        Komfort                                                       487,58        285
+
+PRODUCENT                                          TYP_NAPEDU                                         PAKIET_WYPOSAZENIA                                 SREDNIA_POJEMNOSC    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+Lifan                                              Elektryczny                                        Eco                                                           486,39        286
+Honda                                              Spalinowy dwusuwowy                                Ultimate                                                      484,64        287
+Super Soco                                         Elektryczny                                        Prestige                                                      483,88        288
+CFMoto                                             Elektryczny                                        Eco                                                          481,165        289
+Keeway                                             Spalinowy dwusuwowy                                Business                                                      478,45        290
+TGB                                                Spalinowy czterosuwowy                             NightRide                                                     476,77        291
+Lifan                                              Spalinowy dwusuwowy                                Urban                                                        476,245        292
+Aeon                                               Spalinowy czterosuwowy                             Exclusive                                                     472,36        293
+Super Soco                                         Spalinowy dwusuwowy                                Touring                                                       471,79        294
+BMW                                                Elektryczny                                        Elegance                                                      470,18        295
+Peugeot                                            Spalinowy czterosuwowy                             Premium                                                        469,1        296
+
+PRODUCENT                                          TYP_NAPEDU                                         PAKIET_WYPOSAZENIA                                 SREDNIA_POJEMNOSC    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+Gogoro                                             Spalinowy dwusuwowy                                NightRide                                                      468,9        297
+E-Twow                                             Spalinowy czterosuwowy                             LED                                                           468,28        298
+Gogoro                                             Spalinowy czterosuwowy                             Komfort                                                       467,52        299
+Aeon                                               Elektryczny                                        Travel                                                         465,7        300
+Super Soco                                         Elektryczny                                        Dynamic                                                       459,41        301
+Malaguti                                           Elektryczny                                        Pro                                                           458,97        302
+Kawasaki                                           Spalinowy czterosuwowy                             SafetyPlus                                                    458,14        303
+Ducati                                             Spalinowy dwusuwowy                                Standard                                                      457,12        304
+Rieju                                              Spalinowy dwusuwowy                                Travel                                                        456,17        305
+Peugeot                                            Spalinowy czterosuwowy                             Komfort                                                       451,34        306
+Lifan                                              Spalinowy czterosuwowy                             Komfort                                                       450,46        307
+
+PRODUCENT                                          TYP_NAPEDU                                         PAKIET_WYPOSAZENIA                                 SREDNIA_POJEMNOSC    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+Aeon                                               Spalinowy dwusuwowy                                Elegance                                                      450,28        308
+Loncin                                             Elektryczny                                        TouringPlus                                                   450,04        309
+Keeway                                             Elektryczny                                        Winter                                                        445,86        310
+Lifan                                              Spalinowy czterosuwowy                             Lux                                                           444,54        311
+Lifan                                              Spalinowy czterosuwowy                             Pro                                                           444,35        312
+Kawasaki                                           Spalinowy czterosuwowy                             Komfort                                                       439,74        313
+Aeon                                               Spalinowy dwusuwowy                                Tech                                                             438        314
+Moto Guzzi                                         Elektryczny                                        TouringPlus                                                   437,46        315
+Malaguti                                           Spalinowy dwusuwowy                                Touring                                                       437,28        316
+Keeway                                             Spalinowy dwusuwowy                                Elegance                                                      434,25        317
+Malaguti                                           Spalinowy czterosuwowy                             SafetyPlus                                                    433,43        318
+
+PRODUCENT                                          TYP_NAPEDU                                         PAKIET_WYPOSAZENIA                                 SREDNIA_POJEMNOSC    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+Super Soco                                         Spalinowy czterosuwowy                             Business                                                       428,8        319
+Ducati                                             Elektryczny                                        Eco                                                           428,25        320
+CFMoto                                             Spalinowy dwusuwowy                                Dynamic                                                       425,17        321
+Keeway                                             Spalinowy dwusuwowy                                SafetyPlus                                                   423,685        322
+TGB                                                Elektryczny                                        Adventure                                                     422,05        323
+NIU                                                Elektryczny                                        Komfort                                                       417,96        324
+Ducati                                             Spalinowy czterosuwowy                             Urban                                                         417,06        325
+Lifan                                              Spalinowy czterosuwowy                             TouringPlus                                                   416,74        326
+Suzuki                                             Elektryczny                                        Touring                                                       415,49        327
+Suzuki                                             Spalinowy czterosuwowy                             Urban                                                     413,056667        328
+Peugeot                                            Spalinowy dwusuwowy                                Eco                                                           412,34        329
+
+PRODUCENT                                          TYP_NAPEDU                                         PAKIET_WYPOSAZENIA                                 SREDNIA_POJEMNOSC    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+E-Twow                                             Elektryczny                                        Travel                                                        405,13        330
+Gogoro                                             Spalinowy dwusuwowy                                Extreme                                                       404,51        331
+Suzuki                                             Spalinowy dwusuwowy                                Elegance                                                      404,02        332
+Peugeot                                            Elektryczny                                        NightRide                                                     402,69        333
+Aeon                                               Elektryczny                                        Urban                                                         400,95        334
+Aeon                                               Spalinowy czterosuwowy                             Premium                                                       399,75        335
+CFMoto                                             Spalinowy dwusuwowy                                Standard                                                      398,61        336
+Sym                                                Spalinowy dwusuwowy                                Travel                                                        396,73        337
+Bajaj                                              Spalinowy czterosuwowy                             Sport                                                         395,71        338
+Aeon                                               Elektryczny                                        Prestige                                                      394,04        339
+Ducati                                             Spalinowy dwusuwowy                                Ultimate                                                      390,32        340
+
+PRODUCENT                                          TYP_NAPEDU                                         PAKIET_WYPOSAZENIA                                 SREDNIA_POJEMNOSC    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+Bajaj                                              Elektryczny                                        SafetyPlus                                                    388,62        341
+Suzuki                                             Elektryczny                                        Extreme                                                      388,105        342
+Bajaj                                              Spalinowy dwusuwowy                                Exclusive                                                     386,06        343
+Aprilia                                            Elektryczny                                        Travel                                                       384,885        344
+Aprilia                                            Spalinowy czterosuwowy                             Sport                                                         382,79        345
+Peugeot                                            Elektryczny                                        Pro                                                           376,94        346
+E-Twow                                             Spalinowy dwusuwowy                                Eco                                                            376,3        347
+Malaguti                                           Spalinowy dwusuwowy                                Sport                                                         375,85        348
+E-Twow                                             Elektryczny                                        LED                                                           372,96        349
+Gogoro                                             Elektryczny                                        TouringPlus                                                   370,36        350
+Kawasaki                                           Spalinowy czterosuwowy                             Urban                                                         369,47        351
+
+PRODUCENT                                          TYP_NAPEDU                                         PAKIET_WYPOSAZENIA                                 SREDNIA_POJEMNOSC    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+Lifan                                              Spalinowy czterosuwowy                             Custom                                                       368,775        352
+Malaguti                                           Spalinowy dwusuwowy                                TouringPlus                                                   367,63        353
+Super Soco                                         Elektryczny                                        Off-road                                                      367,25        354
+Peugeot                                            Spalinowy dwusuwowy                                Ultimate                                                      360,27        355
+Keeway                                             Elektryczny                                        Eco                                                           357,81        356
+Honda                                              Spalinowy czterosuwowy                             Komfort                                                       356,66        357
+Gogoro                                             Spalinowy dwusuwowy                                Travel                                                        354,47        358
+Super Soco                                         Elektryczny                                        Standard                                                      354,22        359
+Lifan                                              Spalinowy dwusuwowy                                Custom                                                        353,98        360
+Suzuki                                             Elektryczny                                        Classic                                                       350,84        361
+Keeway                                             Spalinowy czterosuwowy                             Extreme                                                       349,53        362
+
+PRODUCENT                                          TYP_NAPEDU                                         PAKIET_WYPOSAZENIA                                 SREDNIA_POJEMNOSC    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+Rieju                                              Spalinowy czterosuwowy                             City                                                          348,69        363
+Kawasaki                                           Elektryczny                                        Exclusive                                                     347,72        364
+Lifan                                              Elektryczny                                        Ultimate                                                      345,05        365
+Keeway                                             Spalinowy dwusuwowy                                Pro                                                           344,27        366
+E-Twow                                             Spalinowy czterosuwowy                             Pro                                                          341,965        367
+Aeon                                               Spalinowy dwusuwowy                                Sport                                                          339,6        368
+E-Twow                                             Spalinowy czterosuwowy                             TouringPlus                                                   339,41        369
+NIU                                                Spalinowy dwusuwowy                                Custom                                                        339,07        370
+Peugeot                                            Spalinowy czterosuwowy                             Safety                                                        338,52        371
+Gogoro                                             Spalinowy dwusuwowy                                Sport                                                         332,56        372
+CFMoto                                             Spalinowy dwusuwowy                                Tech                                                          332,12        373
+
+PRODUCENT                                          TYP_NAPEDU                                         PAKIET_WYPOSAZENIA                                 SREDNIA_POJEMNOSC    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+Gogoro                                             Elektryczny                                        Premium                                                       327,45        374
+Aeon                                               Spalinowy dwusuwowy                                Safety                                                        327,04        375
+Aeon                                               Spalinowy czterosuwowy                             Business                                                      324,35        376
+Rieju                                              Spalinowy czterosuwowy                             Ultimate                                                  322,136667        377
+NIU                                                Elektryczny                                        TouringPlus                                                   318,55        378
+Rieju                                              Elektryczny                                        Pro                                                           316,97        379
+Aeon                                               Spalinowy czterosuwowy                             Travel                                                        312,72        380
+CFMoto                                             Spalinowy czterosuwowy                             Prestige                                                      310,89        381
+Aprilia                                            Spalinowy dwusuwowy                                Winter                                                        310,04        382
+CFMoto                                             Spalinowy czterosuwowy                             Safety                                                        307,29        383
+Loncin                                             Spalinowy czterosuwowy                             Urban                                                         305,28        384
+
+PRODUCENT                                          TYP_NAPEDU                                         PAKIET_WYPOSAZENIA                                 SREDNIA_POJEMNOSC    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+CFMoto                                             Elektryczny                                        Extreme                                                        302,1        385
+Peugeot                                            Elektryczny                                        LED                                                           301,17        386
+Honda                                              Elektryczny                                        Tech                                                          301,05        387
+TGB                                                Spalinowy dwusuwowy                                Exclusive                                                     300,99        388
+Gogoro                                             Spalinowy dwusuwowy                                Off-road                                                      300,22        389
+Kawasaki                                           Spalinowy dwusuwowy                                Elegance                                                      296,19        390
+Aeon                                               Spalinowy czterosuwowy                             Elegance                                                      295,87        391
+Suzuki                                             Elektryczny                                        LED                                                           295,17        392
+TGB                                                Spalinowy dwusuwowy                                Prestige                                                      293,94        393
+Lifan                                              Elektryczny                                        SafetyPlus                                                    292,72        394
+Aeon                                               Spalinowy dwusuwowy                                Prestige                                                      289,64        395
+
+PRODUCENT                                          TYP_NAPEDU                                         PAKIET_WYPOSAZENIA                                 SREDNIA_POJEMNOSC    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+Kawasaki                                           Elektryczny                                        Komfort                                                       288,28        396
+Yamaha                                             Spalinowy dwusuwowy                                Smart                                                         287,17        397
+Super Soco                                         Spalinowy czterosuwowy                             Custom                                                        279,91        398
+CFMoto                                             Elektryczny                                        Off-road                                                      278,98        399
+Aeon                                               Elektryczny                                        Komfort                                                       277,41        400
+Malaguti                                           Spalinowy czterosuwowy                             Elegance                                                      276,96        401
+Sym                                                Spalinowy dwusuwowy                                LED                                                           276,95        402
+Suzuki                                             Elektryczny                                        Lux                                                           275,15        403
+Yamaha                                             Spalinowy dwusuwowy                                Eco                                                           274,76        404
+Aprilia                                            Spalinowy dwusuwowy                                Premium                                                       273,49        405
+Rieju                                              Spalinowy dwusuwowy                                Elegance                                                      270,81        406
+
+PRODUCENT                                          TYP_NAPEDU                                         PAKIET_WYPOSAZENIA                                 SREDNIA_POJEMNOSC    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+Aprilia                                            Spalinowy czterosuwowy                             Komfort                                                       268,23        407
+Bajaj                                              Spalinowy czterosuwowy                             Lux                                                           263,54        408
+Yamaha                                             Spalinowy dwusuwowy                                NightRide                                                     262,92        409
+BMW                                                Spalinowy czterosuwowy                             Ultimate                                                      262,41        410
+Malaguti                                           Spalinowy czterosuwowy                             Business                                                      262,21        411
+Peugeot                                            Spalinowy czterosuwowy                             SafetyPlus                                                    262,05        412
+Super Soco                                         Elektryczny                                        Pro                                                           260,66        413
+Gogoro                                             Spalinowy czterosuwowy                             Eco                                                           259,97        414
+Yamaha                                             Spalinowy czterosuwowy                             LED                                                           259,35        415
+Keeway                                             Spalinowy dwusuwowy                                Prestige                                                      257,11        416
+Lifan                                              Elektryczny                                        Komfort                                                        255,3        417
+
+PRODUCENT                                          TYP_NAPEDU                                         PAKIET_WYPOSAZENIA                                 SREDNIA_POJEMNOSC    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+E-Twow                                             Elektryczny                                        Urban                                                         249,02        418
+Super Soco                                         Spalinowy czterosuwowy                             SafetyPlus                                                    248,57        419
+Honda                                              Spalinowy czterosuwowy                             Pro                                                           242,15        420
+NIU                                                Spalinowy dwusuwowy                                Pro                                                           241,49        421
+CFMoto                                             Spalinowy czterosuwowy                             SafetyPlus                                                    239,14        422
+Peugeot                                            Spalinowy dwusuwowy                                Business                                                      237,53        423
+Loncin                                             Elektryczny                                        City                                                          236,23        424
+Honda                                              Spalinowy czterosuwowy                             NightRide                                                     233,33        425
+Aprilia                                            Spalinowy czterosuwowy                             Standard                                                      231,31        426
+Bajaj                                              Spalinowy dwusuwowy                                Ultimate                                                     231,165        427
+Aprilia                                            Elektryczny                                        Pro                                                           230,59        428
+
+PRODUCENT                                          TYP_NAPEDU                                         PAKIET_WYPOSAZENIA                                 SREDNIA_POJEMNOSC    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+CFMoto                                             Spalinowy dwusuwowy                                Travel                                                         229,9        429
+CFMoto                                             Spalinowy czterosuwowy                             Classic                                                       227,91        430
+Loncin                                             Elektryczny                                        Winter                                                        227,59        431
+Ducati                                             Elektryczny                                        Prestige                                                      225,83        432
+Aprilia                                            Spalinowy czterosuwowy                             Classic                                                       223,59        433
+Aeon                                               Spalinowy dwusuwowy                                NightRide                                                     223,55        434
+CFMoto                                             Spalinowy czterosuwowy                             Winter                                                        223,23        435
+Super Soco                                         Spalinowy czterosuwowy                             Pro                                                           219,29        436
+Lifan                                              Spalinowy dwusuwowy                                Prestige                                                      219,23        437
+Keeway                                             Spalinowy czterosuwowy                             Safety                                                       218,385        438
+Honda                                              Elektryczny                                        Off-road                                                      217,88        439
+
+PRODUCENT                                          TYP_NAPEDU                                         PAKIET_WYPOSAZENIA                                 SREDNIA_POJEMNOSC    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+CFMoto                                             Spalinowy czterosuwowy                             Tech                                                          213,07        440
+TGB                                                Spalinowy dwusuwowy                                Custom                                                        210,42        441
+BMW                                                Spalinowy czterosuwowy                             Tech                                                          203,95        442
+NIU                                                Spalinowy dwusuwowy                                Extreme                                                       200,99        443
+Bajaj                                              Elektryczny                                        Urban                                                         200,98        444
+Super Soco                                         Spalinowy dwusuwowy                                Komfort                                                        199,6        445
+Moto Guzzi                                         Elektryczny                                        Winter                                                        199,26        446
+Keeway                                             Elektryczny                                        Prestige                                                      198,33        447
+Ducati                                             Spalinowy czterosuwowy                             Komfort                                                       196,77        448
+CFMoto                                             Elektryczny                                        Adventure                                                     196,51        449
+TGB                                                Spalinowy dwusuwowy                                Extreme                                                       195,98        450
+
+PRODUCENT                                          TYP_NAPEDU                                         PAKIET_WYPOSAZENIA                                 SREDNIA_POJEMNOSC    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+Aprilia                                            Spalinowy dwusuwowy                                Smart                                                         192,22        451
+Rieju                                              Spalinowy dwusuwowy                                Adventure                                                     191,49        452
+Kawasaki                                           Elektryczny                                        NightRide                                                     190,42        453
+Lifan                                              Elektryczny                                        LED                                                           186,86        454
+Gogoro                                             Spalinowy czterosuwowy                             Adventure                                                     180,86        455
+Keeway                                             Elektryczny                                        TouringPlus                                                    179,6        456
+Suzuki                                             Elektryczny                                        Business                                                      177,67        457
+Kawasaki                                           Spalinowy dwusuwowy                                Komfort                                                       177,01        458
+Rieju                                              Elektryczny                                        NightRide                                                     173,29        459
+Honda                                              Spalinowy dwusuwowy                                Sport                                                         172,79        460
+Bajaj                                              Spalinowy dwusuwowy                                Eco                                                           172,04        461
+
+PRODUCENT                                          TYP_NAPEDU                                         PAKIET_WYPOSAZENIA                                 SREDNIA_POJEMNOSC    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+Suzuki                                             Spalinowy czterosuwowy                             Safety                                                        172,03        462
+Super Soco                                         Elektryczny                                        Winter                                                        169,37        463
+CFMoto                                             Elektryczny                                        Custom                                                        160,67        464
+TGB                                                Spalinowy dwusuwowy                                Classic                                                        159,6        465
+Aeon                                               Elektryczny                                        Pro                                                           159,58        466
+TGB                                                Spalinowy czterosuwowy                             Prestige                                                      157,19        467
+Aprilia                                            Spalinowy czterosuwowy                             Off-road                                                      155,17        468
+Piaggio                                            Spalinowy czterosuwowy                             SafetyPlus                                                    149,98        469
+Yamaha                                             Spalinowy czterosuwowy                             Exclusive                                                     149,04        470
+Loncin                                             Spalinowy dwusuwowy                                Sport                                                         148,49        471
+Rieju                                              Spalinowy czterosuwowy                             Urban                                                         147,61        472
+
+PRODUCENT                                          TYP_NAPEDU                                         PAKIET_WYPOSAZENIA                                 SREDNIA_POJEMNOSC    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+Ducati                                             Elektryczny                                        LED                                                            146,1        473
+Suzuki                                             Spalinowy dwusuwowy                                Travel                                                         145,5        474
+Honda                                              Spalinowy czterosuwowy                             Adventure                                                     137,27        475
+Sym                                                Spalinowy dwusuwowy                                Komfort                                                       136,08        476
+Lifan                                              Spalinowy dwusuwowy                                Premium                                                       130,29        477
+Aeon                                               Spalinowy dwusuwowy                                Urban                                                         123,93        478
+Bajaj                                              Spalinowy czterosuwowy                             Safety                                                        123,62        479
+Lifan                                              Spalinowy czterosuwowy                             Safety                                                        121,89        480
+Yamaha                                             Spalinowy czterosuwowy                             Ultimate                                                      118,89        481
+Malaguti                                           Spalinowy dwusuwowy                                Elegance                                                       118,1        482
+Keeway                                             Spalinowy czterosuwowy                             Dynamic                                                       117,01        483
+
+PRODUCENT                                          TYP_NAPEDU                                         PAKIET_WYPOSAZENIA                                 SREDNIA_POJEMNOSC    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+Bajaj                                              Elektryczny                                        Ultimate                                                       116,9        484
+Super Soco                                         Spalinowy dwusuwowy                                Eco                                                           112,34        485
+Piaggio                                            Spalinowy czterosuwowy                             Winter                                                         109,9        486
+Gogoro                                             Elektryczny                                        Adventure                                                     109,53        487
+Lifan                                              Spalinowy czterosuwowy                             Touring                                                       109,03        488
+CFMoto                                             Spalinowy czterosuwowy                             Sport                                                         108,79        489
+Rieju                                              Spalinowy czterosuwowy                             Prestige                                                      108,64        490
+Moto Guzzi                                         Elektryczny                                        Prestige                                                      106,17        491
+Bajaj                                              Spalinowy dwusuwowy                                City                                                          100,85        492
+Bajaj                                              Elektryczny                                        TouringPlus                                                     98,8        493
+Malaguti                                           Elektryczny                                        Komfort                                                        98,19        494
+
+PRODUCENT                                          TYP_NAPEDU                                         PAKIET_WYPOSAZENIA                                 SREDNIA_POJEMNOSC    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+Ducati                                             Spalinowy dwusuwowy                                Classic                                                        97,13        495
+Moto Guzzi                                         Elektryczny                                        Off-road                                                       96,09        496
+Suzuki                                             Spalinowy dwusuwowy                                Business                                                       92,82        497
+Peugeot                                            Spalinowy czterosuwowy                             Eco                                                             91,2        498
+Sym                                                Spalinowy dwusuwowy                                Touring                                                        90,65        499
+Super Soco                                         Spalinowy dwusuwowy                                TouringPlus                                                    88,63        500
+Bajaj                                              Spalinowy czterosuwowy                             Classic                                                         77,5        501
+Rieju                                              Spalinowy czterosuwowy                             Classic                                                         75,4        502
+Moto Guzzi                                         Spalinowy dwusuwowy                                Standard                                                       74,93        503
+Rieju                                              Spalinowy czterosuwowy                             Tech                                                           74,35        504
+Peugeot                                            Spalinowy dwusuwowy                                Dynamic                                                        72,38        505
+
+PRODUCENT                                          TYP_NAPEDU                                         PAKIET_WYPOSAZENIA                                 SREDNIA_POJEMNOSC    RANKING
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------- ----------
+Lifan                                              Elektryczny                                        NightRide                                                      70,99        506
+BMW                                                Spalinowy dwusuwowy                                LED                                                            70,96        507
+Suzuki                                             Spalinowy dwusuwowy                                SafetyPlus                                                     70,93        508
+Bajaj                                              Spalinowy dwusuwowy                                Komfort                                                        56,58        509
+Suzuki                                             Elektryczny                                        Komfort                                                        56,52        510
+Rieju                                              Elektryczny                                        Prestige                                                       56,32        511
+Piaggio                                            Elektryczny                                        Touring                                                        54,74        512
+
+513 rows selected. 
+
