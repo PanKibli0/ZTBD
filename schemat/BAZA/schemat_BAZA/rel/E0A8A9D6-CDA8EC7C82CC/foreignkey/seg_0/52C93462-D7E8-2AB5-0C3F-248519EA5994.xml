@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="52C93462-D7E8-2AB5-0C3F-248519EA5994" containerWithKeyObject="1063F1D5-FA39-0645-33E1-5FC8FB6553F3" localFKIndex="2847062A-3132-426D-62CC-46397BCA1EEE" name="FK_WYPOZYCZENIA_R_PLATNOSCI">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>PRO_BD</sourceObjSchema>
+<sourceObjName>FK_WYPOZYCZENIA_R_PLATNOSCI</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-04 09:32:01 UTC</createdTime>
+<ownerDesignName>schemat_BAZA</ownerDesignName>
+<referredTableLongName>PRO_BD.RODZAJ_PLATNOSCI</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1552C467-72A2-09C1-8CA2-BB386DA92A43</referredTableID>
+<keyObject>C2C4A790-27C9-D944-3C1D-AF333356F05F</keyObject>
+<referredKeyID>C2C4A790-27C9-D944-3C1D-AF333356F05F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

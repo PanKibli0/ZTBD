@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="schemat_BAZA" id="EEBCEEF1-07BF-8DED-74C1-30A0EF101B4F" version="3.5">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-04 09:29:54 UTC</createdTime>
+<ownerDesignName>schemat_BAZA</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>EEBCEEF1-07BF-8DED-74C1-30A0EF101B4F</designId>
+</OSDM_Design>

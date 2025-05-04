@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="429716BC-6854-70C9-0A99-69F027B3B233" schemaObject="FC8A15AC-7793-EFB2-D3E6-277AB2DABDE3" name="PANSTWO">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>PRO_BD</sourceObjSchema>
+<sourceObjName>PANSTWO</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-04 09:31:56 UTC</createdTime>
+<ownerDesignName>schemat_BAZA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="9FE2F434-FF5E-EF75-3EED-DE70CB427932">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>PANSTWO</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-04 09:31:56 UTC</createdTime>
+<ownerDesignName>schemat_BAZA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAZWA" id="4744C832-02A5-A78A-05A1-D9433C6CD1CE">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>PANSTWO</sourceObjSchema>
+<sourceObjName>NAZWA</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-04 09:31:56 UTC</createdTime>
+<ownerDesignName>schemat_BAZA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="951368B7-F85E-A145-3E5A-5C4CAD56AE7F" schemaObject="FC8A15AC-7793-EFB2-D3E6-277AB2DABDE3" name="PANSTWO_PK">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>PRO_BD</sourceObjSchema>
+<sourceObjName>SYS_C0020195</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-04 09:31:57 UTC</createdTime>
+<ownerDesignName>schemat_BAZA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9FE2F434-FF5E-EF75-3EED-DE70CB427932"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="163378AB-D555-A0A3-D9AA-E17055B3AF67" schemaObject="FC8A15AC-7793-EFB2-D3E6-277AB2DABDE3" name="PANSTWO_NAZWA_UN">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>PRO_BD</sourceObjSchema>
+<sourceObjName>SYS_C0020196</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-04 09:31:57 UTC</createdTime>
+<ownerDesignName>schemat_BAZA</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4744C832-02A5-A78A-05A1-D9433C6CD1CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

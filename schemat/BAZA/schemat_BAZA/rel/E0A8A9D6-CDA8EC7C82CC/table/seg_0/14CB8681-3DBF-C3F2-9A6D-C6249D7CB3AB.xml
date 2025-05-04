@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="14CB8681-3DBF-C3F2-9A6D-C6249D7CB3AB" schemaObject="FC8A15AC-7793-EFB2-D3E6-277AB2DABDE3" name="PRODUCENT">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>PRO_BD</sourceObjSchema>
+<sourceObjName>PRODUCENT</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-04 09:31:56 UTC</createdTime>
+<ownerDesignName>schemat_BAZA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="4A1A234B-0529-709B-C42D-F9E24FBB85E1">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>PRODUCENT</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-04 09:31:56 UTC</createdTime>
+<ownerDesignName>schemat_BAZA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAZWA" id="4D15020C-C4E0-28CC-82EF-746B7C237B78">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>PRODUCENT</sourceObjSchema>
+<sourceObjName>NAZWA</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-04 09:31:56 UTC</createdTime>
+<ownerDesignName>schemat_BAZA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BF5FB421-2086-F544-6BEC-EB46ECC612E1" schemaObject="FC8A15AC-7793-EFB2-D3E6-277AB2DABDE3" name="PRODUCENT_PK">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>PRO_BD</sourceObjSchema>
+<sourceObjName>SYS_C0020224</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-04 09:31:57 UTC</createdTime>
+<ownerDesignName>schemat_BAZA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4A1A234B-0529-709B-C42D-F9E24FBB85E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3D226ABD-D9A2-1C61-E5A9-42469627FF9A" schemaObject="FC8A15AC-7793-EFB2-D3E6-277AB2DABDE3" name="PRODUCENT_NAZWA_UN">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>PRO_BD</sourceObjSchema>
+<sourceObjName>SYS_C0020225</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-04 09:31:57 UTC</createdTime>
+<ownerDesignName>schemat_BAZA</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D15020C-C4E0-28CC-82EF-746B7C237B78"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

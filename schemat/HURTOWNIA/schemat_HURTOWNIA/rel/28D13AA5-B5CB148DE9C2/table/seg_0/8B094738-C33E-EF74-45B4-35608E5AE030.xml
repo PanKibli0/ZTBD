@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8B094738-C33E-EF74-45B4-35608E5AE030" schemaObject="3FD88CFD-0BFE-675C-3F1A-DA9848FFBD84" name="PLATNOSC">
+<sourceConnName>pro_hurtownia</sourceConnName>
+<sourceObjSchema>PRO_HURTOWNIA</sourceObjSchema>
+<sourceObjName>PLATNOSC</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-04 11:05:52 UTC</createdTime>
+<ownerDesignName>schemat_HURTOWNIA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="DDD917DC-260E-FADB-6392-551B39B076F0">
+<sourceConnName>pro_hurtownia</sourceConnName>
+<sourceObjSchema>PLATNOSC</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-04 11:05:52 UTC</createdTime>
+<ownerDesignName>schemat_HURTOWNIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAZWA" id="1CAF2D76-B856-6F8E-C048-4F5A7E228C2F">
+<sourceConnName>pro_hurtownia</sourceConnName>
+<sourceObjSchema>PLATNOSC</sourceObjSchema>
+<sourceObjName>NAZWA</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-04 11:05:52 UTC</createdTime>
+<ownerDesignName>schemat_HURTOWNIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8AE6088B-22A9-9719-79A6-3029AD5C39C0" schemaObject="3FD88CFD-0BFE-675C-3F1A-DA9848FFBD84" name="PLATNOSC_PK">
+<sourceConnName>pro_hurtownia</sourceConnName>
+<sourceObjSchema>PRO_HURTOWNIA</sourceObjSchema>
+<sourceObjName>SYS_C0020959</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-04 11:05:52 UTC</createdTime>
+<ownerDesignName>schemat_HURTOWNIA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DDD917DC-260E-FADB-6392-551B39B076F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

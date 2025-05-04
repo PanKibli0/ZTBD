@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="PRO_HURTOWNIA" directorySegmentName="seg_0" id="9F2E919C-4B5B-63AE-5982-90532B906936">
+<sourceConnName>pro_hurtownia</sourceConnName>
+<sourceObjName>PRO_HURTOWNIA</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-04 11:05:52 UTC</createdTime>
+<ownerDesignName>schemat_HURTOWNIA</ownerDesignName>
+<schemaObject>3FD88CFD-0BFE-675C-3F1A-DA9848FFBD84</schemaObject>
+</UserOraclev10g>

@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="WYPOZYCZALNIA" directorySegmentName="seg_0" id="A1464D84-0078-A0AF-58E7-3D12A7FC82CA">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-04 09:31:56 UTC</createdTime>
+<ownerDesignName>schemat_BAZA</ownerDesignName>
+<schemaObject>FC8A15AC-7793-EFB2-D3E6-277AB2DABDE3</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>38DAC15C-6901-1C92-3605-EFC7891F8B26</segment>
+<tableSpace>6CBECEC0-57F1-DA55-57AC-A2FA17F8F7C1</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NAZWA" id="5DC5F454-39DC-0404-566C-374FA24A7D8A">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-04 09:31:56 UTC</createdTime>
+<ownerDesignName>schemat_BAZA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NR_TELEFONU" id="6565BB88-1594-2E5B-60EE-4F63A0C0B27F">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-04 09:31:56 UTC</createdTime>
+<ownerDesignName>schemat_BAZA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_ULICA" id="B8D0846D-50B7-3CE9-D7A3-2A6C512F2B93">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-04 09:31:56 UTC</createdTime>
+<ownerDesignName>schemat_BAZA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NR_LOKALU" id="C3573983-D912-022C-1B7B-77EC759DDCE5">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-04 09:31:56 UTC</createdTime>
+<ownerDesignName>schemat_BAZA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="F415A325-C085-CF0A-20B9-C35A96FA9DCE">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-04 09:31:56 UTC</createdTime>
+<ownerDesignName>schemat_BAZA</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_WYPOZYCZALNIA_ULICA" id="99C42F8D-5A69-537D-B1CA-3B90894EC86B">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-04 09:32:01 UTC</createdTime>
+<ownerDesignName>schemat_BAZA</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="WYPOZYCZALNIA_PK" id="785CE06B-6043-5EC5-BE13-AF7ECD054ED6">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-04 09:31:59 UTC</createdTime>
+<ownerDesignName>schemat_BAZA</ownerDesignName>
+<schemaObject>FC8A15AC-7793-EFB2-D3E6-277AB2DABDE3</schemaObject>
+<segment>AA928008-6584-072A-9A5F-E93893704096</segment>
+<tableSpace>6CBECEC0-57F1-DA55-57AC-A2FA17F8F7C1</tableSpace>
+<indexSegment>AA928008-6584-072A-9A5F-E93893704096</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>
