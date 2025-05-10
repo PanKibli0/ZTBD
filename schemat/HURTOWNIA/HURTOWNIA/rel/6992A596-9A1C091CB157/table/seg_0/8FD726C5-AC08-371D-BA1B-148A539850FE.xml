@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8FD726C5-AC08-371D-BA1B-148A539850FE" schemaObject="052E0322-3B1C-6469-CCB4-BA7E46AAB1EB" name="PRACOWNIK">
+<sourceConnName>pro_hurtownia</sourceConnName>
+<sourceObjSchema>PRO_HURTOWNIA</sourceObjSchema>
+<sourceObjName>PRACOWNIK</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-10 10:32:02 UTC</createdTime>
+<ownerDesignName>HURTOWNIA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="4E534B64-E941-F817-BF78-9D49719A8B6C">
+<sourceConnName>pro_hurtownia</sourceConnName>
+<sourceObjSchema>PRACOWNIK</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-10 10:32:02 UTC</createdTime>
+<ownerDesignName>HURTOWNIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IMIE" id="D6D55379-706C-6EE7-71B5-E1872E0DCAEB">
+<sourceConnName>pro_hurtownia</sourceConnName>
+<sourceObjSchema>PRACOWNIK</sourceObjSchema>
+<sourceObjName>IMIE</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-10 10:32:02 UTC</createdTime>
+<ownerDesignName>HURTOWNIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAZWISKO" id="A62E1713-3E04-2FF6-A85F-5CF38D266FC6">
+<sourceConnName>pro_hurtownia</sourceConnName>
+<sourceObjSchema>PRACOWNIK</sourceObjSchema>
+<sourceObjName>NAZWISKO</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-10 10:32:02 UTC</createdTime>
+<ownerDesignName>HURTOWNIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C0D9FDA9-92F7-F28D-FB99-034AA0C190A9" schemaObject="052E0322-3B1C-6469-CCB4-BA7E46AAB1EB" name="PRACOWNIK_PK">
+<sourceConnName>pro_hurtownia</sourceConnName>
+<sourceObjSchema>PRO_HURTOWNIA</sourceObjSchema>
+<sourceObjName>SYS_C0021489</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-10 10:32:02 UTC</createdTime>
+<ownerDesignName>HURTOWNIA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E534B64-E941-F817-BF78-9D49719A8B6C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
