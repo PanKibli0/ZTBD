@@ -1,17 +1,17 @@
 -- OKNA CZASOWE
 
--- Liczba klientów miesiêcznie wg producenta i typu napêdu
-SPOOL wynik1.txt
+-- 1. Liczba klientow roczno-miesiecznie wg producenta i typu napedu
+
 
 SELECT 
-    dane.MIESIAC,
+    AGG.DATA,
     producent.NAZWA AS NAZWA_PRODUCENTA,
     typ_nap.NAZWA AS NAZWA_TYPU_NAPEDU,
     agg.LICZBA_KLIENTOW,
-    SUM(agg.LICZBA_KLIENTOW) OVER (PARTITION BY producent.NAZWA ORDER BY agg.MIESIAC) AS SUMA_NARASTAJACO
+    SUM(agg.LICZBA_KLIENTOW) OVER (PARTITION BY producent.NAZWA ORDER BY agg.DATA) AS SUMA_NARASTAJACO
 FROM (
     SELECT 
-        TO_CHAR(wyp.DATA_WYPOZYCZENIA, 'YYYY-MM') AS MIESIAC,
+        TO_CHAR(wyp.DATA_WYPOZYCZENIA, 'YYYY-MM') AS DATA,
         model.ID_PRODUCENT,
         skuter.ID_TYP_NAPEDU,
         COUNT(DISTINCT wyp.ID_KLIENT) AS LICZBA_KLIENTOW
@@ -24,11 +24,9 @@ JOIN PRODUCENT producent ON agg.ID_PRODUCENT = producent.ID
 JOIN TYP_NAPEDU typ_nap ON agg.ID_TYP_NAPEDU = typ_nap.ID;
 
 
-SPOOL OFF;
 ----------------------------------------------------------------------------------------------------------------------
---Sprawdzenie, jak zmienia siê œrednia roczna liczba wypo¿yczeñ skuterów poszczególnych producentów w zale¿noœci od rodzaju p³atnoœci.
+-- 2. Sprawdzenie, jak zmienia siê srednia roczna liczba wypozyczeñ skuterow poszczegolnych producentow w zaleznosci od rodzaju platnosci.
 
-SPOOL wyniki2.txt
 
 SELECT 
     producent.NAZWA AS NAZWA_PRODUCENTA,
@@ -53,11 +51,9 @@ JOIN PRODUCENT producent ON agg.ID_PRODUCENT = producent.ID
 JOIN RODZAJ_PLATNOSCI platnosc ON agg.ID_RODZAJ_PLATNOSCI = platnosc.ID
 ORDER BY agg.ROK, NAZWA_PRODUCENTA, NAZWA_RODZAJU_PLATNOSCI;
 
-SPOOL OFF;
 ----------------------------------------------------------------------------------------------------------------------
---Liczba wypozyczen miesiecznie z podzialem na wypozyczalnie i producentow oraz ich srednia
+-- 3. Liczba wypozyczen miesiecznie z podzialem na wypozyczalnie i producentow oraz ich srednia
 
-SPOOL wynik3.txt
 
 SELECT 
     agg.MIESIAC,
@@ -81,7 +77,7 @@ JOIN WYPOZYCZALNIA wypozyczalnia ON agg.ID_WYPOZYCZALNIA = wypozyczalnia.ID
 JOIN PRODUCENT producent ON agg.ID_PRODUCENT = producent.ID
 ORDER BY agg.MIESIAC, wypozyczalnia.NAZWA, producent.NAZWA;
 
-SPOOL OFF;
+
 
 
 

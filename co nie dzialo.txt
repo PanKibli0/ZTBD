@@ -1,0 +1,27 @@
+ROLLUP			= 2 // KOM1.
+CUBE			= 1,2,3 // KOM2.
+PARTYCJE OBLCIZENIOWE	= v
+OKNA CZASOSE		= 3// KOM4.
+RANKING			= 3// KOM5.
+
+==============================================
+
+KOM1.2 - POLACZENIE ROZNE PRACOWIK A SKUTER === adres INNY SKUTER LOSOWO I PRACOWNIK LOSOWO BRAK POLACZENIE Z WYPO JAKO DANE
+
+KOM2.1
+KOM2.2 - osobno jakos skutery (ablo tabela wymiaru skuter, albo nw [600skuteroiw/100000wypozyczen])
+KOM2.3
+
+KOM5.3 POLACZENIE ROZNE PRACOWIK A SKUTER === adres INNY SKUTER LOSOWO I PRACOWNIK LOSOWO BRAK POLACZENIE Z WYPO JAKO DANE
+
+============================================== NEW 
+
+ROLLUP			= 
+CUBE			=
+PARTYCJE OBLCIZENIOWE	= 
+OKNA CZASOSE		= 
+RANKING			= 
+
+============================================== NEW ERRORS
+
+adresy po przez wypozyczlanie skuter i pracownik osobno prawdopodobnie powinny byc przez dane /a albo zmiana danych i dopasownaie skuterow i krapcownik

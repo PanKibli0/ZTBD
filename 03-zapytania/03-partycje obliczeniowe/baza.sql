@@ -1,7 +1,7 @@
 -- PARTYCJE OBLICZENIOWE
 
--- Srednia cena wypozyczenia wg producenta, typu napedu, pakietu i modelu
-SPOOL wynik1.txt
+-- 1. Srednia cena wypozyczenia wg producenta, typu napedu, pakietu i modelu
+
 
 SELECT 
     PR.NAZWA AS PRODUCENT,
@@ -19,12 +19,10 @@ JOIN PRODUCENT PR ON M.ID_PRODUCENT = PR.ID
 JOIN TYP_NAPEDU TN ON S.ID_TYP_NAPEDU = TN.ID
 JOIN PAKIET_WYPOSAZENIA PW ON S.ID_PAKIET_WYPOSAZENIA = PW.ID;
 
-SPOOL OFF;
 
 --------------------------------------------------------------------------------------------
--- Srednia cena wypozyczenia wg klienta, rodzaju platnosci i koloru skutera
+-- 2. Srednia cena wypozyczenia wg klienta, rodzaju platnosci i koloru skutera
 
-SPOOL wynik2.txt
 
 SELECT 
     K.IMIE || ' ' || K.NAZWISKO AS KLIENT,
@@ -41,12 +39,9 @@ JOIN SKUTER S ON W.ID_SKUTER = S.ID
 JOIN KOLOR KOL ON S.ID_KOLOR = KOL.ID
 JOIN RODZAJ_PLATNOSCI RP ON W.ID_RODZAJ_PLATNOSCI = RP.ID;
 
-SPOOL OFF;
 
 --------------------------------------------------------------------------------------------
--- Najstarsze i najnowszee skutery od danego producenta, ktore sa uzywane w konkretnym miescie i wypozyczalni
-
-SPOOL wynik3.txt
+-- 3. Najstarsze i najnowszee skutery od danego producenta, ktore sa uzywane w konkretnym miescie i wypozyczalni
 
 SELECT 
     M.NAZWA AS MIASTO,
@@ -66,5 +61,3 @@ JOIN WYPOZYCZALNIA WY ON S.ID_WYPOZYCZALNIA = WY.ID
 JOIN ULICA U ON WY.ID_ULICA = U.ID
 JOIN MIASTO M ON U.ID_MIASTO = M.ID;
 
-
-SPOOL OFF;

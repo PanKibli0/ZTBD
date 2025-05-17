@@ -1,8 +1,6 @@
 -- ROLLUP
 
---Zapytanie agreguje przychody z wypozyczen wedlug kraju, wojewodztwa, miasta oraz metody platnosci.
-
-SPOOL wynik1.txt
+-- 1. Zapytanie agreguje przychody z wypozyczen wedlug kraju, wojewodztwa, miasta oraz metody platnosci.
 
 SELECT 
     NVL(p.NAZWA, 'RAZEM - PANSTWO') AS PANSTWO,
@@ -32,12 +30,9 @@ LEFT JOIN MIASTO m ON agg.MIASTO_ID = m.ID
 LEFT JOIN RODZAJ_PLATNOSCI r ON agg.RODZAJ_PLATNOSCI_ID = r.ID
 ORDER BY agg.LACZNY_PRZYCHOD;
 
-SPOOL OFF;
 
 ----------------------------------------------------------------------------------------------
---Zapytanie agreguje przychody z wypozyczen wedlug wypozyczalni, pracownika i metody platnosci.
-
-SPOOL wyniki2.txt
+-- 2. Zapytanie agreguje przychody z wypozyczen wedlug wypozyczalni, pracownika i metody platnosci.
 
 SELECT 
     NVL(wypo.NAZWA, 'RAZEM - WYPOZYCZALNIA') AS WYPOZYCZALNIA,
@@ -61,11 +56,9 @@ LEFT JOIN PRACOWNIK p ON agg.PRACOWNIK_ID = p.ID
 LEFT JOIN RODZAJ_PLATNOSCI r ON agg.RODZAJ_PLATNOSCI_ID = r.ID
 ORDER BY PRZYCHOD;
    
-SPOOL OFF;
 
 ----------------------------------------------------------------------------------------------
---Zapytanie agreguje przychody z wypozyczen wedlug producenta, modelu i pakietu wyposazenia skuterow.
-SPOOL wyniki3.txt
+-- 3. Zapytanie agreguje przychody z wypozyczen wedlug producenta, modelu i pakietu wyposazenia skuterow.
 
 SELECT 
     NVL(prod.NAZWA, 'RAZEM - PRODUCENT') AS PRODUCENT,
@@ -91,4 +84,3 @@ LEFT JOIN MODEL mod ON agg.MODEL_ID = mod.ID
 LEFT JOIN PAKIET_WYPOSAZENIA pak ON agg.PAKIET_ID = pak.ID
 ORDER BY LACZNY_PRZYCHOD; 
     
-SPOOL OFF;

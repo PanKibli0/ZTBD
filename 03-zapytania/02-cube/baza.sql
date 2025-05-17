@@ -1,7 +1,7 @@
 -- CUBE
 
--- Zapytanie agreguje przychody z wypozyczen wedlug producenta, modelu, koloru oraz typu napedu.
-SPOOL wynik1.txt
+-- 1. Zapytanie agreguje przychody z wypozyczen wedlug producenta, modelu, koloru oraz typu napedu.
+
 
 SELECT 
     NVL(pr.NAZWA, 'RAZEM - PRODUCENT') AS PRODUCENT,
@@ -30,11 +30,10 @@ LEFT JOIN KOLOR k ON agg.KOLOR_ID = k.ID
 LEFT JOIN TYP_NAPEDU tn ON agg.TYP_NAPEDU_ID = tn.ID
 ORDER BY agg.LACZNY_PRZYCHOD;
 
-SPOOL OFF;
 
 ----------------------------------------------------------------------------------------------
--- Zapytanie agreguje liczbe skuterow wedlug modelu, koloru oraz pakietu wyposazenia.
-SPOOL wyniki2.txt
+-- 2. Zapytanie agreguje liczbe skuterow wedlug modelu, koloru oraz pakietu wyposazenia.
+
 
 SELECT 
     NVL(m.NAZWA, 'RAZEM - MODEL') AS MODEL,
@@ -59,11 +58,9 @@ LEFT JOIN PAKIET_WYPOSAZENIA pw ON agg.PAKIET_WYPOSAZENIA_ID = pw.ID
 WHERE agg.liczba_skuterow > 1
 ORDER BY agg.LICZBA_SKUTEROW;
 
-SPOOL OFF;
 
 ----------------------------------------------------------------------------------------------
---Zapytanie agreguje liczbe unikalnych klientow wedlug wojewodztwa, miasta i wypozyczalni.
-SPOOL wyniki3.txt
+-- 3. Zapytanie agreguje liczbe unikalnych klientow wedlug wojewodztwa, miasta i wypozyczalni.
 
 SELECT 
     NVL(w.NAZWA, 'RAZEM - WOJEWODZTWO') AS WOJEWODZTWO,
@@ -90,4 +87,3 @@ LEFT JOIN MIASTO m ON agg.MIASTO_ID = m.ID
 LEFT JOIN WYPOZYCZALNIA wy ON agg.WYPOSYCZALNIA_ID = wy.ID
 ORDER BY agg.LICZBA_KLIENTOW;
 
-SPOOL OFF;

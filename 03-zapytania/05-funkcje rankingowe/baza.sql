@@ -1,7 +1,6 @@
 -- FUNKCJE RANKINGOWE
 
--- Sprawdzenie, ktore modele skuterow i typy napedu ciesza sie najwiekszym zainteresowaniem w poszczegolnych wypozyczalniach, z rankingiem wedlug liczby wypozyczen.
-SPOOL wynik1.txt
+-- 1. Sprawdzenie, ktore modele skuterow i typy napedu ciesza sie najwiekszym zainteresowaniem w poszczegolnych wypozyczalniach, z rankingiem wedlug liczby wypozyczen.
 
 SELECT 
     wy.NAZWA AS WYPOZYCZALNIA,
@@ -24,11 +23,8 @@ JOIN MODEL m ON agg.ID_MODEL = m.ID
 JOIN TYP_NAPEDU t ON agg.ID_TYP_NAPEDU = t.ID
 ORDER BY wy.NAZWA, RANKING;
 
-SPOOL OFF;
-
 -------------------------------------------------------------------------------------
--- Sprawdzenie, ktore kombinacje producenta, typu napedu i pakietu wyposazenia oferuja skutery o najwyzszej sredniej pojemnosci.
-SPOOL wynik2.txt
+-- 2. Sprawdzenie, ktore kombinacje producenta, typu napedu i pakietu wyposazenia oferuja skutery o najwyzszej sredniej pojemnosci.
 
 SELECT 
     p.NAZWA AS PRODUCENT,
@@ -50,13 +46,8 @@ JOIN PRODUCENT p ON agg.ID_PRODUCENT = p.ID
 JOIN TYP_NAPEDU tn ON agg.ID_TYP_NAPEDU = tn.ID
 JOIN PAKIET_WYPOSAZENIA pw ON agg.ID_PAKIET_WYPOSAZENIA = pw.ID;
 
-
-SPOOL OFF;
-
-
 -------------------------------------------------------------------------------------
---Sprawdzenie, ktory pracownik najczesciej obsluguje wypozyczenia skuterow danego producenta w danej wypozyczalni.
-SPOOL wynik3.txt
+-- 3. Sprawdzenie, ktory pracownik najczesciej obsluguje wypozyczenia skuterow danego producenta w danej wypozyczalni.
 
 SELECT 
     w.NAZWA AS NAZWA_WYPOZYCZALNI,
@@ -82,4 +73,3 @@ JOIN PRACOWNIK p ON agg.ID_PRACOWNIK = p.ID
 JOIN WYPOZYCZALNIA w ON agg.ID_WYPOZYCZALNIA = w.ID
 JOIN PRODUCENT prod ON agg.ID_PRODUCENT = prod.ID;
 
-SPOOL OFF;
