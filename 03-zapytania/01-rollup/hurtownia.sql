@@ -31,9 +31,28 @@ ORDER BY agg.LACZNY_PRZYCHOD;
 
 -- 2. Zapytanie agreguje przychody z wypozyczen wedlug wypozyczalni, pracownika i metody platnosci.
 
+SELECT 
+    NVL(wypo.NAZWA, 'RAZEM - WYPOZYCZALNIA') AS WYPOZYCZALNIA,
+    NVL(p.IMIE, 'RAZEM -') || ' ' || NVL(p.NAZWISKO, 'PRACOWNIK') AS PRACOWNIK,
+    NVL(r.NAZWA, 'RAZEM - PLATNOSC') AS RODZAJ_PLATNOSCI,
+    agg.PRZYCHOD
+FROM (
+    SELECT 
+        hw.ID_WYPOZYCZALNIA_PRACOWNIK AS WYPOZYCZALNIA_ID,
+        hw.ID_PRACOWNIK AS PRACOWNIK_ID,
+        hw.ID_RODZAJ_PLATNOSCI AS RODZAJ_PLATNOSCI_ID,
+        SUM(hw.CENA) AS PRZYCHOD
+    FROM H_WYPOZYCZENIA hw
+    GROUP BY ROLLUP(hw.ID_WYPOZYCZALNIA_PRACOWNIK, hw.ID_PRACOWNIK, hw.ID_RODZAJ_PLATNOSCI)
+) agg
+LEFT JOIN H_WYPOZYCZALNIA wypo ON agg.WYPOZYCZALNIA_ID = wypo.ID
+LEFT JOIN H_PRACOWNIK p ON agg.PRACOWNIK_ID = p.ID
+LEFT JOIN H_RODZAJ_PLATNOSCI r ON agg.RODZAJ_PLATNOSCI_ID = r.ID
+ORDER BY PRZYCHOD;
 
 
 -- 3. Zapytanie agreguje przychody z wypozyczen wedlug producenta, modelu i pakietu wyposazenia skuterow.
+
 
 SELECT 
     NVL(hprod.NAZWA, 'RAZEM - PRODUCENT') AS PRODUCENT,

@@ -18,8 +18,8 @@ FROM (
         SUM(wyp.CENA) AS LACZNY_PRZYCHOD
     FROM WYPOZYCZENIA wyp
         JOIN SKUTER s ON wyp.ID_SKUTER = s.ID
-        JOIN PRODUCENT pr ON s.ID_MODEL = pr.ID
-        JOIN MODEL m ON s.ID_MODEL = m.ID
+		JOIN MODEL m ON s.ID_MODEL = m.ID
+        JOIN PRODUCENT pr ON M.ID_PRODUCENT = pr.ID
         JOIN KOLOR k ON s.ID_KOLOR = k.ID
         JOIN TYP_NAPEDU tn ON s.ID_TYP_NAPEDU = tn.ID
     GROUP BY CUBE (pr.id, m.id, k.id, tn.id)  
@@ -32,31 +32,33 @@ ORDER BY agg.LACZNY_PRZYCHOD;
 
 
 ----------------------------------------------------------------------------------------------
--- 2. Zapytanie agreguje liczbe skuterow wedlug modelu, koloru oraz pakietu wyposazenia.
+-- 2. Zapytanie agreguje liczbe wypozyczen skuterow wedlug modelu, koloru oraz obslugujacego pracownika.
 
 
-SELECT 
+SELECT
     NVL(m.NAZWA, 'RAZEM - MODEL') AS MODEL,
     NVL(k.NAZWA, 'RAZEM - KOLOR') AS KOLOR,
-    NVL(pw.NAZWA, 'RAZEM - PAKIET WYPOSAZENIA') AS PAKIET_WYPOSAZENIA,
-    agg.LICZBA_SKUTEROW
+    NVL(p.IMIE, 'RAZEM -') || ' ' || NVL(p.NAZWISKO, 'PRACOWNIK') AS PRACOWNIK,
+    agg.LICZBA_WYPOZYCZEN 
 FROM (
-    SELECT 
-        m.id AS MODEL_ID,
-        k.id AS KOLOR_ID, 
-        pw.id AS PAKIET_WYPOSAZENIA_ID, 
-        COUNT(s.ID) AS LICZBA_SKUTEROW
-    FROM SKUTER s
+    SELECT
+        m.ID AS MODEL_ID,
+        k.ID AS KOLOR_ID,
+        p.ID AS PRACOWNIK_ID,
+        COUNT(w.ID) AS LICZBA_WYPOZYCZEN
+    FROM WYPOZYCZENIA w
+        JOIN SKUTER s ON w.ID_SKUTER = s.ID
         JOIN MODEL m ON s.ID_MODEL = m.ID
         JOIN KOLOR k ON s.ID_KOLOR = k.ID
-        JOIN PAKIET_WYPOSAZENIA pw ON s.ID_PAKIET_WYPOSAZENIA = pw.ID
-    GROUP BY CUBE (m.id, k.id, pw.id)
+        JOIN PRACOWNIK p ON w.ID_PRACOWNIK = p.ID
+    GROUP BY CUBE(m.ID, k.ID, p.ID)
 ) agg
 LEFT JOIN MODEL m ON agg.MODEL_ID = m.ID
 LEFT JOIN KOLOR k ON agg.KOLOR_ID = k.ID
-LEFT JOIN PAKIET_WYPOSAZENIA pw ON agg.PAKIET_WYPOSAZENIA_ID = pw.ID
-WHERE agg.liczba_skuterow > 1
-ORDER BY agg.LICZBA_SKUTEROW;
+LEFT JOIN PRACOWNIK p ON agg.PRACOWNIK_ID = p.ID
+ORDER BY LICZBA_WYPOZYCZEN;
+
+
 
 
 ----------------------------------------------------------------------------------------------
