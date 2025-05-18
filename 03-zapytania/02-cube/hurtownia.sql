@@ -1,4 +1,6 @@
--- 1.
+-- CUBE
+
+-- 1. Zapytanie agreguje przychody z wypozyczen wedlug producenta, modelu, koloru oraz typu napedu.
 
 SELECT 
     NVL(pr.NAZWA, 'RAZEM - PRODUCENT') AS PRODUCENT,
@@ -23,7 +25,9 @@ LEFT JOIN H_KOLOR k ON agg.KOLOR_ID = k.ID
 LEFT JOIN H_TYP_NAPEDU tn ON agg.TYP_NAPEDU_ID = tn.ID
 ORDER BY agg.LACZNY_PRZYCHOD;
 
--- 2.
+----------------------------------------------------------------------------------------------
+-- 2. Zapytanie agreguje liczbe wypozyczen skuterow wedlug modelu, koloru oraz obslugujacego pracownika.
+
 SELECT
     NVL(m.NAZWA, 'RAZEM - MODEL') AS MODEL,
     NVL(k.NAZWA, 'RAZEM - KOLOR') AS KOLOR,
@@ -43,8 +47,9 @@ LEFT JOIN H_KOLOR k ON agg.KOLOR_ID = k.ID
 LEFT JOIN H_PRACOWNIK p ON agg.PRACOWNIK_ID = p.ID
 ORDER BY LICZBA_WYPOZYCZEN;
 
+----------------------------------------------------------------------------------------------
+-- 3. Zapytanie agreguje liczbe unikalnych klientow wedlug wojewodztwa, miasta i wypozyczalni.
 
--- 3.
 SELECT 
     NVL(w.NAZWA, 'RAZEM - WOJEWODZTWO') AS WOJEWODZTWO,
     NVL(m.NAZWA, 'RAZEM - MIASTO') AS MIASTO,

@@ -1,11 +1,13 @@
--- Srednia cena wypozyczenia wg producenta, typu napedu, pakietu i modelu
+-- PARTYCJE OBLICZENIOWE
+
+-- 1. Srednia cena wypozyczenia wg producenta, typu napedu, pakietu i modelu
 SELECT 
     PR.NAZWA AS PRODUCENT,
     M.NAZWA AS MODEL,
     TN.NAZWA AS TYP_NAPEDU,
     PW.NAZWA AS PAKIET,
     W.CENA,
-    AVG(W.CENA) OVER (PARTITION BY PR.ID, M.ID, TN.ID, PW.ID) AS SREDNIA_CENA
+    round(AVG(W.CENA) OVER (PARTITION BY PR.ID, M.ID, TN.ID, PW.ID), 2) AS SREDNIA_CENA
 FROM 
     H_WYPOZYCZENIA W
 JOIN H_PRODUCENT PR ON W.ID_PRODUCENT = PR.ID

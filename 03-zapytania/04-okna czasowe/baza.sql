@@ -1,83 +1,122 @@
 -- OKNA CZASOWE
 
--- 1. Liczba klientow roczno-miesiecznie wg producenta i typu napedu
+-- 1. Liczba unikalnych klientow w podziale na miesiac i rok, wedlug producenta skutera, typu napedu oraz rodzaju platnosci
 
 
 SELECT 
     AGG.DATA,
     producent.NAZWA AS NAZWA_PRODUCENTA,
     typ_nap.NAZWA AS NAZWA_TYPU_NAPEDU,
+    r_platnosci.NAZWA AS NAZWA_RODZAJU_PLATNOSCI,
     agg.LICZBA_KLIENTOW,
-    SUM(agg.LICZBA_KLIENTOW) OVER (PARTITION BY producent.NAZWA ORDER BY agg.DATA) AS SUMA_NARASTAJACO
+    SUM(agg.LICZBA_KLIENTOW) OVER (
+        PARTITION BY producent.ID, typ_nap.ID, r_platnosci.ID
+        ORDER BY agg.DATA
+    ) AS SUMA_NARASTAJACO
 FROM (
     SELECT 
         TO_CHAR(wyp.DATA_WYPOZYCZENIA, 'YYYY-MM') AS DATA,
         model.ID_PRODUCENT,
         skuter.ID_TYP_NAPEDU,
+        wyp.ID_RODZAJ_PLATNOSCI,
         COUNT(DISTINCT wyp.ID_KLIENT) AS LICZBA_KLIENTOW
     FROM WYPOZYCZENIA wyp
     JOIN SKUTER skuter ON wyp.ID_SKUTER = skuter.ID
     JOIN MODEL model ON skuter.ID_MODEL = model.ID
-    GROUP BY TO_CHAR(wyp.DATA_WYPOZYCZENIA, 'YYYY-MM'), model.ID_PRODUCENT, skuter.ID_TYP_NAPEDU
+    GROUP BY 
+        TO_CHAR(wyp.DATA_WYPOZYCZENIA, 'YYYY-MM'), 
+        model.ID_PRODUCENT, 
+        skuter.ID_TYP_NAPEDU,
+        wyp.ID_RODZAJ_PLATNOSCI
 ) agg
 JOIN PRODUCENT producent ON agg.ID_PRODUCENT = producent.ID
-JOIN TYP_NAPEDU typ_nap ON agg.ID_TYP_NAPEDU = typ_nap.ID;
+JOIN TYP_NAPEDU typ_nap ON agg.ID_TYP_NAPEDU = typ_nap.ID
+JOIN RODZAJ_PLATNOSCI r_platnosci ON agg.ID_RODZAJ_PLATNOSCI = r_platnosci.ID;
 
 
 ----------------------------------------------------------------------------------------------------------------------
--- 2. Sprawdzenie, jak zmienia siê srednia roczna liczba wypozyczeñ skuterow poszczegolnych producentow w zaleznosci od rodzaju platnosci.
+-- 2. Liczba wypozyczen miesiecznie z podzialem na panstwo, wypozyczalnie oraz producentow wraz ze srednia liczba wypozyczen narastajaco
 
 
 SELECT 
-    producent.NAZWA AS NAZWA_PRODUCENTA,
-    platnosc.NAZWA AS NAZWA_RODZAJU_PLATNOSCI,
-    agg.ROK,
-    agg.LICZBA_WYPOZYCZEN,
-    AVG(agg.LICZBA_WYPOZYCZEN) OVER (
-        PARTITION BY producent.NAZWA, agg.ROK
-    ) AS SREDNIA_ROCZNA_DLA_PRODUCENTA
-FROM (
-    SELECT 
-        EXTRACT(YEAR FROM wyp.DATA_WYPOZYCZENIA) AS ROK,
-        model.ID_PRODUCENT,
-        wyp.ID_RODZAJ_PLATNOSCI,
-        COUNT(wyp.ID_SKUTER) AS LICZBA_WYPOZYCZEN
-    FROM WYPOZYCZENIA wyp
-    JOIN SKUTER skut ON wyp.ID_SKUTER = skut.ID
-    JOIN MODEL model ON skut.ID_MODEL = model.ID
-    GROUP BY EXTRACT(YEAR FROM wyp.DATA_WYPOZYCZENIA), model.ID_PRODUCENT, wyp.ID_RODZAJ_PLATNOSCI
-) agg
-JOIN PRODUCENT producent ON agg.ID_PRODUCENT = producent.ID
-JOIN RODZAJ_PLATNOSCI platnosc ON agg.ID_RODZAJ_PLATNOSCI = platnosc.ID
-ORDER BY agg.ROK, NAZWA_PRODUCENTA, NAZWA_RODZAJU_PLATNOSCI;
-
-----------------------------------------------------------------------------------------------------------------------
--- 3. Liczba wypozyczen miesiecznie z podzialem na wypozyczalnie i producentow oraz ich srednia
-
-
-SELECT 
-    agg.MIESIAC,
+    agg.DATA,
+    panstwo.NAZWA AS NAZWA_PANSTWA,
     wypozyczalnia.NAZWA AS NAZWA_WYPOZYCZALNI,
     producent.NAZWA AS NAZWA_PRODUCENTA,
     agg.LICZBA_WYPOZYCZEN,
-    round(AVG(agg.LICZBA_WYPOZYCZEN) OVER (PARTITION BY wypozyczalnia.NAZWA, producent.NAZWA ORDER BY agg.MIESIAC ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW), 2) AS SREDNIA_LICZBA_WYPOZYCZEN
+    ROUND(
+        AVG(agg.LICZBA_WYPOZYCZEN) OVER (
+            PARTITION BY agg.ID_PANSTWO, agg.ID_WYPOZYCZALNIA, agg.ID_PRODUCENT
+            ORDER BY agg.DATA 
+            ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW
+        ), 2
+    ) AS SREDNIA_LICZBA_WYPOZYCZEN
 FROM (
     SELECT 
-        TO_CHAR(wyp.DATA_WYPOZYCZENIA, 'YYYY-MM') AS MIESIAC,
+        TO_CHAR(wyp.DATA_WYPOZYCZENIA, 'YYYY-MM') AS DATA,
         p.ID_WYPOZYCZALNIA,
         m.ID_PRODUCENT,
+        woje.ID_PANSTWO,
         COUNT(*) AS LICZBA_WYPOZYCZEN
     FROM WYPOZYCZENIA wyp
     JOIN SKUTER s ON wyp.ID_SKUTER = s.ID
     JOIN MODEL m ON s.ID_MODEL = m.ID
     JOIN PRACOWNIK p ON wyp.ID_PRACOWNIK = p.ID
-    GROUP BY TO_CHAR(wyp.DATA_WYPOZYCZENIA, 'YYYY-MM'), p.ID_WYPOZYCZALNIA, m.ID_PRODUCENT
+    JOIN WYPOZYCZALNIA w ON p.ID_WYPOZYCZALNIA = w.ID
+    JOIN ULICA u ON w.ID_ULICA = u.ID
+    JOIN MIASTO miasto ON u.ID_MIASTO = miasto.ID
+    JOIN WOJEWODZTWO woje ON miasto.ID_WOJEWODZTWO = woje.ID
+    GROUP BY 
+        TO_CHAR(wyp.DATA_WYPOZYCZENIA, 'YYYY-MM'), 
+        p.ID_WYPOZYCZALNIA, 
+        m.ID_PRODUCENT,
+        woje.ID_PANSTWO
 ) agg
 JOIN WYPOZYCZALNIA wypozyczalnia ON agg.ID_WYPOZYCZALNIA = wypozyczalnia.ID
 JOIN PRODUCENT producent ON agg.ID_PRODUCENT = producent.ID
-ORDER BY agg.MIESIAC, wypozyczalnia.NAZWA, producent.NAZWA;
+JOIN PANSTWO panstwo ON agg.ID_PANSTWO = panstwo.ID
+ORDER BY agg.DATA, panstwo.NAZWA, wypozyczalnia.NAZWA, producent.NAZWA;
 
 
+----------------------------------------------------------------------------------------------------------------------
+-- 3. Liczba wypozyczen miesiecznie z podzialem na panstwo, wypozyczalnie oraz rodzaj platnosci wraz z minimalna, srednia i maksymalna cena wypozyczenia
+
+SELECT
+    agg.DATA,
+    panstwo.NAZWA AS NAZWA_PANSTWA,
+    wypozyczalnia.NAZWA AS NAZWA_WYPOZYCZALNI,
+    rodzaj_platnosci.NAZWA AS NAZWA_RODZAJU_PLATNOSCI,
+    agg.LICZBA_WYPOZYCZEN AS LICZBA_WYPOZYCZEN,
+    ROUND(agg.MIN_CENA, 2) AS MIN_CENA,
+    ROUND(agg.SREDNIA_CENA, 2) AS SREDNIA_CENA,
+    ROUND(agg.MAX_CENA, 2) AS MAX_CENA
+FROM (
+    SELECT
+        TO_CHAR(wyp.DATA_WYPOZYCZENIA, 'YYYY-MM') AS DATA,
+        w.ID AS ID_WYPOZYCZALNIA,
+        pan.ID AS ID_PANSTWO,
+        wyp.ID_RODZAJ_PLATNOSCI,
+        COUNT(*) AS LICZBA_WYPOZYCZEN,
+        MIN(wyp.CENA) AS MIN_CENA,
+        AVG(wyp.CENA) AS SREDNIA_CENA,
+        MAX(wyp.CENA) AS MAX_CENA
+    FROM WYPOZYCZENIA wyp
+    JOIN PRACOWNIK pr ON wyp.ID_PRACOWNIK = pr.ID
+    JOIN WYPOZYCZALNIA w ON pr.ID_WYPOZYCZALNIA = w.ID
+    JOIN ULICA u ON w.ID_ULICA = u.ID
+    JOIN MIASTO m ON u.ID_MIASTO = m.ID
+    JOIN WOJEWODZTWO wj ON m.ID_WOJEWODZTWO = wj.ID
+    JOIN PANSTWO pan ON wj.ID_PANSTWO = pan.ID
+    GROUP BY
+        TO_CHAR(wyp.DATA_WYPOZYCZENIA, 'YYYY-MM'),
+        w.ID,
+        pan.ID,
+        wyp.ID_RODZAJ_PLATNOSCI
+) agg
+JOIN WYPOZYCZALNIA wypozyczalnia ON agg.ID_WYPOZYCZALNIA = wypozyczalnia.ID
+JOIN PANSTWO panstwo ON agg.ID_PANSTWO = panstwo.ID
+JOIN RODZAJ_PLATNOSCI rodzaj_platnosci ON agg.ID_RODZAJ_PLATNOSCI = rodzaj_platnosci.ID
+ORDER BY agg.DATA, panstwo.NAZWA, wypozyczalnia.NAZWA, rodzaj_platnosci.NAZWA;
 
 
 

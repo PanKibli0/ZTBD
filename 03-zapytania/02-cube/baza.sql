@@ -59,8 +59,6 @@ LEFT JOIN PRACOWNIK p ON agg.PRACOWNIK_ID = p.ID
 ORDER BY LICZBA_WYPOZYCZEN;
 
 
-
-
 ----------------------------------------------------------------------------------------------
 -- 3. Zapytanie agreguje liczbe unikalnych klientow wedlug wojewodztwa, miasta i wypozyczalni.
 

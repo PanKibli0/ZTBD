@@ -1,4 +1,6 @@
---1. Sprawdzenie ktore modele skuterow i typy napedu sa najpopularniejsze w wypozyczalniach z rankingiem wg liczby wypozyczen
+-- FUNKCJE RANKINGOWE
+
+-- 1. Sprawdzenie, ktore modele skuterow i typy napedu ciesza sie najwiekszym zainteresowaniem w poszczegolnych wypozyczalniach, z rankingiem wedlug liczby wypozyczen.
 
 SELECT 
     wyp.NAZWA AS WYPOZYCZALNIA,
@@ -17,11 +19,12 @@ FROM (
 ) agg
 JOIN H_WYPOZYCZALNIA wyp ON agg.ID_WYPOZYCZALNIA = wyp.ID
 JOIN H_MODEL mo ON agg.ID_MODEL = mo.ID
-JOIN H_TYP_NAPEDU tn ON agg.ID_TYP_NAPEDU = tn.ID
-ORDER BY wyp.NAZWA, RANKING;
+JOIN H_TYP_NAPEDU tn ON agg.ID_TYP_NAPEDU = tn.ID;
 
 
--- Sprawdzenie sredniej pojemnosci skuterow wg producenta, typu napedu i pakietu w hurtowni
+
+-------------------------------------------------------------------------------------
+-- 2. Sprawdzenie, ktore kombinacje producenta, typu napedu i pakietu wyposazenia oferuja skutery o najwyzszej sredniej pojemnosci.
 
 SELECT 
     p.NAZWA AS PRODUCENT,
@@ -40,8 +43,11 @@ FROM (
 ) agg
 JOIN H_PRODUCENT p ON agg.ID_PRODUCENT = p.ID
 JOIN H_TYP_NAPEDU tn ON agg.ID_TYP_NAPEDU = tn.ID
-JOIN H_PAKIET_WYPOSAZENIA pw ON agg.ID_PAKIET_WYPOSAZENIA = pw.ID
-ORDER BY RANKING;
+JOIN H_PAKIET_WYPOSAZENIA pw ON agg.ID_PAKIET_WYPOSAZENIA = pw.ID;
+
+
+-------------------------------------------------------------------------------------
+-- 3. Sprawdzenie, ktory pracownik najczesciej obsluguje wypozyczenia skuterow danego producenta w danej wypozyczalni.
 
 SELECT 
     w.NAZWA AS NAZWA_WYPOZYCZALNI,
@@ -60,6 +66,6 @@ FROM (
 ) agg
 JOIN H_PRACOWNIK p ON agg.ID_PRACOWNIK = p.ID
 JOIN H_WYPOZYCZALNIA w ON agg.ID_WYPOZYCZALNIA_PRACOWNIK = w.ID
-JOIN H_PRODUCENT prod ON agg.ID_PRODUCENT = prod.ID
+JOIN H_PRODUCENT prod ON agg.ID_PRODUCENT = prod.ID;
 
 
