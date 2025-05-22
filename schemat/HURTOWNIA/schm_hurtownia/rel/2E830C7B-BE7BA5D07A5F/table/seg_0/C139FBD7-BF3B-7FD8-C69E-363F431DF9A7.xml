@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C139FBD7-BF3B-7FD8-C69E-363F431DF9A7" schemaObject="09267EA7-0EE4-B1DE-72D4-B4309EC7515A" name="H_MIASTO">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>PRO_BD</sourceObjSchema>
+<sourceObjName>H_MIASTO</sourceObjName>
+<createdBy>BD_PRO_KB_MD</createdBy>
+<createdTime>2025-05-22 09:44:51 UTC</createdTime>
+<ownerDesignName>schm_hurtownia</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="6F1692B8-847E-9185-A650-9D2E31405E72">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>H_MIASTO</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>BD_PRO_KB_MD</createdBy>
+<createdTime>2025-05-22 09:44:51 UTC</createdTime>
+<ownerDesignName>schm_hurtownia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAZWA" id="BC19A2CD-2306-03A9-3F4F-4360FD297B90">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>H_MIASTO</sourceObjSchema>
+<sourceObjName>NAZWA</sourceObjName>
+<createdBy>BD_PRO_KB_MD</createdBy>
+<createdTime>2025-05-22 09:44:51 UTC</createdTime>
+<ownerDesignName>schm_hurtownia</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="488F8BF3-6D02-8DC1-CDA0-A0CF41EE942D" schemaObject="09267EA7-0EE4-B1DE-72D4-B4309EC7515A" name="H_MIASTO_PK">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>PRO_BD</sourceObjSchema>
+<sourceObjName>SYS_C009291</sourceObjName>
+<createdBy>BD_PRO_KB_MD</createdBy>
+<createdTime>2025-05-22 09:44:51 UTC</createdTime>
+<ownerDesignName>schm_hurtownia</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6F1692B8-847E-9185-A650-9D2E31405E72"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

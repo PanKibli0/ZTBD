@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="schm_hurtownia" id="2D565CB4-6FC3-5C07-4BD2-FA61579A159F" version="3.5">
+<createdBy>BD_PRO_KB_MD</createdBy>
+<createdTime>2025-05-22 09:38:02 UTC</createdTime>
+<ownerDesignName>schm_hurtownia</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>2D565CB4-6FC3-5C07-4BD2-FA61579A159F</designId>
+</OSDM_Design>

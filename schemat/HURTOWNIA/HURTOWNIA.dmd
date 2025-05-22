@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="HURTOWNIA" id="F9781488-7063-9D5C-85B2-C513FFEFBF67" version="3.5">
-<createdBy>Bugara</createdBy>
-<createdTime>2025-05-10 10:26:13 UTC</createdTime>
-<ownerDesignName>HURTOWNIA</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>F9781488-7063-9D5C-85B2-C513FFEFBF67</designId>
-</OSDM_Design>

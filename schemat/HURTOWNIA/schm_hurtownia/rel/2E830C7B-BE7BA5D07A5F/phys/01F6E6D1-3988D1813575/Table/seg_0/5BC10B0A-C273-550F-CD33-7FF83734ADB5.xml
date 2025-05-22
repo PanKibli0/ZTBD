@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="H_PRODUCENT" directorySegmentName="seg_0" id="5BC10B0A-C273-550F-CD33-7FF83734ADB5">
+<createdBy>BD_PRO_KB_MD</createdBy>
+<createdTime>2025-05-22 09:44:51 UTC</createdTime>
+<ownerDesignName>schm_hurtownia</ownerDesignName>
+<schemaObject>09267EA7-0EE4-B1DE-72D4-B4309EC7515A</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>478AB102-399F-C475-4779-AAF8B248B6B5</segment>
+<tableSpace>468CE273-AFD5-61BA-753B-0D4573A82603</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID" id="589D8013-6267-291D-2634-AD50296706CD">
+<createdBy>BD_PRO_KB_MD</createdBy>
+<createdTime>2025-05-22 09:44:51 UTC</createdTime>
+<ownerDesignName>schm_hurtownia</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NAZWA" id="BC4F5B26-0355-7D1E-C947-459D9F3EDA01">
+<createdBy>BD_PRO_KB_MD</createdBy>
+<createdTime>2025-05-22 09:44:51 UTC</createdTime>
+<ownerDesignName>schm_hurtownia</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="H_PRODUCENT_PK" id="D327CA03-FA29-240C-921C-0A35A0F1C53F">
+<createdBy>BD_PRO_KB_MD</createdBy>
+<createdTime>2025-05-22 09:44:52 UTC</createdTime>
+<ownerDesignName>schm_hurtownia</ownerDesignName>
+<schemaObject>09267EA7-0EE4-B1DE-72D4-B4309EC7515A</schemaObject>
+<segment>68E3C3C8-A004-9A72-470D-B6A31F6DD678</segment>
+<tableSpace>468CE273-AFD5-61BA-753B-0D4573A82603</tableSpace>
+<indexSegment>68E3C3C8-A004-9A72-470D-B6A31F6DD678</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="H_PRODUCENT_NAZWA_UN" id="A221F4F3-D80A-4D91-4993-CC78C0A04FFE">
+<createdBy>BD_PRO_KB_MD</createdBy>
+<createdTime>2025-05-22 09:44:52 UTC</createdTime>
+<ownerDesignName>schm_hurtownia</ownerDesignName>
+<schemaObject>09267EA7-0EE4-B1DE-72D4-B4309EC7515A</schemaObject>
+<segment>68E3C3C8-A004-9A72-470D-B6A31F6DD678</segment>
+<tableSpace>468CE273-AFD5-61BA-753B-0D4573A82603</tableSpace>
+<indexSegment>68E3C3C8-A004-9A72-470D-B6A31F6DD678</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev20c>
