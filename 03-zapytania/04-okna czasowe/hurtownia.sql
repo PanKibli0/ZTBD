@@ -1,16 +1,16 @@
+-- OKNA CZASOWE
+
+----------------------------------------------------------------------------------------------------------------------
 -- 1. Liczba unikalnych klientow w podziale na miesiac i rok, wedlug producenta skutera, typu napedu oraz rodzaju platnosci
 
 SELECT 
-    AGG.ROK_WYPOZYCZENIA,
+    agg.ROK_WYPOZYCZENIA,
     miesiac.NAZWA AS NAZWA_MIESIACA,
     producent.NAZWA AS NAZWA_PRODUCENTA,
     typ_nap.NAZWA AS NAZWA_TYPU_NAPEDU,
     r_platnosci.NAZWA AS NAZWA_RODZAJU_PLATNOSCI,
-    AGG.LICZBA_KLIENTOW,
-    SUM(AGG.LICZBA_KLIENTOW) OVER (
-        PARTITION BY producent.ID, typ_nap.ID, r_platnosci.ID
-        ORDER BY AGG.ROK_WYPOZYCZENIA, miesiac.ID
-    ) AS SUMA_NARASTAJACO
+    agg.LICZBA_KLIENTOW,
+    agg.SUMA_NARASTAJACO
 FROM (
     SELECT
         ROK_WYPOZYCZENIA,
@@ -18,7 +18,11 @@ FROM (
         ID_PRODUCENT,
         ID_TYP_NAPEDU,
         ID_RODZAJ_PLATNOSCI,
-        COUNT(DISTINCT ID_KLIENT) AS LICZBA_KLIENTOW
+        COUNT(DISTINCT ID_KLIENT) AS LICZBA_KLIENTOW,
+        SUM(COUNT(DISTINCT ID_KLIENT)) OVER (
+            PARTITION BY ID_PRODUCENT, ID_TYP_NAPEDU, ID_RODZAJ_PLATNOSCI
+            ORDER BY ROK_WYPOZYCZENIA, ID_MIESIAC_WYPOZYCZENIA
+        ) AS SUMA_NARASTAJACO
     FROM H_WYPOZYCZENIA
     GROUP BY
         ROK_WYPOZYCZENIA,
@@ -26,12 +30,14 @@ FROM (
         ID_PRODUCENT,
         ID_TYP_NAPEDU,
         ID_RODZAJ_PLATNOSCI
-) AGG
-JOIN H_MIESIAC miesiac ON AGG.ID_MIESIAC_WYPOZYCZENIA = miesiac.ID
-JOIN H_PRODUCENT producent ON AGG.ID_PRODUCENT = producent.ID
-JOIN H_TYP_NAPEDU typ_nap ON AGG.ID_TYP_NAPEDU = typ_nap.ID
-JOIN H_RODZAJ_PLATNOSCI r_platnosci ON AGG.ID_RODZAJ_PLATNOSCI = r_platnosci.ID;
+) agg
+JOIN H_MIESIAC miesiac ON agg.ID_MIESIAC_WYPOZYCZENIA = miesiac.ID
+JOIN H_PRODUCENT producent ON agg.ID_PRODUCENT = producent.ID
+JOIN H_TYP_NAPEDU typ_nap ON agg.ID_TYP_NAPEDU = typ_nap.ID
+JOIN H_RODZAJ_PLATNOSCI r_platnosci ON agg.ID_RODZAJ_PLATNOSCI = r_platnosci.ID;
 
+
+----------------------------------------------------------------------------------------------------------------------
 -- 2. Liczba wypozyczen miesiecznie z podzialem na panstwo, wypozyczalnie oraz producentow wraz ze srednia liczba wypozyczen narastajaco
 SELECT
     agg.ROK_WYPOZYCZENIA,
@@ -40,13 +46,7 @@ SELECT
     w.NAZWA AS NAZWA_WYPOZYCZALNI,
     pr.NAZWA AS NAZWA_PRODUCENTA,
     agg.LICZBA_WYPOZYCZEN,
-    ROUND(
-        AVG(agg.LICZBA_WYPOZYCZEN) OVER (
-            PARTITION BY agg.ID_PANSTWO, agg.ID_WYPOZYCZALNIA, agg.ID_PRODUCENT
-            ORDER BY agg.ROK_WYPOZYCZENIA, agg.ID_MIESIAC_WYPOZYCZENIA
-            ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW
-        ), 2
-    ) AS SREDNIA_LICZBA_WYPOZYCZEN
+    agg.SREDNIA_LICZBA_WYPOZYCZEN
 FROM (
     SELECT 
         ROK_WYPOZYCZENIA,
@@ -54,7 +54,14 @@ FROM (
         ID_WYPOZYCZALNIA_PRACOWNIK AS ID_WYPOZYCZALNIA,
         ID_PRODUCENT,
         ID_PANSTWO_PRACOWNIK AS ID_PANSTWO,
-        COUNT(*) AS LICZBA_WYPOZYCZEN
+        COUNT(*) AS LICZBA_WYPOZYCZEN,
+        ROUND(
+            AVG(COUNT(*)) OVER (
+                PARTITION BY ID_PANSTWO_PRACOWNIK, ID_WYPOZYCZALNIA_PRACOWNIK, ID_PRODUCENT
+                ORDER BY ROK_WYPOZYCZENIA, ID_MIESIAC_WYPOZYCZENIA
+                ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW
+            ), 2
+        ) AS SREDNIA_LICZBA_WYPOZYCZEN
     FROM H_WYPOZYCZENIA
     GROUP BY 
         ROK_WYPOZYCZENIA,
@@ -68,6 +75,9 @@ JOIN H_WYPOZYCZALNIA w ON agg.ID_WYPOZYCZALNIA = w.ID
 JOIN H_PRODUCENT pr ON agg.ID_PRODUCENT = pr.ID
 JOIN H_PANSTWO p ON agg.ID_PANSTWO = p.ID;
 
+
+
+----------------------------------------------------------------------------------------------------------------------
 -- 3. Liczba wypozyczen miesiecznie z podzialem na panstwo, wypozyczalnie oraz rodzaj platnosci wraz z minimalna, srednia i maksymalna cena wypozyczenia
 SELECT
     agg.ROK_WYPOZYCZENIA,
@@ -76,9 +86,9 @@ SELECT
     w.NAZWA AS NAZWA_WYPOZYCZALNI,
     r.NAZWA AS NAZWA_RODZAJU_PLATNOSCI,
     agg.LICZBA_WYPOZYCZEN,
-    ROUND(agg.MIN_CENA, 2) AS MIN_CENA,
-    ROUND(agg.SREDNIA_CENA, 2) AS SREDNIA_CENA,
-    ROUND(agg.MAX_CENA, 2) AS MAX_CENA
+    agg.MIN_CENA,
+    agg.SREDNIA_CENA,
+    agg.MAX_CENA
 FROM (
     SELECT
         ROK_WYPOZYCZENIA,
@@ -87,9 +97,9 @@ FROM (
         ID_PANSTWO_PRACOWNIK AS ID_PANSTWO,
         ID_RODZAJ_PLATNOSCI,
         COUNT(*) AS LICZBA_WYPOZYCZEN,
-        MIN(CENA) AS MIN_CENA,
-        AVG(CENA) AS SREDNIA_CENA,
-        MAX(CENA) AS MAX_CENA
+        ROUND(MIN(CENA), 2) AS MIN_CENA,
+        ROUND(AVG(CENA), 2) AS SREDNIA_CENA,
+        ROUND(MAX(CENA), 2) AS MAX_CENA
     FROM H_WYPOZYCZENIA
     GROUP BY
         ROK_WYPOZYCZENIA,
@@ -102,4 +112,5 @@ JOIN H_MIESIAC m ON agg.ID_MIESIAC_WYPOZYCZENIA = m.ID
 JOIN H_WYPOZYCZALNIA w ON agg.ID_WYPOZYCZALNIA = w.ID
 JOIN H_PANSTWO p ON agg.ID_PANSTWO = p.ID
 JOIN H_RODZAJ_PLATNOSCI r ON agg.ID_RODZAJ_PLATNOSCI = r.ID
-ORDER BY agg.ROK_WYPOZYCZENIA, agg.ID_MIESIAC_WYPOZYCZENIA, p.NAZWA, w.NAZWA, r.NAZWA
+ORDER BY agg.ROK_WYPOZYCZENIA, agg.ID_MIESIAC_WYPOZYCZENIA, p.NAZWA, w.NAZWA, r.NAZWA;
+
