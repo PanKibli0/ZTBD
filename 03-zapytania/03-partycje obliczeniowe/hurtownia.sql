@@ -1,6 +1,7 @@
 -- PARTYCJE OBLICZENIOWE
 
 -- 1. Srednia cena wypozyczenia wg producenta, typu napedu, pakietu i modelu
+
 SELECT
     pr.NAZWA AS PRODUCENT,
     m.NAZWA AS MODEL,

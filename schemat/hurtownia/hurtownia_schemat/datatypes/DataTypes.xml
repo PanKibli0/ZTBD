@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DataTypesDesign class="oracle.dbtools.crest.model.design.datatypes.DataTypesDesign" name="DataTypes" id="59160DD5-D061-6722-C3E6-896B3F00BDBD" mainViewID="CB493013-5EF5-8D78-1894-A75DE7EDF924">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:21:47 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<collectionOfRefsPrefix>array_ref_</collectionOfRefsPrefix>
+<collectionPrefix>array_</collectionPrefix>
+<defaultArrayLimit>10</defaultArrayLimit>
+<defaultCollectionType_Kind>ARRAY</defaultCollectionType_Kind>
+<defaultCollectionType_Suffix>_Array</defaultCollectionType_Suffix>
+<embeddedStructuredTypePrefix>inst_</embeddedStructuredTypePrefix>
+<referencePrefix>ref_</referencePrefix>
+<useRoleInAssociationEndAsName>true</useRoleInAssociationEndAsName>
+</DataTypesDesign>

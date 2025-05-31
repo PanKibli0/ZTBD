@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="48094EC7-D455-C920-EE95-52115B0EA01B" schemaObject="6285D83B-ACCB-2D00-A22B-4D72504D9EAB" name="PRACOWNIK">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>PRO_BD</sourceObjSchema>
+<sourceObjName>PRACOWNIK</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:20:24 UTC</createdTime>
+<ownerDesignName>baza_schemat</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="CAD7096A-1267-0F5F-4DBB-52E1F42B5602">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>PRACOWNIK</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:20:24 UTC</createdTime>
+<ownerDesignName>baza_schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_WYPOZYCZALNIA" id="5D9EABEF-C3C8-8B6C-05F9-F467E932AC71">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>PRACOWNIK</sourceObjSchema>
+<sourceObjName>ID_WYPOZYCZALNIA</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:20:24 UTC</createdTime>
+<ownerDesignName>baza_schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A700C162-8012-69C8-3B41-83CE9579C4DB" referredColumn="7F814BEC-86D0-03B1-4266-6D7401B4EC0F"/>
+</associations>
+</Column>
+<Column name="IMIE" id="D1941F57-6EDF-C632-9902-70BB75ED811C">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>PRACOWNIK</sourceObjSchema>
+<sourceObjName>IMIE</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:20:24 UTC</createdTime>
+<ownerDesignName>baza_schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAZWISKO" id="D5122F69-E928-6905-5C82-2B9566A47BD7">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>PRACOWNIK</sourceObjSchema>
+<sourceObjName>NAZWISKO</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:20:24 UTC</createdTime>
+<ownerDesignName>baza_schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NR_TELEFONU" id="023DED13-15C6-E90B-C5AC-E4F45E3FE28B">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>PRACOWNIK</sourceObjSchema>
+<sourceObjName>NR_TELEFONU</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:20:24 UTC</createdTime>
+<ownerDesignName>baza_schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>9 BYTE</dataTypeSize>
+<ownDataTypeParameters>9 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E8421A11-D0FE-FBF0-31C5-E4CAF3A10ABA" schemaObject="6285D83B-ACCB-2D00-A22B-4D72504D9EAB" name="PRACOWNIK_PK">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>PRO_BD</sourceObjSchema>
+<sourceObjName>SYS_C0023384</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:20:24 UTC</createdTime>
+<ownerDesignName>baza_schemat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CAD7096A-1267-0F5F-4DBB-52E1F42B5602"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DD47F00F-6F48-A9A5-0740-6C32CB0DCAEA" name="FK_PRACOWNIK_WYPOZYCZALNIA">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:20:24 UTC</createdTime>
+<ownerDesignName>baza_schemat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D9EABEF-C3C8-8B6C-05F9-F467E932AC71"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

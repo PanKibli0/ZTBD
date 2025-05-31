@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="H_PRACOWNIK" directorySegmentName="seg_0" id="05FF1D1D-4B15-5778-8016-583BD8350DE2">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:23:59 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+<schemaObject>39D7BF11-D01D-2937-45D3-CE17CD3C3066</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>D5A9DCCE-E5FA-F919-F110-B488A3C92C1A</segment>
+<tableSpace>2C0519EC-7113-35B0-8E5F-CC46660CB184</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NAZWISKO" id="008C3FA5-90AD-9444-4949-835FD91537F8">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:23:59 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="298612A0-A834-2E7A-CA2E-14E7F2A154A4">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:23:59 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IMIE" id="5A8F0AA9-4B63-2022-A491-058054AA2F01">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:23:59 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="H_PRACOWNIK_PK" id="63F1F20B-FA9E-F468-1C3A-077B48059646">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:24:01 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+<schemaObject>39D7BF11-D01D-2937-45D3-CE17CD3C3066</schemaObject>
+<segment>F5AEB09D-A5DF-50A6-711B-942C69ECD7D7</segment>
+<tableSpace>2C0519EC-7113-35B0-8E5F-CC46660CB184</tableSpace>
+<indexSegment>F5AEB09D-A5DF-50A6-711B-942C69ECD7D7</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

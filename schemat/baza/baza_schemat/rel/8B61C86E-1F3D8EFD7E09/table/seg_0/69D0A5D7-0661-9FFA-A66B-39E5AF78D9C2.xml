@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="69D0A5D7-0661-9FFA-A66B-39E5AF78D9C2" schemaObject="6285D83B-ACCB-2D00-A22B-4D72504D9EAB" name="MIASTO">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>PRO_BD</sourceObjSchema>
+<sourceObjName>MIASTO</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:20:24 UTC</createdTime>
+<ownerDesignName>baza_schemat</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="A46AF3ED-D3C5-B28C-97A7-72009F67BEC9">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>MIASTO</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:20:24 UTC</createdTime>
+<ownerDesignName>baza_schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAZWA" id="78E08BD5-8ACE-6232-7140-1C51CE53A4DF">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>MIASTO</sourceObjSchema>
+<sourceObjName>NAZWA</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:20:24 UTC</createdTime>
+<ownerDesignName>baza_schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_WOJEWODZTWO" id="B7841F98-EEE7-E5B6-8427-58A52898DBA6">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>MIASTO</sourceObjSchema>
+<sourceObjName>ID_WOJEWODZTWO</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:20:24 UTC</createdTime>
+<ownerDesignName>baza_schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BE9925FA-F563-FFB1-9A9C-101F18DF8D35" referredColumn="B3C342B6-2102-1DFE-7067-CEEC777F9AEF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="115430C3-48BD-13A7-7082-EA142FC88739" schemaObject="6285D83B-ACCB-2D00-A22B-4D72504D9EAB" name="MIASTO_PK">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>PRO_BD</sourceObjSchema>
+<sourceObjName>SYS_C0023328</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:20:24 UTC</createdTime>
+<ownerDesignName>baza_schemat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A46AF3ED-D3C5-B28C-97A7-72009F67BEC9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3E456BA6-B0FE-4DC7-1829-95B74DFD7917" name="FK_MIASTO_WOJEWODZTWO">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:20:24 UTC</createdTime>
+<ownerDesignName>baza_schemat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B7841F98-EEE7-E5B6-8427-58A52898DBA6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

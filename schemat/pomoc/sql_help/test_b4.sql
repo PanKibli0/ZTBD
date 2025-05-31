@@ -1,0 +1,117 @@
+SELECT COUNT(*) FROM (
+    SELECT 
+    agg.DATA,
+    producent.NAZWA AS NAZWA_PRODUCENTA,
+    typ_nap.NAZWA AS NAZWA_TYPU_NAPEDU,
+    r_platnosci.NAZWA AS NAZWA_RODZAJU_PLATNOSCI,
+    agg.LICZBA_KLIENTOW,
+    agg.SUMA_NARASTAJACO
+FROM (
+    SELECT 
+        TO_CHAR(wyp.DATA_WYPOZYCZENIA, 'YYYY-MM') AS DATA,
+        model.ID_PRODUCENT,
+        skuter.ID_TYP_NAPEDU,
+        wyp.ID_RODZAJ_PLATNOSCI,
+        COUNT(DISTINCT wyp.ID_KLIENT) AS LICZBA_KLIENTOW,
+        SUM(COUNT(DISTINCT wyp.ID_KLIENT)) OVER (
+            PARTITION BY model.ID_PRODUCENT, skuter.ID_TYP_NAPEDU, wyp.ID_RODZAJ_PLATNOSCI
+            ORDER BY TO_CHAR(wyp.DATA_WYPOZYCZENIA, 'YYYY-MM')
+        ) AS SUMA_NARASTAJACO
+    FROM WYPOZYCZENIA wyp
+    JOIN SKUTER skuter ON wyp.ID_SKUTER = skuter.ID
+    JOIN MODEL model ON skuter.ID_MODEL = model.ID
+    GROUP BY 
+        TO_CHAR(wyp.DATA_WYPOZYCZENIA, 'YYYY-MM'), 
+        model.ID_PRODUCENT, 
+        skuter.ID_TYP_NAPEDU,
+        wyp.ID_RODZAJ_PLATNOSCI
+) agg
+JOIN PRODUCENT producent ON agg.ID_PRODUCENT = producent.ID
+JOIN TYP_NAPEDU typ_nap ON agg.ID_TYP_NAPEDU = typ_nap.ID
+JOIN RODZAJ_PLATNOSCI r_platnosci ON agg.ID_RODZAJ_PLATNOSCI = r_platnosci.ID
+);
+
+
+
+SELECT COUNT(*) FROM (
+    SELECT 
+    agg.DATA,
+    panstwo.NAZWA AS NAZWA_PANSTWA,
+    wypozyczalnia.NAZWA AS NAZWA_WYPOZYCZALNI,
+    producent.NAZWA AS NAZWA_PRODUCENTA,
+    agg.LICZBA_WYPOZYCZEN,
+    agg.SREDNIA_LICZBA_WYPOZYCZEN
+FROM (
+    SELECT 
+        TO_CHAR(wyp.DATA_WYPOZYCZENIA, 'YYYY-MM') AS DATA,
+        p.ID_WYPOZYCZALNIA,
+        m.ID_PRODUCENT,
+        woje.ID_PANSTWO,
+        COUNT(*) AS LICZBA_WYPOZYCZEN,
+        ROUND(
+            AVG(COUNT(*)) OVER (
+                PARTITION BY woje.ID_PANSTWO, p.ID_WYPOZYCZALNIA, m.ID_PRODUCENT
+                ORDER BY TO_CHAR(wyp.DATA_WYPOZYCZENIA, 'YYYY-MM')
+                ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW
+            ), 2
+        ) AS SREDNIA_LICZBA_WYPOZYCZEN
+    FROM WYPOZYCZENIA wyp
+    JOIN SKUTER s ON wyp.ID_SKUTER = s.ID
+    JOIN MODEL m ON s.ID_MODEL = m.ID
+    JOIN PRACOWNIK p ON wyp.ID_PRACOWNIK = p.ID
+    JOIN WYPOZYCZALNIA w ON p.ID_WYPOZYCZALNIA = w.ID
+    JOIN ULICA u ON w.ID_ULICA = u.ID
+    JOIN MIASTO miasto ON u.ID_MIASTO = miasto.ID
+    JOIN WOJEWODZTWO woje ON miasto.ID_WOJEWODZTWO = woje.ID
+    GROUP BY 
+        TO_CHAR(wyp.DATA_WYPOZYCZENIA, 'YYYY-MM'), 
+        p.ID_WYPOZYCZALNIA, 
+        m.ID_PRODUCENT,
+        woje.ID_PANSTWO
+) agg
+JOIN WYPOZYCZALNIA wypozyczalnia ON agg.ID_WYPOZYCZALNIA = wypozyczalnia.ID
+JOIN PRODUCENT producent ON agg.ID_PRODUCENT = producent.ID
+JOIN PANSTWO panstwo ON agg.ID_PANSTWO = panstwo.ID
+);
+
+
+
+SELECT COUNT(*) FROM (
+    SELECT
+    agg.DATA,
+    panstwo.NAZWA AS NAZWA_PANSTWA,
+    wypozyczalnia.NAZWA AS NAZWA_WYPOZYCZALNI,
+    rodzaj_platnosci.NAZWA AS NAZWA_RODZAJU_PLATNOSCI,
+    agg.LICZBA_WYPOZYCZEN AS LICZBA_WYPOZYCZEN,
+    agg.MIN_CENA,
+    agg.SREDNIA_CENA,
+    agg.MAX_CENA
+FROM (
+    SELECT
+        TO_CHAR(wyp.DATA_WYPOZYCZENIA, 'YYYY-MM') AS DATA,
+        w.ID AS ID_WYPOZYCZALNIA,
+        pan.ID AS ID_PANSTWO,
+        wyp.ID_RODZAJ_PLATNOSCI,
+        COUNT(*) AS LICZBA_WYPOZYCZEN,
+        ROUND(MIN(wyp.CENA), 2) AS MIN_CENA,
+        ROUND(AVG(wyp.CENA), 2) AS SREDNIA_CENA,
+        ROUND(MAX(wyp.CENA), 2) AS MAX_CENA
+    FROM WYPOZYCZENIA wyp
+    JOIN PRACOWNIK pr ON wyp.ID_PRACOWNIK = pr.ID
+    JOIN WYPOZYCZALNIA w ON pr.ID_WYPOZYCZALNIA = w.ID
+    JOIN ULICA u ON w.ID_ULICA = u.ID
+    JOIN MIASTO m ON u.ID_MIASTO = m.ID
+    JOIN WOJEWODZTWO wj ON m.ID_WOJEWODZTWO = wj.ID
+    JOIN PANSTWO pan ON wj.ID_PANSTWO = pan.ID
+    GROUP BY
+        TO_CHAR(wyp.DATA_WYPOZYCZENIA, 'YYYY-MM'),
+        w.ID,
+        pan.ID,
+        wyp.ID_RODZAJ_PLATNOSCI
+) agg
+JOIN WYPOZYCZALNIA wypozyczalnia ON agg.ID_WYPOZYCZALNIA = wypozyczalnia.ID
+JOIN PANSTWO panstwo ON agg.ID_PANSTWO = panstwo.ID
+JOIN RODZAJ_PLATNOSCI rodzaj_platnosci ON agg.ID_RODZAJ_PLATNOSCI = rodzaj_platnosci.ID
+ORDER BY agg.DATA, panstwo.NAZWA, wypozyczalnia.NAZWA, rodzaj_platnosci.NAZWA
+);
+

@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="RODZAJ_PLATNOSCI" directorySegmentName="seg_0" id="2F5AC3CD-6C47-9198-3B58-44FA90A36FB3">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:20:24 UTC</createdTime>
+<ownerDesignName>baza_schemat</ownerDesignName>
+<schemaObject>6285D83B-ACCB-2D00-A22B-4D72504D9EAB</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>91E9044F-DC48-880D-0CDE-D3B5972B7A8C</segment>
+<tableSpace>E56F9FD1-3265-9B76-77B8-7D5EA5042C5C</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID" id="1CC1C6C9-1510-4760-6494-0A377AF33952">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:20:24 UTC</createdTime>
+<ownerDesignName>baza_schemat</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NAZWA" id="D1E1E709-C0A5-03C9-4F8E-BC18582213C2">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:20:24 UTC</createdTime>
+<ownerDesignName>baza_schemat</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="RODZAJ_PLATNOSCI_PK" id="23F1DCC2-63E8-3E7D-F763-28113C2C6C7A">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:20:24 UTC</createdTime>
+<ownerDesignName>baza_schemat</ownerDesignName>
+<schemaObject>6285D83B-ACCB-2D00-A22B-4D72504D9EAB</schemaObject>
+<segment>FFC95D80-8552-65A6-59ED-DCA97DD4A6BC</segment>
+<tableSpace>E56F9FD1-3265-9B76-77B8-7D5EA5042C5C</tableSpace>
+<indexSegment>FFC95D80-8552-65A6-59ED-DCA97DD4A6BC</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="RODZAJ_PLATNOSCI_NAZWA_UN" id="7D9E8160-AF4B-3883-4332-94DE6C35180F">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:20:24 UTC</createdTime>
+<ownerDesignName>baza_schemat</ownerDesignName>
+<schemaObject>6285D83B-ACCB-2D00-A22B-4D72504D9EAB</schemaObject>
+<segment>FFC95D80-8552-65A6-59ED-DCA97DD4A6BC</segment>
+<tableSpace>E56F9FD1-3265-9B76-77B8-7D5EA5042C5C</tableSpace>
+<indexSegment>FFC95D80-8552-65A6-59ED-DCA97DD4A6BC</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev20c>

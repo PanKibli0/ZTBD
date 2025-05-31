@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="MIASTO" directorySegmentName="seg_0" id="69D0A5D7-0661-9FFA-A66B-39E5AF78D9C2">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:20:24 UTC</createdTime>
+<ownerDesignName>baza_schemat</ownerDesignName>
+<schemaObject>6285D83B-ACCB-2D00-A22B-4D72504D9EAB</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>91E9044F-DC48-880D-0CDE-D3B5972B7A8C</segment>
+<tableSpace>E56F9FD1-3265-9B76-77B8-7D5EA5042C5C</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NAZWA" id="78E08BD5-8ACE-6232-7140-1C51CE53A4DF">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:20:24 UTC</createdTime>
+<ownerDesignName>baza_schemat</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="A46AF3ED-D3C5-B28C-97A7-72009F67BEC9">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:20:24 UTC</createdTime>
+<ownerDesignName>baza_schemat</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_WOJEWODZTWO" id="B7841F98-EEE7-E5B6-8427-58A52898DBA6">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:20:24 UTC</createdTime>
+<ownerDesignName>baza_schemat</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_MIASTO_WOJEWODZTWO" id="3E456BA6-B0FE-4DC7-1829-95B74DFD7917">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:20:24 UTC</createdTime>
+<ownerDesignName>baza_schemat</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="MIASTO_PK" id="115430C3-48BD-13A7-7082-EA142FC88739">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:20:24 UTC</createdTime>
+<ownerDesignName>baza_schemat</ownerDesignName>
+<schemaObject>6285D83B-ACCB-2D00-A22B-4D72504D9EAB</schemaObject>
+<segment>FFC95D80-8552-65A6-59ED-DCA97DD4A6BC</segment>
+<tableSpace>E56F9FD1-3265-9B76-77B8-7D5EA5042C5C</tableSpace>
+<indexSegment>FFC95D80-8552-65A6-59ED-DCA97DD4A6BC</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

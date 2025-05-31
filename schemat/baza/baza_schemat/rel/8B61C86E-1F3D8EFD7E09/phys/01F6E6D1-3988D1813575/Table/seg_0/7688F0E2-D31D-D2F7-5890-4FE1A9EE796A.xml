@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="WYPOZYCZENIA" directorySegmentName="seg_0" id="7688F0E2-D31D-D2F7-5890-4FE1A9EE796A">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:20:24 UTC</createdTime>
+<ownerDesignName>baza_schemat</ownerDesignName>
+<schemaObject>6285D83B-ACCB-2D00-A22B-4D72504D9EAB</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>91E9044F-DC48-880D-0CDE-D3B5972B7A8C</segment>
+<tableSpace>E56F9FD1-3265-9B76-77B8-7D5EA5042C5C</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CENA" id="3A9B072C-9AF0-DB47-E957-EE369D301195">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:20:24 UTC</createdTime>
+<ownerDesignName>baza_schemat</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_PRACOWNIK" id="4C792AA4-6AAC-22E6-BFFC-7E39C7C88345">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:20:24 UTC</createdTime>
+<ownerDesignName>baza_schemat</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DATA_WYPOZYCZENIA" id="6A8D3547-8D09-06AD-33D7-666B800E575E">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:20:24 UTC</createdTime>
+<ownerDesignName>baza_schemat</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DATA_ODDANIA" id="845B3873-A14A-9BD2-D949-AE8131B5CB21">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:20:24 UTC</createdTime>
+<ownerDesignName>baza_schemat</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_SKUTER" id="99565FE1-27B6-5052-2779-6D1573CD3BF1">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:20:24 UTC</createdTime>
+<ownerDesignName>baza_schemat</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_KLIENT" id="D7E8A0C5-230E-1552-04D1-F0A17400339C">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:20:24 UTC</createdTime>
+<ownerDesignName>baza_schemat</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_RODZAJ_PLATNOSCI" id="E4A877AC-FE10-511C-6215-741DF8F9468A">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:20:24 UTC</createdTime>
+<ownerDesignName>baza_schemat</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_WYPOZYCZENIA" id="9F23E018-6231-67A8-4841-EC3E6954C56C">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:20:24 UTC</createdTime>
+<ownerDesignName>baza_schemat</ownerDesignName>
+<schemaObject>6285D83B-ACCB-2D00-A22B-4D72504D9EAB</schemaObject>
+<segment>FFC95D80-8552-65A6-59ED-DCA97DD4A6BC</segment>
+<tableSpace>E56F9FD1-3265-9B76-77B8-7D5EA5042C5C</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_WYPOZYCZENIA_R_PLATNOSCI" id="473C977F-A60A-4D85-DC83-893DC5BEDE48">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:20:24 UTC</createdTime>
+<ownerDesignName>baza_schemat</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_WYPOZYCZENIA_SKUTER" id="5E53CEAC-97CD-A3F4-C602-F219C8D5ED19">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:20:24 UTC</createdTime>
+<ownerDesignName>baza_schemat</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_WYPOZYCZENIA_PRACOWNIK" id="89984E82-740D-6D58-9B27-8E29BC160A20">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:20:24 UTC</createdTime>
+<ownerDesignName>baza_schemat</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_WYPOZYCZENIA_KLIENT" id="9574A12D-C0F5-B973-4DA9-B8A816542172">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:20:24 UTC</createdTime>
+<ownerDesignName>baza_schemat</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_WYPOZYCZENIA" id="45636706-BB9E-5552-3B33-961280242C03">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:20:24 UTC</createdTime>
+<ownerDesignName>baza_schemat</ownerDesignName>
+<segment>FFC95D80-8552-65A6-59ED-DCA97DD4A6BC</segment>
+<tableSpace>E56F9FD1-3265-9B76-77B8-7D5EA5042C5C</tableSpace>
+<existingIndex>9F23E018-6231-67A8-4841-EC3E6954C56C</existingIndex>
+<indexSegment>FFC95D80-8552-65A6-59ED-DCA97DD4A6BC</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

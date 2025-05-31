@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5DA9E885-9094-41DE-09FC-5AD6342366C3" schemaObject="39D7BF11-D01D-2937-45D3-CE17CD3C3066" name="H_PANSTWO">
+<sourceConnName>pro_hurtownia</sourceConnName>
+<sourceObjSchema>PRO_BD</sourceObjSchema>
+<sourceObjName>H_PANSTWO</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:23:59 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="5D592CD6-F61C-3CF6-E2F7-64BC892BBC2F">
+<sourceConnName>pro_hurtownia</sourceConnName>
+<sourceObjSchema>H_PANSTWO</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:23:59 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAZWA" id="09E4AC21-D13E-47B7-553C-F46CF3FC81F4">
+<sourceConnName>pro_hurtownia</sourceConnName>
+<sourceObjSchema>H_PANSTWO</sourceObjSchema>
+<sourceObjName>NAZWA</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:23:59 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AC757869-BFA2-E861-99B2-13ADDE97CA55" schemaObject="39D7BF11-D01D-2937-45D3-CE17CD3C3066" name="H_PANSTWO_PK">
+<sourceConnName>pro_hurtownia</sourceConnName>
+<sourceObjSchema>PRO_BD</sourceObjSchema>
+<sourceObjName>SYS_C0023491</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:23:59 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D592CD6-F61C-3CF6-E2F7-64BC892BBC2F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0F54A944-531B-041A-8911-0130A5FCA96E" schemaObject="39D7BF11-D01D-2937-45D3-CE17CD3C3066" name="H_PANSTWO_NAZWA_UN">
+<sourceConnName>pro_hurtownia</sourceConnName>
+<sourceObjSchema>PRO_BD</sourceObjSchema>
+<sourceObjName>SYS_C0023492</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:23:59 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="09E4AC21-D13E-47B7-553C-F46CF3FC81F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

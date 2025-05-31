@@ -1,0 +1,694 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D4B1D4E1-065D-A5C0-7BDD-C25D7C2A32D7" schemaObject="39D7BF11-D01D-2937-45D3-CE17CD3C3066" name="H_WYPOZYCZENIA">
+<sourceConnName>pro_hurtownia</sourceConnName>
+<sourceObjSchema>PRO_BD</sourceObjSchema>
+<sourceObjName>H_WYPOZYCZENIA</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:23:59 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_KLIENT" id="D72D2A21-CC92-B725-6021-6BB402B5919E">
+<sourceConnName>pro_hurtownia</sourceConnName>
+<sourceObjSchema>H_WYPOZYCZENIA</sourceObjSchema>
+<sourceObjName>ID_KLIENT</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:23:59 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A685271C-99FD-701A-AC68-CF75D337FCEB" referredColumn="83F44D29-5771-3592-E17C-85AD32439CC2"/>
+</associations>
+</Column>
+<Column name="ID_PANSTWO_KLIENT" id="8816E3A8-9A5C-2AF0-44DC-BAF03C964191">
+<sourceConnName>pro_hurtownia</sourceConnName>
+<sourceObjSchema>H_WYPOZYCZENIA</sourceObjSchema>
+<sourceObjName>ID_PANSTWO_KLIENT</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:23:59 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3EBC28E0-0D82-CBB9-E1BB-7AA5CE6C6170" referredColumn="5D592CD6-F61C-3CF6-E2F7-64BC892BBC2F"/>
+</associations>
+</Column>
+<Column name="ID_WOJEWODZTWO_KLIENT" id="4ADB09D9-5411-D63F-34AB-2229E852C096">
+<sourceConnName>pro_hurtownia</sourceConnName>
+<sourceObjSchema>H_WYPOZYCZENIA</sourceObjSchema>
+<sourceObjName>ID_WOJEWODZTWO_KLIENT</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:23:59 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="985A7E9A-20C6-2E2A-ABFD-041513937D16" referredColumn="22C11034-DFE2-5941-1D06-8539E6F525F4"/>
+</associations>
+</Column>
+<Column name="ID_MIASTO_KLIENT" id="E5A79A08-5B07-C83C-26CD-2B120C71920A">
+<sourceConnName>pro_hurtownia</sourceConnName>
+<sourceObjSchema>H_WYPOZYCZENIA</sourceObjSchema>
+<sourceObjName>ID_MIASTO_KLIENT</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:23:59 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="49D0BFE1-31B6-103E-384F-337FC826D523" referredColumn="D5C6D426-7E00-905A-FC51-5ED06917D5A6"/>
+</associations>
+</Column>
+<Column name="ID_RODZAJ_PLATNOSCI" id="D57FB0D4-19FF-D2E7-7C90-410A36AD5C0F">
+<sourceConnName>pro_hurtownia</sourceConnName>
+<sourceObjSchema>H_WYPOZYCZENIA</sourceObjSchema>
+<sourceObjName>ID_RODZAJ_PLATNOSCI</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:23:59 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0CBC3A42-3679-6096-BBED-749919D8B52F" referredColumn="4CE24279-8F6A-AD32-5A24-38ECEB6F594E"/>
+</associations>
+</Column>
+<Column name="ID_PRODUCENT" id="824A6B43-10C1-9269-6730-8F96D9379A8B">
+<sourceConnName>pro_hurtownia</sourceConnName>
+<sourceObjSchema>H_WYPOZYCZENIA</sourceObjSchema>
+<sourceObjName>ID_PRODUCENT</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:23:59 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8252EEE6-2356-28FE-88AE-E2AA05CCA498" referredColumn="B27BA724-D42A-2B57-7E72-DF6A9F976186"/>
+</associations>
+</Column>
+<Column name="ID_MODEL" id="5A6EE966-E208-682C-39F9-0F9726FCF411">
+<sourceConnName>pro_hurtownia</sourceConnName>
+<sourceObjSchema>H_WYPOZYCZENIA</sourceObjSchema>
+<sourceObjName>ID_MODEL</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:23:59 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D07BCCDA-050D-7C24-5011-22C87FD7E616" referredColumn="66E06B1E-F80B-70A4-C026-0B38633430F8"/>
+</associations>
+</Column>
+<Column name="ID_KOLOR" id="26806BF5-D70A-E8F5-2FC4-14357B74CD76">
+<sourceConnName>pro_hurtownia</sourceConnName>
+<sourceObjSchema>H_WYPOZYCZENIA</sourceObjSchema>
+<sourceObjName>ID_KOLOR</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:23:59 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="25FC932A-9AF6-85B0-33AC-FB087324C912" referredColumn="1372D380-4466-49A8-F015-B73CF7F7686C"/>
+</associations>
+</Column>
+<Column name="ID_TYP_NAPEDU" id="741F05B6-B8B4-BA2F-1586-A69EA2C8AD39">
+<sourceConnName>pro_hurtownia</sourceConnName>
+<sourceObjSchema>H_WYPOZYCZENIA</sourceObjSchema>
+<sourceObjName>ID_TYP_NAPEDU</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:23:59 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1180B9F8-E0B0-1CFF-E670-9FF54530ADE6" referredColumn="285E99E8-AAEE-D6E4-DC7E-08ABFBDDD394"/>
+</associations>
+</Column>
+<Column name="ID_PAKIET_WYPOSAZENIA" id="9576F180-1FEF-E250-252B-24AF00E091B5">
+<sourceConnName>pro_hurtownia</sourceConnName>
+<sourceObjSchema>H_WYPOZYCZENIA</sourceObjSchema>
+<sourceObjName>ID_PAKIET_WYPOSAZENIA</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:23:59 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7A3B1DD5-3AD6-8515-C45D-666A48C3DC7E" referredColumn="06CDCF04-C8F3-D042-CB9D-E360A234B561"/>
+</associations>
+</Column>
+<Column name="POJEMNOSC" id="592B809D-3ED5-7CE5-4A70-F519140F2B20">
+<sourceConnName>pro_hurtownia</sourceConnName>
+<sourceObjSchema>H_WYPOZYCZENIA</sourceObjSchema>
+<sourceObjName>POJEMNOSC</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:23:59 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+<constraintName>SYS_C0023548</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="POJEMNOSC &gt; 0"/>
+<implementationDef dbType="Oracle Database 21c" definition="POJEMNOSC &gt; 0"/>
+</checkConstraint>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ROK_PRODUKCJI" id="7F4D2C32-5A7A-6577-5838-DCEADDC6848A">
+<sourceConnName>pro_hurtownia</sourceConnName>
+<sourceObjSchema>H_WYPOZYCZENIA</sourceObjSchema>
+<sourceObjName>ROK_PRODUKCJI</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:23:59 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+<constraintName>SYS_C0023549</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="ROK_PRODUKCJI &gt;= 1900"/>
+<implementationDef dbType="Oracle Database 21c" definition="ROK_PRODUKCJI &gt;= 1900"/>
+</checkConstraint>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_WYPOZYCZALNIA_SKUTER" id="F865DF90-FEBB-68C8-38D0-171515D74D54">
+<sourceConnName>pro_hurtownia</sourceConnName>
+<sourceObjSchema>H_WYPOZYCZENIA</sourceObjSchema>
+<sourceObjName>ID_WYPOZYCZALNIA_SKUTER</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:23:59 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1ACF54F6-C964-B736-A23A-360DA7E2F69B" referredColumn="938F4918-6857-551D-01EE-2FC3A35F420F"/>
+</associations>
+</Column>
+<Column name="ID_PANSTWO_SKUTER" id="D70DC06B-A3E1-303C-F398-4E68DBD12DAE">
+<sourceConnName>pro_hurtownia</sourceConnName>
+<sourceObjSchema>H_WYPOZYCZENIA</sourceObjSchema>
+<sourceObjName>ID_PANSTWO_SKUTER</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:23:59 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F2595E70-8762-9128-FE9C-21D3178DE0D4" referredColumn="5D592CD6-F61C-3CF6-E2F7-64BC892BBC2F"/>
+</associations>
+</Column>
+<Column name="ID_WOJEWODZTWO_SKUTER" id="6F3A14E3-5BD5-B1AA-04A7-CF54681E55DE">
+<sourceConnName>pro_hurtownia</sourceConnName>
+<sourceObjSchema>H_WYPOZYCZENIA</sourceObjSchema>
+<sourceObjName>ID_WOJEWODZTWO_SKUTER</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:23:59 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="93F53620-2D11-00E5-C207-B8D008973D2A" referredColumn="22C11034-DFE2-5941-1D06-8539E6F525F4"/>
+</associations>
+</Column>
+<Column name="ID_MIASTO_SKUTER" id="EFD460BF-E17E-4893-BAB3-349E4AAABD20">
+<sourceConnName>pro_hurtownia</sourceConnName>
+<sourceObjSchema>H_WYPOZYCZENIA</sourceObjSchema>
+<sourceObjName>ID_MIASTO_SKUTER</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:23:59 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6724C453-6439-398A-AB7D-26EE91982C49" referredColumn="D5C6D426-7E00-905A-FC51-5ED06917D5A6"/>
+</associations>
+</Column>
+<Column name="ID_PRACOWNIK" id="6DD15766-7B66-CCFD-6837-4C02A12059D4">
+<sourceConnName>pro_hurtownia</sourceConnName>
+<sourceObjSchema>H_WYPOZYCZENIA</sourceObjSchema>
+<sourceObjName>ID_PRACOWNIK</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:23:59 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="752819D3-62C6-0BD0-6E9B-E2193EC178CD" referredColumn="298612A0-A834-2E7A-CA2E-14E7F2A154A4"/>
+</associations>
+</Column>
+<Column name="ID_WYPOZYCZALNIA_PRACOWNIK" id="C366750F-02C7-69A5-092F-931D697F212B">
+<sourceConnName>pro_hurtownia</sourceConnName>
+<sourceObjSchema>H_WYPOZYCZENIA</sourceObjSchema>
+<sourceObjName>ID_WYPOZYCZALNIA_PRACOWNIK</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:23:59 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F9078F2F-A4A0-016C-B75D-6E7993E867B1" referredColumn="938F4918-6857-551D-01EE-2FC3A35F420F"/>
+</associations>
+</Column>
+<Column name="ID_PANSTWO_PRACOWNIK" id="32ADE344-4A5A-8095-0FF2-145335B852F3">
+<sourceConnName>pro_hurtownia</sourceConnName>
+<sourceObjSchema>H_WYPOZYCZENIA</sourceObjSchema>
+<sourceObjName>ID_PANSTWO_PRACOWNIK</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:23:59 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7BC578D9-DBAA-A65C-F754-D3CF9C904CE2" referredColumn="5D592CD6-F61C-3CF6-E2F7-64BC892BBC2F"/>
+</associations>
+</Column>
+<Column name="ID_WOJEWODZTWO_PRACOWNIK" id="17FC6390-DC34-59D6-E1F2-997CB331406A">
+<sourceConnName>pro_hurtownia</sourceConnName>
+<sourceObjSchema>H_WYPOZYCZENIA</sourceObjSchema>
+<sourceObjName>ID_WOJEWODZTWO_PRACOWNIK</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:23:59 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9F1BE6D8-5D4D-5215-73E0-7107824D1C9F" referredColumn="22C11034-DFE2-5941-1D06-8539E6F525F4"/>
+</associations>
+</Column>
+<Column name="ID_MIASTO_PRACOWNIK" id="71BD0F8C-D304-A897-3AB5-11C7B16261EF">
+<sourceConnName>pro_hurtownia</sourceConnName>
+<sourceObjSchema>H_WYPOZYCZENIA</sourceObjSchema>
+<sourceObjName>ID_MIASTO_PRACOWNIK</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:23:59 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8225B8FF-43AE-20FD-F822-47D57EA43FAE" referredColumn="D5C6D426-7E00-905A-FC51-5ED06917D5A6"/>
+</associations>
+</Column>
+<Column name="CENA" id="7795F20B-A5EF-A98A-2A82-FB944EEBBED7">
+<sourceConnName>pro_hurtownia</sourceConnName>
+<sourceObjSchema>H_WYPOZYCZENIA</sourceObjSchema>
+<sourceObjName>CENA</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:23:59 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+<constraintName>SYS_C0023550</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="CENA &gt; 0"/>
+<implementationDef dbType="Oracle Database 21c" definition="CENA &gt; 0"/>
+</checkConstraint>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ROK_WYPOZYCZENIA" id="E93629DF-2F5D-D82E-3CC1-8E1CB726672E">
+<sourceConnName>pro_hurtownia</sourceConnName>
+<sourceObjSchema>H_WYPOZYCZENIA</sourceObjSchema>
+<sourceObjName>ROK_WYPOZYCZENIA</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:23:59 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_MIESIAC_WYPOZYCZENIA" id="7D60385D-7649-36B2-3EB9-DCB86A4E7A74">
+<sourceConnName>pro_hurtownia</sourceConnName>
+<sourceObjSchema>H_WYPOZYCZENIA</sourceObjSchema>
+<sourceObjName>ID_MIESIAC_WYPOZYCZENIA</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:23:59 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FE82ECDF-256F-4128-B74A-86F6780C6482" referredColumn="F222D7AA-BF38-3011-0F42-C86E3E679588"/>
+</associations>
+</Column>
+<Column name="ROK_ODDANIA" id="EDCBDA0C-2D4B-DAA2-6D2A-1AC4141506DE">
+<sourceConnName>pro_hurtownia</sourceConnName>
+<sourceObjSchema>H_WYPOZYCZENIA</sourceObjSchema>
+<sourceObjName>ROK_ODDANIA</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:23:59 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_MIESIAC_ODDANIA" id="021ADDE2-B17C-BA26-0095-5361C87FC676">
+<sourceConnName>pro_hurtownia</sourceConnName>
+<sourceObjSchema>H_WYPOZYCZENIA</sourceObjSchema>
+<sourceObjName>ID_MIESIAC_ODDANIA</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:23:59 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4CA8F0D3-9EFF-7F42-D808-47D458165EC1" referredColumn="F222D7AA-BF38-3011-0F42-C86E3E679588"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C7981504-4BCB-4E1B-8788-8EC9BED4671B" name="FK_H_WYPOZYCZENIA_KLIENT">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:24:02 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D72D2A21-CC92-B725-6021-6BB402B5919E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0C2B59C4-2B01-7EF3-52D0-E95A367574E5" name="FK_H_WYPOZYCZENIA_KOLOR">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:24:02 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26806BF5-D70A-E8F5-2FC4-14357B74CD76"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CCF2F96C-F75C-134C-95DA-90EE82C38087" name="FK_H_WYPOZYCZENIA_MIASTO_KLIENT">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:24:02 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E5A79A08-5B07-C83C-26CD-2B120C71920A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2F2D7846-7091-56E0-F1C8-6767B0FF9CE3" name="FK_H_WYPOZYCZENIA_MIESIAC_ODDANIA">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:24:02 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="021ADDE2-B17C-BA26-0095-5361C87FC676"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="40E290DC-0EA4-C27E-1356-6A312323638D" name="FK_H_WYPOZYCZENIA_MIESIAC_WYPOZYCZENIA">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:24:02 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D60385D-7649-36B2-3EB9-DCB86A4E7A74"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6BEB7474-AC76-FEB7-0BCB-5C0DC68A5F59" name="FK_H_WYPOZYCZENIA_MODEL">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:24:02 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A6EE966-E208-682C-39F9-0F9726FCF411"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A023B13F-0E71-F7F3-5001-8CB75C93FABA" name="FK_H_WYPOZYCZENIA_PAKIET_WYPOSAZENIA">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:24:02 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9576F180-1FEF-E250-252B-24AF00E091B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D560E765-ACCB-2819-E644-1533D09A46DE" name="FK_H_WYPOZYCZENIA_PANSTWO_KLIENT">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:24:02 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8816E3A8-9A5C-2AF0-44DC-BAF03C964191"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F6EEE4EF-472E-FF4E-BFA8-53D3FEE4A2EC" name="FK_H_WYPOZYCZENIA_PRACOWNIK">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:24:02 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6DD15766-7B66-CCFD-6837-4C02A12059D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="85B8FBEE-CE80-86F8-B68F-081FCFF5A873" name="FK_H_WYPOZYCZENIA_PRODUCENT">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:24:02 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="824A6B43-10C1-9269-6730-8F96D9379A8B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6F344621-E53F-F0E1-0D08-AD3709D0C785" name="FK_H_WYPOZYCZENIA_RODZAJ_PLATNOSCI">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:24:02 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D57FB0D4-19FF-D2E7-7C90-410A36AD5C0F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CD9FC9B7-EBE2-DBA2-60C4-491A8CC2B07E" name="FK_H_WYPOZYCZENIA_TYP_NAPEDU">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:24:02 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="741F05B6-B8B4-BA2F-1586-A69EA2C8AD39"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="06874787-5964-3AE2-EBCD-423832AB82FB" name="FK_H_WYPOZYCZENIA_WOJEWODZTWO_KLIENT">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:24:02 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4ADB09D9-5411-D63F-34AB-2229E852C096"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="70C399EC-2793-9659-38DA-D47ED557EF47" name="FK_WYP_MIASTO_PRACOWNIK">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:24:02 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="71BD0F8C-D304-A897-3AB5-11C7B16261EF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4B6671FB-C3A4-DA45-5ACB-51622EB67E05" name="FK_WYP_MIASTO_SKUTER">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:24:02 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EFD460BF-E17E-4893-BAB3-349E4AAABD20"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4BDEF328-CE51-84EC-84E3-4D4F12AB4F0E" name="FK_WYP_PANSTWO_PRACOWNIK">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:24:02 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="32ADE344-4A5A-8095-0FF2-145335B852F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D961CE20-E470-360E-F9AA-D77A08E49A11" name="FK_WYP_PANSTWO_SKUTER">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:24:02 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D70DC06B-A3E1-303C-F398-4E68DBD12DAE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="94F3F84F-41EF-F624-C4AB-7A58843B77EE" name="FK_WYP_WOJEWODZTWO_PRACOWNIK">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:24:02 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17FC6390-DC34-59D6-E1F2-997CB331406A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FFE30937-07BC-4A53-2BE7-5459B1059D89" name="FK_WYP_WOJEWODZTWO_SKUTER">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:24:02 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6F3A14E3-5BD5-B1AA-04A7-CF54681E55DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8BC0E27A-C404-E10E-54AA-5D04836B04A2" name="FK_WYP_WYPOZYCZALNIA_PRACOWNIK">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:24:02 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C366750F-02C7-69A5-092F-931D697F212B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="77F89331-7659-AD9E-2B9D-5EA65757A66B" name="FK_WYP_WYPOZYCZALNIA_SKUTER">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:24:02 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F865DF90-FEBB-68C8-38D0-171515D74D54"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

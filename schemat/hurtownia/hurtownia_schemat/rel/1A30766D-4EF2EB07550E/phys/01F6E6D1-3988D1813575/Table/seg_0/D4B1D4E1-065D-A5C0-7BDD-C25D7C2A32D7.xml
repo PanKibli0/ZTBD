@@ -1,0 +1,254 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="H_WYPOZYCZENIA" directorySegmentName="seg_0" id="D4B1D4E1-065D-A5C0-7BDD-C25D7C2A32D7">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:23:59 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+<schemaObject>39D7BF11-D01D-2937-45D3-CE17CD3C3066</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>D5A9DCCE-E5FA-F919-F110-B488A3C92C1A</segment>
+<tableSpace>2C0519EC-7113-35B0-8E5F-CC46660CB184</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID_MIESIAC_ODDANIA" id="021ADDE2-B17C-BA26-0095-5361C87FC676">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:23:59 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_WOJEWODZTWO_PRACOWNIK" id="17FC6390-DC34-59D6-E1F2-997CB331406A">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:23:59 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_KOLOR" id="26806BF5-D70A-E8F5-2FC4-14357B74CD76">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:23:59 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_PANSTWO_PRACOWNIK" id="32ADE344-4A5A-8095-0FF2-145335B852F3">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:23:59 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_WOJEWODZTWO_KLIENT" id="4ADB09D9-5411-D63F-34AB-2229E852C096">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:23:59 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="POJEMNOSC" id="592B809D-3ED5-7CE5-4A70-F519140F2B20">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:23:59 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_MODEL" id="5A6EE966-E208-682C-39F9-0F9726FCF411">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:23:59 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_PRACOWNIK" id="6DD15766-7B66-CCFD-6837-4C02A12059D4">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:23:59 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_WOJEWODZTWO_SKUTER" id="6F3A14E3-5BD5-B1AA-04A7-CF54681E55DE">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:23:59 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_MIASTO_PRACOWNIK" id="71BD0F8C-D304-A897-3AB5-11C7B16261EF">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:23:59 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_TYP_NAPEDU" id="741F05B6-B8B4-BA2F-1586-A69EA2C8AD39">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:23:59 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CENA" id="7795F20B-A5EF-A98A-2A82-FB944EEBBED7">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:23:59 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_MIESIAC_WYPOZYCZENIA" id="7D60385D-7649-36B2-3EB9-DCB86A4E7A74">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:23:59 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ROK_PRODUKCJI" id="7F4D2C32-5A7A-6577-5838-DCEADDC6848A">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:23:59 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_PRODUCENT" id="824A6B43-10C1-9269-6730-8F96D9379A8B">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:23:59 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_PANSTWO_KLIENT" id="8816E3A8-9A5C-2AF0-44DC-BAF03C964191">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:23:59 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_PAKIET_WYPOSAZENIA" id="9576F180-1FEF-E250-252B-24AF00E091B5">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:23:59 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_WYPOZYCZALNIA_PRACOWNIK" id="C366750F-02C7-69A5-092F-931D697F212B">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:23:59 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_RODZAJ_PLATNOSCI" id="D57FB0D4-19FF-D2E7-7C90-410A36AD5C0F">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:23:59 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_PANSTWO_SKUTER" id="D70DC06B-A3E1-303C-F398-4E68DBD12DAE">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:23:59 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_KLIENT" id="D72D2A21-CC92-B725-6021-6BB402B5919E">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:23:59 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_MIASTO_KLIENT" id="E5A79A08-5B07-C83C-26CD-2B120C71920A">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:23:59 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ROK_WYPOZYCZENIA" id="E93629DF-2F5D-D82E-3CC1-8E1CB726672E">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:23:59 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ROK_ODDANIA" id="EDCBDA0C-2D4B-DAA2-6D2A-1AC4141506DE">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:23:59 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_MIASTO_SKUTER" id="EFD460BF-E17E-4893-BAB3-349E4AAABD20">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:23:59 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_WYPOZYCZALNIA_SKUTER" id="F865DF90-FEBB-68C8-38D0-171515D74D54">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:23:59 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_H_WYPOZYCZENIA_WOJEWODZTWO_KLIENT" id="06874787-5964-3AE2-EBCD-423832AB82FB">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:24:02 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_H_WYPOZYCZENIA_KOLOR" id="0C2B59C4-2B01-7EF3-52D0-E95A367574E5">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:24:02 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_H_WYPOZYCZENIA_MIESIAC_ODDANIA" id="2F2D7846-7091-56E0-F1C8-6767B0FF9CE3">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:24:02 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_H_WYPOZYCZENIA_MIESIAC_WYPOZYCZENIA" id="40E290DC-0EA4-C27E-1356-6A312323638D">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:24:02 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_WYP_MIASTO_SKUTER" id="4B6671FB-C3A4-DA45-5ACB-51622EB67E05">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:24:02 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_WYP_PANSTWO_PRACOWNIK" id="4BDEF328-CE51-84EC-84E3-4D4F12AB4F0E">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:24:02 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_H_WYPOZYCZENIA_MODEL" id="6BEB7474-AC76-FEB7-0BCB-5C0DC68A5F59">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:24:02 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_H_WYPOZYCZENIA_RODZAJ_PLATNOSCI" id="6F344621-E53F-F0E1-0D08-AD3709D0C785">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:24:02 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_WYP_MIASTO_PRACOWNIK" id="70C399EC-2793-9659-38DA-D47ED557EF47">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:24:02 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_WYP_WYPOZYCZALNIA_SKUTER" id="77F89331-7659-AD9E-2B9D-5EA65757A66B">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:24:02 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_H_WYPOZYCZENIA_PRODUCENT" id="85B8FBEE-CE80-86F8-B68F-081FCFF5A873">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:24:02 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_WYP_WYPOZYCZALNIA_PRACOWNIK" id="8BC0E27A-C404-E10E-54AA-5D04836B04A2">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:24:02 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_WYP_WOJEWODZTWO_PRACOWNIK" id="94F3F84F-41EF-F624-C4AB-7A58843B77EE">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:24:02 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_H_WYPOZYCZENIA_PAKIET_WYPOSAZENIA" id="A023B13F-0E71-F7F3-5001-8CB75C93FABA">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:24:02 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_H_WYPOZYCZENIA_KLIENT" id="C7981504-4BCB-4E1B-8788-8EC9BED4671B">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:24:02 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_H_WYPOZYCZENIA_MIASTO_KLIENT" id="CCF2F96C-F75C-134C-95DA-90EE82C38087">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:24:02 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_H_WYPOZYCZENIA_TYP_NAPEDU" id="CD9FC9B7-EBE2-DBA2-60C4-491A8CC2B07E">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:24:02 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_H_WYPOZYCZENIA_PANSTWO_KLIENT" id="D560E765-ACCB-2819-E644-1533D09A46DE">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:24:02 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_WYP_PANSTWO_SKUTER" id="D961CE20-E470-360E-F9AA-D77A08E49A11">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:24:02 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_H_WYPOZYCZENIA_PRACOWNIK" id="F6EEE4EF-472E-FF4E-BFA8-53D3FEE4A2EC">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:24:02 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_WYP_WOJEWODZTWO_SKUTER" id="FFE30937-07BC-4A53-2BE7-5459B1059D89">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:24:02 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+</TableProxyOraclev20c>

@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="H_RODZAJ_PLATNOSCI" directorySegmentName="seg_0" id="775E8F66-F492-809C-3E72-33826BE2793D">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:23:59 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+<schemaObject>39D7BF11-D01D-2937-45D3-CE17CD3C3066</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>D5A9DCCE-E5FA-F919-F110-B488A3C92C1A</segment>
+<tableSpace>2C0519EC-7113-35B0-8E5F-CC46660CB184</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID" id="4CE24279-8F6A-AD32-5A24-38ECEB6F594E">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:23:59 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NAZWA" id="FB758ACE-E56D-EF31-60D0-BDB6225E8CFA">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:23:59 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="H_RODZAJ_PLATNOSCI_PK" id="0805CD4F-CAE8-DC80-BF20-6C827E078D55">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:24:01 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+<schemaObject>39D7BF11-D01D-2937-45D3-CE17CD3C3066</schemaObject>
+<segment>F5AEB09D-A5DF-50A6-711B-942C69ECD7D7</segment>
+<tableSpace>2C0519EC-7113-35B0-8E5F-CC46660CB184</tableSpace>
+<indexSegment>F5AEB09D-A5DF-50A6-711B-942C69ECD7D7</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="H_RODZAJ_PLATNOSCI_NAZWA_UN" id="94D957C0-54A1-A5A1-A7E0-C5756A98C894">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:24:01 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+<schemaObject>39D7BF11-D01D-2937-45D3-CE17CD3C3066</schemaObject>
+<segment>F5AEB09D-A5DF-50A6-711B-942C69ECD7D7</segment>
+<tableSpace>2C0519EC-7113-35B0-8E5F-CC46660CB184</tableSpace>
+<indexSegment>F5AEB09D-A5DF-50A6-711B-942C69ECD7D7</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev20c>

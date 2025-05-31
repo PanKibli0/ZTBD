@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7A3B1DD5-3AD6-8515-C45D-666A48C3DC7E" containerWithKeyObject="D4B1D4E1-065D-A5C0-7BDD-C25D7C2A32D7" localFKIndex="A023B13F-0E71-F7F3-5001-8CB75C93FABA" name="FK_H_WYPOZYCZENIA_PAKIET_WYPOSAZENIA">
+<sourceConnName>pro_hurtownia</sourceConnName>
+<sourceObjSchema>PRO_BD</sourceObjSchema>
+<sourceObjName>FK_H_WYPOZYCZENIA_PAKIET_WYPOSAZENIA</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:24:02 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+<referredTableLongName>PRO_BD.H_PAKIET_WYPOSAZENIA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EB158010-A308-BECD-8FEF-EB68408A902C</referredTableID>
+<keyObject>C6E89AB7-AAAB-0AF9-F278-F03FFC94D2C2</keyObject>
+<referredKeyID>C6E89AB7-AAAB-0AF9-F278-F03FFC94D2C2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

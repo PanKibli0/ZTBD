@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="4E1D0083-4324-6269-0C63-205B30C9AD63" mainViewID="0E3554AF-30F6-16F1-DCC6-337240C64513">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:21:47 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

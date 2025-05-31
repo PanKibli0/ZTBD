@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CBFCA2A5-F639-CCD3-E751-A75106C986F5" schemaObject="6285D83B-ACCB-2D00-A22B-4D72504D9EAB" name="KLIENT">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>PRO_BD</sourceObjSchema>
+<sourceObjName>KLIENT</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:20:24 UTC</createdTime>
+<ownerDesignName>baza_schemat</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="C8614509-4720-65D5-8491-687888EED09E">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>KLIENT</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:20:24 UTC</createdTime>
+<ownerDesignName>baza_schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_ULICA" id="EF8400D9-F3FB-1EAC-5094-1BDAB5372987">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>KLIENT</sourceObjSchema>
+<sourceObjName>ID_ULICA</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:20:24 UTC</createdTime>
+<ownerDesignName>baza_schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CA55F48B-1958-A465-8C36-B61AC90A0131" referredColumn="05FB275E-EA24-09C3-00EB-ECE608BD5D78"/>
+</associations>
+</Column>
+<Column name="NR_LOKALU" id="647EEFB9-F835-EDA6-E713-F0525C51D76D">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>KLIENT</sourceObjSchema>
+<sourceObjName>NR_LOKALU</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:20:24 UTC</createdTime>
+<ownerDesignName>baza_schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IMIE" id="129ACC05-6FF8-313A-A3F2-FD3851CD19EA">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>KLIENT</sourceObjSchema>
+<sourceObjName>IMIE</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:20:24 UTC</createdTime>
+<ownerDesignName>baza_schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAZWISKO" id="6EEEA854-F79C-48E5-2636-51DDD360EFBB">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>KLIENT</sourceObjSchema>
+<sourceObjName>NAZWISKO</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:20:24 UTC</createdTime>
+<ownerDesignName>baza_schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATA_URODZENIA" id="987A1E63-96CC-8C0C-0EED-7D1D9D9CE2CC">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>KLIENT</sourceObjSchema>
+<sourceObjName>DATA_URODZENIA</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:20:24 UTC</createdTime>
+<ownerDesignName>baza_schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NR_TELEFONU" id="7CF39931-EABC-F083-337D-3925C7EAB23D">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>KLIENT</sourceObjSchema>
+<sourceObjName>NR_TELEFONU</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:20:24 UTC</createdTime>
+<ownerDesignName>baza_schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>9 BYTE</dataTypeSize>
+<ownDataTypeParameters>9 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DB005EC9-0F2F-17F2-240B-534FEB50C8FB" schemaObject="6285D83B-ACCB-2D00-A22B-4D72504D9EAB" name="KLIENT_PK">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>PRO_BD</sourceObjSchema>
+<sourceObjName>SYS_C0023340</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:20:24 UTC</createdTime>
+<ownerDesignName>baza_schemat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C8614509-4720-65D5-8491-687888EED09E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2E4FADEF-CBEE-C89E-F0A3-C2051608D319" name="FK_KLIENT_ULICA">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:20:24 UTC</createdTime>
+<ownerDesignName>baza_schemat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF8400D9-F3FB-1EAC-5094-1BDAB5372987"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

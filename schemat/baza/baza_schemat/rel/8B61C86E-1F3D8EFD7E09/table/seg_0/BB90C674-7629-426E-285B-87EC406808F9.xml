@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BB90C674-7629-426E-285B-87EC406808F9" schemaObject="6285D83B-ACCB-2D00-A22B-4D72504D9EAB" name="MODEL">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>PRO_BD</sourceObjSchema>
+<sourceObjName>MODEL</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:20:24 UTC</createdTime>
+<ownerDesignName>baza_schemat</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="3610A8BB-6805-6629-7AA7-56E19BC9F237">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>MODEL</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:20:24 UTC</createdTime>
+<ownerDesignName>baza_schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_PRODUCENT" id="2A26F8C1-1323-FDF2-8F1A-0515690B9266">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>MODEL</sourceObjSchema>
+<sourceObjName>ID_PRODUCENT</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:20:24 UTC</createdTime>
+<ownerDesignName>baza_schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5FF57E76-5F8A-DDB6-E86C-EF0EEE856188" referredColumn="D4FDEAF6-81FA-EBFE-B966-A23CE39F275E"/>
+</associations>
+</Column>
+<Column name="NAZWA" id="D2E5C28A-1CB7-4274-38C3-2D185E8B0708">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>MODEL</sourceObjSchema>
+<sourceObjName>NAZWA</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:20:24 UTC</createdTime>
+<ownerDesignName>baza_schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DE363991-F35E-6391-6A06-0C44F769FAF2" schemaObject="6285D83B-ACCB-2D00-A22B-4D72504D9EAB" name="MODEL_PK">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>PRO_BD</sourceObjSchema>
+<sourceObjName>SYS_C0023353</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:20:24 UTC</createdTime>
+<ownerDesignName>baza_schemat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3610A8BB-6805-6629-7AA7-56E19BC9F237"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B95847B2-8EEE-1DCB-96C4-FE2019698B7A" schemaObject="6285D83B-ACCB-2D00-A22B-4D72504D9EAB" name="MODEL_NAZWA_UN">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>PRO_BD</sourceObjSchema>
+<sourceObjName>SYS_C0023354</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:20:24 UTC</createdTime>
+<ownerDesignName>baza_schemat</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D2E5C28A-1CB7-4274-38C3-2D185E8B0708"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5B091804-8922-48E5-CB32-20441EB0775A" name="FK_MODEL_PRODUCENT">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:20:24 UTC</createdTime>
+<ownerDesignName>baza_schemat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A26F8C1-1323-FDF2-8F1A-0515690B9266"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

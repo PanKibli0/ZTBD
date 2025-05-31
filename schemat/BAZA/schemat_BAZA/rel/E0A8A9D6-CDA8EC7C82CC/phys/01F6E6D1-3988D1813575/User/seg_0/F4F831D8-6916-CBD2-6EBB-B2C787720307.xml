@@ -1,9 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="PRO_BD" directorySegmentName="seg_0" id="F4F831D8-6916-CBD2-6EBB-B2C787720307">
-<sourceConnName>projekt</sourceConnName>
-<sourceObjName>PRO_BD</sourceObjName>
-<createdBy>Bugara</createdBy>
-<createdTime>2025-05-04 09:31:56 UTC</createdTime>
-<ownerDesignName>schemat_BAZA</ownerDesignName>
-<schemaObject>FC8A15AC-7793-EFB2-D3E6-277AB2DABDE3</schemaObject>
-</UserOraclev10g>

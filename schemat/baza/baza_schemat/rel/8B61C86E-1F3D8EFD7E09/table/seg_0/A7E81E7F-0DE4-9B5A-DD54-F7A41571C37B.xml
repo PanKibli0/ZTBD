@@ -1,0 +1,225 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A7E81E7F-0DE4-9B5A-DD54-F7A41571C37B" schemaObject="6285D83B-ACCB-2D00-A22B-4D72504D9EAB" name="SKUTER">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>PRO_BD</sourceObjSchema>
+<sourceObjName>SKUTER</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:20:24 UTC</createdTime>
+<ownerDesignName>baza_schemat</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="1710719B-1F2E-8E1A-732E-F29B3C11ADE8">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>SKUTER</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:20:24 UTC</createdTime>
+<ownerDesignName>baza_schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_MODEL" id="ED72C4E7-C904-FAEC-A412-014E57343A11">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>SKUTER</sourceObjSchema>
+<sourceObjName>ID_MODEL</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:20:24 UTC</createdTime>
+<ownerDesignName>baza_schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CB803BF0-FC0B-B79D-7F43-5B4A60D47339" referredColumn="3610A8BB-6805-6629-7AA7-56E19BC9F237"/>
+</associations>
+</Column>
+<Column name="ID_KOLOR" id="7C931CF9-79CE-7755-2AD9-510B25DDAE18">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>SKUTER</sourceObjSchema>
+<sourceObjName>ID_KOLOR</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:20:24 UTC</createdTime>
+<ownerDesignName>baza_schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CA73E058-ED79-6855-D9C4-58041DA941EB" referredColumn="8CB22D35-F6DC-F9BC-0D1C-AD02FE04221A"/>
+</associations>
+</Column>
+<Column name="ID_TYP_NAPEDU" id="D09485D9-F789-E39C-BFE4-2F9C4E9952A3">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>SKUTER</sourceObjSchema>
+<sourceObjName>ID_TYP_NAPEDU</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:20:24 UTC</createdTime>
+<ownerDesignName>baza_schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="35BD9D0E-DBC0-D01E-1FE0-484CE9225863" referredColumn="3AFA7643-5174-C231-7228-F5D7211E07DC"/>
+</associations>
+</Column>
+<Column name="ID_WYPOZYCZALNIA" id="DA9800CD-4A49-4693-4D05-DF0746F480E1">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>SKUTER</sourceObjSchema>
+<sourceObjName>ID_WYPOZYCZALNIA</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:20:24 UTC</createdTime>
+<ownerDesignName>baza_schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="87061111-00D9-519E-BA8E-67549E89FBE0" referredColumn="7F814BEC-86D0-03B1-4266-6D7401B4EC0F"/>
+</associations>
+</Column>
+<Column name="ID_PAKIET_WYPOSAZENIA" id="62A95C9B-9C14-78AB-ED64-10B0ECEBF791">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>SKUTER</sourceObjSchema>
+<sourceObjName>ID_PAKIET_WYPOSAZENIA</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:20:24 UTC</createdTime>
+<ownerDesignName>baza_schemat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3BEDA879-4DFE-A1C2-977D-5BBE785D5A69" referredColumn="7EC8E5D4-0514-9E02-2D1E-A22D5442BC48"/>
+</associations>
+</Column>
+<Column name="POJEMNOSC" id="67317172-4AC3-41B5-502E-6BE6C23D7B91">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>SKUTER</sourceObjSchema>
+<sourceObjName>POJEMNOSC</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:20:24 UTC</createdTime>
+<ownerDesignName>baza_schemat</ownerDesignName>
+<constraintName>SYS_C0023372</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="POJEMNOSC &gt; 0"/>
+<implementationDef dbType="Oracle Database 21c" definition="POJEMNOSC &gt; 0"/>
+</checkConstraint>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ROK_PRODUKCJI" id="6D876EFD-3C66-7CBA-6438-ED895BFD96D6">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>SKUTER</sourceObjSchema>
+<sourceObjName>ROK_PRODUKCJI</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:20:24 UTC</createdTime>
+<ownerDesignName>baza_schemat</ownerDesignName>
+<constraintName>SYS_C0023373</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="ROK_PRODUKCJI &gt;= 1900"/>
+<implementationDef dbType="Oracle Database 21c" definition="ROK_PRODUKCJI &gt;= 1900"/>
+</checkConstraint>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0E4B49A3-E309-3E6B-6328-7FA1C073DF89" schemaObject="6285D83B-ACCB-2D00-A22B-4D72504D9EAB" name="SKUTER_PK">
+<sourceConnName>projekt</sourceConnName>
+<sourceObjSchema>PRO_BD</sourceObjSchema>
+<sourceObjName>SYS_C0023374</sourceObjName>
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:20:24 UTC</createdTime>
+<ownerDesignName>baza_schemat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1710719B-1F2E-8E1A-732E-F29B3C11ADE8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FFFE2219-28B5-0DFF-BB95-8C810943683E" name="FK_SKUTER_KOLOR">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:20:24 UTC</createdTime>
+<ownerDesignName>baza_schemat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C931CF9-79CE-7755-2AD9-510B25DDAE18"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0FABD279-B523-4785-35B9-9737CEB00C9C" name="FK_SKUTER_MODEL">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:20:24 UTC</createdTime>
+<ownerDesignName>baza_schemat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ED72C4E7-C904-FAEC-A412-014E57343A11"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2D55DC71-B0E5-B7AA-BF7E-2AA108994C58" name="FK_SKUTER_PAKIET_WYPOSAZENIA">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:20:24 UTC</createdTime>
+<ownerDesignName>baza_schemat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="62A95C9B-9C14-78AB-ED64-10B0ECEBF791"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="26FFAD15-12E0-7E53-6BCD-2A1526850BA7" name="FK_SKUTER_TYP_NAPEDU">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:20:24 UTC</createdTime>
+<ownerDesignName>baza_schemat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D09485D9-F789-E39C-BFE4-2F9C4E9952A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DD79ADAB-4245-7373-9F1B-EE40E919F2B9" name="FK_SKUTER_WYPOZYCZALNIA">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:20:24 UTC</createdTime>
+<ownerDesignName>baza_schemat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA9800CD-4A49-4693-4D05-DF0746F480E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

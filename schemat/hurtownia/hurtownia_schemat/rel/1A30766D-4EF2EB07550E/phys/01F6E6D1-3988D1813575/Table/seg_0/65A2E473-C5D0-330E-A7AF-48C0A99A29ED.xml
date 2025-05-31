@@ -1,0 +1,40 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="H_MIASTO" directorySegmentName="seg_0" id="65A2E473-C5D0-330E-A7AF-48C0A99A29ED">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:23:59 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+<schemaObject>39D7BF11-D01D-2937-45D3-CE17CD3C3066</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>D5A9DCCE-E5FA-F919-F110-B488A3C92C1A</segment>
+<tableSpace>2C0519EC-7113-35B0-8E5F-CC46660CB184</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NAZWA" id="D314BB50-141F-5635-5B82-53A326F495D3">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:23:59 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="D5C6D426-7E00-905A-FC51-5ED06917D5A6">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:23:59 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="H_MIASTO_PK" id="508F246A-2D6E-661A-D7A6-E30E95FAE6D8">
+<createdBy>Bugara</createdBy>
+<createdTime>2025-05-31 09:24:01 UTC</createdTime>
+<ownerDesignName>hurtownia_schemat</ownerDesignName>
+<schemaObject>39D7BF11-D01D-2937-45D3-CE17CD3C3066</schemaObject>
+<segment>F5AEB09D-A5DF-50A6-711B-942C69ECD7D7</segment>
+<tableSpace>2C0519EC-7113-35B0-8E5F-CC46660CB184</tableSpace>
+<indexSegment>F5AEB09D-A5DF-50A6-711B-942C69ECD7D7</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

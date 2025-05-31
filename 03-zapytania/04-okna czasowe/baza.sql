@@ -77,8 +77,7 @@ FROM (
 ) agg
 JOIN WYPOZYCZALNIA wypozyczalnia ON agg.ID_WYPOZYCZALNIA = wypozyczalnia.ID
 JOIN PRODUCENT producent ON agg.ID_PRODUCENT = producent.ID
-JOIN PANSTWO panstwo ON agg.ID_PANSTWO = panstwo.ID
-ORDER BY agg.DATA, panstwo.NAZWA, wypozyczalnia.NAZWA, producent.NAZWA;
+JOIN PANSTWO panstwo ON agg.ID_PANSTWO = panstwo.ID;
 
 
 
